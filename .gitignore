@@ -1,0 +1,30 @@
+# Ignore everything
+/*
+.config/sddmthemeinstallerrc
+
+# Except these
+
+!.vimrc
+!.bashrc
+!.bash_profile
+!.profile
+!.inputrc
+!.gitmodules
+!.gitignore
+
+!/.config/
+**/logs
+**/unity3d
+**/pulse
+**/MobsInc
+**/Mailspring
+**/CachedData
+**/Cache
+**/*cache*
+**/Code\ -\ OSS
+**/Electron
+**/Clementine/*.db*
+
+!/.local
+/.local/*
+!/.local/bin

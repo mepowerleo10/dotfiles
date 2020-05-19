@@ -1,0 +1,462 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Important",
+			"folder": "\/mnt\/local-data\/Downloads",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 16,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 3,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1263960064,
+					"total": 71130724654,
+					"elapsed": 11285,
+					"uploaded": 24805376,
+					"percent": 1
+				},
+				"log": {
+					"added-time": 1589500916,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.pirate-bay.net\/search?q=bojack+horseman+season+1?q=bojack+horseman+season+1#",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/7D2ED3FE.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "GTA Grand Theft Auto V PC with DLC",
+					"uri": "magnet:?xt=urn:btih:6F63DBB79AB7E4339ED79E025977B6C5103FC780&dn=GTA+Grand+Theft+Auto+V+PC+with+DLC&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+					"folder": "\/mnt\/local-data\/Downloads\/GTA V",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/README.txt",
+							"type": 0,
+							"state": 0,
+							"total": 1312,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-1.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1498984704,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-10.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 16777216
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-11.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-12.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-13.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-14.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-15.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-16.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-17.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-18.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-19.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-2.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 16777216
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-20.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-21.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-22.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-23.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 25165824
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-24.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-25.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-26.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-27.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-28.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-29.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-3.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-30.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-31.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-32.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-33.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-34.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-35.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-36.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-37.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-38.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-39.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-4.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-40.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-41.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-42.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-43.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-44.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-45.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-46.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-47.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-48.bin",
+							"type": 0,
+							"state": 0,
+							"total": 630723474,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-5.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-6.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-7.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-8.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup-9.bin",
+							"type": 0,
+							"state": 0,
+							"total": 1500000000,
+							"complete": 8388608
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/GTA V\/GTA Grand Theft Auto V PC with DLC\/Setup.exe",
+							"type": 0,
+							"state": 0,
+							"total": 1015164,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]GTA+Grand+Theft+Auto+V+PC+with+DLC",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]GTA+Grand+Theft+Auto+V+PC+with+DLC.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

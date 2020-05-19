@@ -1,0 +1,752 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 2,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Normal",
+			"folder": "\/home\/mepowerleo10\/Downloads",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 36763519,
+					"total": 36763519,
+					"elapsed": 30,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589856055,
+					"completed-time": 1589856087,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/pawn-games.itch.io\/fantasy-chess?download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "fantasy-chess-linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/build\/248875\/947183-archive-default?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589856085&Signature=NXhX621n3Dx%2BYMjXtn55GIei2m0dIiWxonWXm2wVKFrFWc%2FxDh0afuSUsYX4%2BuB2DSBM2KJcUcE3bp0nHtqFcRFXVgIwCssRvGnUrMhwbkaL1Ztnbs%2F%2FnsidOhKntOfsXEFeO9Ui%2FeK4MfY1ZqPwRhmxAvxScFTDpWlRQ%2BYHAgmn3CDediQNiWZJ1fRGnYGhkGoMF%2Fx4I5mhJCq%2F1UoxrguikNBJhU6Cgt4wfG5iCaE1zSuvWSAlB0AVydvRO6qj9L7S6PCnqEXG0BLF33W%2BuTTQcyBb49rdskezFwxG46jn6rTeAr7EPQI0ZfNlCVkV3rG1rW1JtoyQo8GSBVYv%2Fg==&hwexp=1589856345&hwsig=73f117e8bfc1f3aad98751e979f26e69",
+					"file": "fantasy-chess-linux.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/fantasy-chess-linux.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/fantasy-chess-linux.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 91851137,
+					"total": 91851137,
+					"elapsed": 97,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855921,
+					"completed-time": 1589856018,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/garethffoulkes.itch.io\/one-dreamer-prologue?download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "One Dreamer Prologue - Linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/638574\/2276953?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855966&Signature=Qo7gjfpFurzrdWNyJMi5EMDrNj7klk3oRBa5WWuwNHPQtiSaVqxBJFw%2B5qheC29pPBS5SYdNjzZ%2FZML2zbCySlL1dTKouzFwCg0PQKFQZLoKm3aD%2B7kq207kCAejMphBogac%2FRLij18585IaBxRtykNhLx41UON7u4K944Opjm5pup1NROg5fdiKtKYOxcoc5FtJXtuB5T7t1%2BN05dfiokhH%2FOGfISpUQZNiIYAgd6MiuGKtr8b0Nkmkj9beBuBPok60y4xF7Ula60iXMtJzAZS%2F3m43CJz04DoXyC98VIi4uRgpb6zyaK65%2BLjmdXHvzeNjyZT2sDeEpOHI3uc6lQ==&hwexp=1589856226&hwsig=621635f7c1bc971b1b0c1c9443fe1017",
+					"file": "One Dreamer Prologue - Linux.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/One Dreamer Prologue - Linux.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/One Dreamer Prologue - Linux.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 455811785,
+					"total": 455811785,
+					"elapsed": 19,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855841,
+					"completed-time": 1589855860,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/head.itch.io\/black-book-prologue",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "BB_Prologue_windows.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/645267\/2263035?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855876&Signature=VC2JX9%2BfdWD%2BHlwnH6jycZWICxhKXQCKBxoFZCOAhen9p0uxeW9c9P5RqWjmqzrqmxVJXJ0xr4n3j6GZIe2GEpVBoBBq0v7A2yk9IeSXUHlKeHgFPsF6zEWjz9kzXfzgZIJzBN3QdvA4IwD%2Bol8DNMQ4foG6IkA%2FUvwZAHiJCMTGhuAZ30AEb1R%2Bcd2do4dcpwIPzW0x9OYk%2Fe4ho7e4G95g1HmWPBA%2BXlXJ1Trb9rsxTBsx4D5Ke7S7df8eaHCwXKkiJR82en9TnHE1RHw%2FKlDnKdhJdQC5rV0cerqwyXDoiUj7OZrOZd9qmg%2FBypQoNLRxKEj93H4p4txP6IP3NA==&hwexp=1589856136&hwsig=c16a7463cbf244da57bf565f96b946fb",
+					"file": "BB_Prologue_windows.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/BB_Prologue_windows.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/BB_Prologue_windows.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 813864005,
+					"total": 813864005,
+					"elapsed": 121,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855471,
+					"completed-time": 1589855777,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/fluxscopic.itch.io\/mayhem-in-single-valley",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "MSV_Confessions_May17_2020.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/57991\/2274486?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855489&Signature=nx5b2vBVOsVdo1IgWghZ7hrBZumWVIuXqYnYUU0XP1o9se3P5KDhOjiynQhKx%2F2rAZWov6NAxYhWm8gFEo%2FYRJK3clZE8HZuo9YW6FJot1fw7vEFBW16A4E3ZWtT0pmSS09VXrKs7kWR72Ftke7C7EsXy6ZIOEXRSkNhfO3X0XfsP33IfyBoMcCnu5esFswl4kAZnZihtDSDBd1DVB%2B84QGuavSgj8cVok4Ohgg8AXPLUexmGM9PjDeO1Ti1IdlbiMgcMo%2FpNXhKxxEHHwTA2QU8fga1PBwCrM6l69ICiAwO1lACc5deqZQAK0R8Z%2FADAQWl8lcqVjOGYTWWLcZatA==&hwexp=1589855749&hwsig=04ad6c59a55f1be5742d2f559ec91c7c",
+					"file": "MSV_Confessions_May17_2020.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/MSV_Confessions_May17_2020.zip",
+							"type": 0,
+							"state": 0,
+							"total": 813864005,
+							"complete": 642777088
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/MSV_Confessions_May17_2020.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 61003156,
+					"total": 61003156,
+					"elapsed": 52,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855419,
+					"completed-time": 1589855655,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/overboy.itch.io\/mobs-inc?download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "MobsInc - LINUX64.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/34867\/360750?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855457&Signature=UhNbjWKess7IBKqXJ697xyTWU8rCbV2bkIaVZRbMj3%2FfpYo1%2F0FfFGAObDdXXhP%2FxjLxO%2B6%2BTR52uppq%2B8kUXeDhkKKR%2BdOORt1yci1X7W%2FlHFzaFt6JfTqS1WfQy92rlVsQlNjf9dxdCvUhmwYB%2FnbZxpRwOY5siHO%2FlreRkhP6GsshJT1XU2O%2B6aypzbkGYjPJIlUDzXrgwZimlUeRuZiwW7ju%2BryNrHS1zw6wwArYkXJUjDYr2iGhAzEd%2BVTFiaJeLD8LQt%2BRu4sF205OMH9bOMjSj%2FIPOJ9b4LQS1HYjm5VJyOLdsDrsSP1Lq6AuCy%2FTwwg3Ixz9lTPAgfTIUQ==&hwexp=1589855717&hwsig=e6e4397e0fb7d681cacb367f2884bc52",
+					"file": "MobsInc - LINUX64.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/MobsInc - LINUX64.zip",
+							"type": 0,
+							"state": 0,
+							"total": 61003156,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/MobsInc - LINUX64.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 158580618,
+					"total": 158580618,
+					"elapsed": 144,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855303,
+					"completed-time": 1589855602,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/unsungwarriors.itch.io\/unsung-warriors-prologue",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "unsung-warriors-prologue-linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/build\/151675\/575748-archive-default?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855333&Signature=aPyBAnN5I885%2FgJLb%2BT3nkJQvbVokfxWLhAXHDaET8IaxZ4b16T%2Fp4M%2BJx%2FhUX4D3igwhSo7GCvdXLY7JxlaE%2FG2pQBgaxwREZWZXRhheON%2Bo3RivNjOQSXg49l2sEzCI9cykBnjSDg%2FLsILFiXf89iI9CneA9FPPVnhEBnNumb3fS2SxR%2BR9tzkQkey5wXXXz%2B9JaQ4dbQkSpAoV8sJ%2FrF7XSVskqdrHPs%2F2d2ADTg7Mr%2FvlmA5sgQ7YC5RMhMmZNOXhOI0tJhQWFlDx%2BpFbbFm4JeAKDHQs%2F1YljEQZ1HqbzrQaKcC9MA2zuJIwYST6kM%2Benr24wMK6AJgVzqTzA==&hwexp=1589855593&hwsig=ebc82c220554ac5a8cda1610c64b2be7",
+					"file": "unsung-warriors-prologue-linux.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/unsung-warriors-prologue-linux.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/unsung-warriors-prologue-linux.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 150439462,
+					"total": 150439462,
+					"elapsed": 176,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589855124,
+					"completed-time": 1589855457,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/dinoboxstudios.itch.io\/deff?download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Deff linux64.rar",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/467921\/1676339?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855154&Signature=f9vLE9GEpD0bE3iG4Rl8UPPS5%2BVgoQihs3KnmM7j0zhSOSzAsTZajz9NkZ9khTVZVVVeQw6mVYYAqgat7UPpb%2BUbmJfa1WUgq%2BYmkL9jv4PIppDCQsb5OZmU4hNEmUJ0dzEoq1Q6Zvf33vCcQY5bEaqhGtdP7R%2FAr1y%2ByyX5u0OKspH%2FFXuKS9AfNEvvqXlox%2BOpIxO6c74HZFK7O4PUHNzkLK6BIFKc%2FXFmetuOm95PhG9LLb8lMnmkZIfpMn62FqcKWh6%2F7AML1asosjcl2aKSk%2Bod562S0qlOTeTmspSUjQnBJMngbtGdtf4yP0ycL2X2khXYn5cd0i6D%2FS65pA==&hwexp=1589855414&hwsig=d77ddd89ae47e782d2e64c6b17d0d758",
+					"file": "Deff linux64.rar",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/Deff linux64.rar",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/Deff linux64.rar.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 36699605,
+					"total": 36699605,
+					"elapsed": 59,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589854975,
+					"completed-time": 1589855280,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/kit9studio.itch.io\/gun-toting-cats",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "(Linux) GTCats Prototype.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/280224\/1009982?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589855016&Signature=Mc9%2B57f7l4o6tDXzjL%2F2pxjmTylRFhUJkT9oHuRiqHu2YFbV43we0UOP9hic0ljp2l4onS6ZGlJqrzzOK6AmyU4mTpHtEx2wTZfV1PaAW950wyuk3Q4J6Qrm8xC%2FegUAfXi1aFD56JqKRpX7JqtIJg1RaqolrvA8dItIpQi1XH5AWqOIFRigJkLCTDu4npVgYrj4J9uaeZfmGmH2ZQ%2FIQhvAW2zfqxjDupEx3iX7DKAKdH1jv8jjCyzdql275zAT%2FbNX1H7HESXjNas1PYK6aIYON6mRuBu9r1l%2BOSCb4kQH%2BICFXd6lwWBIbxiYGefWyNBSGETKBiRHguIlE%2FSVaw==&hwexp=1589855276&hwsig=076b40db0c06df1941b304ee264a6470",
+					"file": "(Linux) GTCats Prototype.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/(Linux) GTCats Prototype.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/(Linux) GTCats Prototype.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 385034914,
+					"total": 385034914,
+					"elapsed": 138,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589854460,
+					"completed-time": 1589854599,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/reboosteddev.itch.io\/sonic-reboosted-project",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "ReBoostedV0.02_QuickFix_Linux_x86_x64.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/291316\/1080364?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589854509&Signature=mBds7rGhVg9xO9fO0m1TahvnAK6buAh5iUiQKcCgqtpV7VvNUe05aYCUK3ExiSugqi%2BJvURaqFKtpRZZfr9VXESKm7T%2FYp40FjD69h0qNpwQwQ%2FZ1efSDjHnN1pgbV4shfJ4XLTqhNMtU8%2BNtW9quLyw%2BeW6OlSGS6WpH7gvlqm9NZH9lwbNO6sbhtA324o6Rb9zCxbW%2FndmYma6rcTd0ZG9E7D9Bjx2LFOHM4vAF0JNUYyGn2wsMS66AQi4mAschOvsseNC9WvQfMr5X%2BtJVl7%2Fr3JCN9d%2Btlk7PUR9eZyUuARwVIMCiJhdlYVA9vKL8s4nc5GCFM4YUKjsAOMVAA==&hwexp=1589854769&hwsig=4a13d6e1851cebcec54785d206fe95bf",
+					"file": "ReBoostedV0.02_QuickFix_Linux_x86_x64.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/ReBoostedV0.02_QuickFix_Linux_x86_x64.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/ReBoostedV0.02_QuickFix_Linux_x86_x64.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 816009633,
+					"total": 816009633,
+					"elapsed": 57,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589853191,
+					"completed-time": 1589853249,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/christopherlee.itch.io\/timeout?download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "TimeOut_Linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/623217\/2250672?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589853224&Signature=cKqrLdjzVOAZk2eHQafP7Ex2E0tdg1upsO236LH1EXXKjca0CZ%2BcgHak8FaPAT8mkY0MV%2Bqza6BojP2sWuH%2BVtSRtC%2F5L9IDQ2jwwp65GmNOJKdA%2BdBSYl5WQQQEXH118qbcIJy75tvOgOF3wjNUSfyoDHX7%2Fyfh0DPLsiHn0w6QPlaeJrQtb38%2FQt9ZkIohD%2FdbXLscZQIN5ObXrYNGwOSvUYw5XvaMxQvRTuNflZOGFhzEwsP4c8vVVMKPVLDeaVzLE0yaJy4DHC74Q8f3zCCmk3Td2IRkodS%2FNOvJmxwE8M19vGCQGM4xYufkbvb3THwV4nwNCusA7RqUz5mTMg==&hwexp=1589853484&hwsig=55621a99eb36bcb0f30e3f0fbb996758",
+					"file": "TimeOut_Linux.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/TimeOut_Linux.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/TimeOut_Linux.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 644763412,
+					"total": 644763412,
+					"elapsed": 11,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1589853201,
+					"completed-time": 1589853212,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/awesomegamesstudio.itch.io\/fury-unleashed-prologue",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "fury-unleashed-prologue-linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/build\/255939\/974323-archive-default?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1589853185&Signature=h%2FcN%2FOyJxnipIoWLXNYrAnUEmJXCDdSEQSiwoJxCgUQRoRQnIT4Jb4VvppPsNAwKxNi2kbA7USbV8ilU7vrDaDewUKMoCXT69%2ByNqSTjpNORJst8UG93HkLmIYh0JCFQc%2B0KC37od9LQNXawZ2miJKcRQOxi7VS3GKUDT6JiQ5Q0A7VDr3zbd1KBvJqItOyJ%2Bch75oI%2BmwLPBjE08yjO3sQ%2F59wtk7nlTIM0vN369r2%2BxpzcWW1RT4wenTbNB4wdiJCwv5Ez3Mk1QdgP9PNSkyV1t%2FlgqEkw8ltTSiCbtKhnOfpduLdgQZhyHDDoQvznXAt5BvsLGgQcuS1EhjgglQ==&hwexp=1589853445&hwsig=5e163f70eb1015d80c2e965d0c0eb8d9",
+					"file": "fury-unleashed-prologue-linux.zip",
+					"folder": "\/home\/mepowerleo10\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/fury-unleashed-prologue-linux.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/mepowerleo10\/Downloads\/fury-unleashed-prologue-linux.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+
