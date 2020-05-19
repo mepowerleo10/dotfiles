@@ -11,6 +11,7 @@
 !.inputrc
 !.gitmodules
 !.gitignore
+!README.md
 
 !/.config/
 **/logs
