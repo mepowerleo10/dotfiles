@@ -25,8 +25,9 @@ export PATH="${PATH}:$HOME/.local/bin"
 
 # my aliases
 alias ls='ls --color=auto'
+alias ll='ls -l'
 alias sudo='sudo -E'
-
+alias dot-config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 GREEN="\[\033[0;32m\]"
 BLUE="\[\033[0;34m\]"
