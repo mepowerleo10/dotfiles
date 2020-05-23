@@ -25,7 +25,13 @@
 **/Code\ -\ OSS
 **/Electron
 **/Clementine/*.db*
+brittany
+hlint
+*.cookie
+supertuxkart
 
 !/.local
 /.local/*
 !/.local/bin
+
+!/.irssi

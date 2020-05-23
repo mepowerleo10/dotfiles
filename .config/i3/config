@@ -202,6 +202,9 @@ exec_always --no-startup-id killall $dunst; $dunst
 exec_always --no-startup-id killall blueman-applet; blueman-applet
 exec_always --no-startup-id killall clipster; $clipster
 exec_always --no-startup-id redshift -x
+exec --no-startup-id clementine
+exec --no-startup-id telegram-desktop
+exec --no-startup-id firefox
 
 # Stick Windows to specific workspaces
 assign [class="firefox"] $ws1
@@ -210,10 +213,10 @@ assign [class="TelegramDesktop"] $ws5
 assign [class="Clementine"] $ws6
 assign [class="Mailspring"] $ws7
 assign [class="Uget-gtk"] $ws8
+assign [class="jetbrains-studio"] $ws10
 
 # floating windows sizes
 floating_maximum_size $max_float_size
 
 # windows special selections
 for_window [class="Blueman-*|Pavu*|Nm-connection*|Uget-gtk*|SpeedCrunch*"] floating enable
-#for_window [class="Blueman-*|Pavu*|Nm-connection*|Uget-gtk*|SpeedCrunch*" floating] move position center

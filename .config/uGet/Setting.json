@@ -6,14 +6,14 @@
 		"Summary": true,
 		"Banner": false,
 		"x": 8,
-		"y": 796,
+		"y": 28,
 		"width": 1350,
 		"height": 712,
 		"maximized": false,
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 250,
-		"PanedPositionV": 463
+		"PanedPositionV": 561
 	},
 	"Summary": {
 		"name": true,
