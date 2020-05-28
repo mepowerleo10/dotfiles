@@ -11,6 +11,7 @@
 !.inputrc
 !.gitmodules
 !.gitignore
+!.gitconfig
 !README.md
 
 !/.config/

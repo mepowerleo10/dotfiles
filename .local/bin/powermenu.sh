@@ -27,9 +27,10 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        i3lock
+        $HOME/.local/bin/lockscreen.sh
         ;;
     $suspend)
+		$HOME/.local/bin/lockscreen.sh
         systemctl suspend
         ;;
     $logout)

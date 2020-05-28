@@ -8,6 +8,7 @@ configuration {
   display-window: " ";
   modi: "window,run,drun";
   location: 7;
+  scroll-method: 1;
 }
 
 * {
@@ -26,9 +27,8 @@ configuration {
 }
 
 window {
-  width: 30%;
+  width: 29%;
   transparency: "real";
-  margin-left: 10;
 }
 
 mainbox {
@@ -37,12 +37,14 @@ mainbox {
 
 listview {
   columns: 1;
+  margin: 0 0 8 0;
 }
 
 element {
   padding: 12;
   orientation: vertical;
   text-color: @fg;
+  margin: 0 10 0 10;
 }
 
 element selected {

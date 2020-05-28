@@ -168,8 +168,8 @@ set $roficalc rofi -show calc -modi calc -no-show-match -no-sort -calc-command "
 # Custom Key Bindings
 bindsym $mod+q exec --no-startup-id flash_window
 bindsym $mod+Print exec --no-startup-id flameshot gui
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -10%
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -7%
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +7%
 #bindsym XF86Explorer exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+i exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+t exec --no-startup-id ~/.local/bin/roficlip.sh
@@ -202,9 +202,11 @@ exec_always --no-startup-id killall $dunst; $dunst
 exec_always --no-startup-id killall blueman-applet; blueman-applet
 exec_always --no-startup-id killall clipster; $clipster
 exec_always --no-startup-id redshift -x
-exec --no-startup-id clementine
+exec_always --no-startup-id killall fusuma; fusuma
+# exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
+exec --no-startup-id "i3-msg 'workspace 6; append_layout .config/i3/workspace-6.json'"
 
 # Stick Windows to specific workspaces
 assign [class="firefox"] $ws1
@@ -214,6 +216,8 @@ assign [class="Clementine"] $ws6
 assign [class="Mailspring"] $ws7
 assign [class="Uget-gtk"] $ws8
 assign [class="jetbrains-studio"] $ws10
+assign [instance="Kunst"] $ws6
+assign [instance="ncmpcpp"] $ws6
 
 # floating windows sizes
 floating_maximum_size $max_float_size

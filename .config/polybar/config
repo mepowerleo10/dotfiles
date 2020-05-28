@@ -118,7 +118,7 @@ tray-position =
 inherit = bar/base
 bottom = true
 
-modules-left = volume now-playing right-end-bottom left-end-top ping dunst right-end-bottom
+modules-left = volume mpd right-end-bottom left-end-top ping dunst right-end-bottom
 modules-right = left-end-bottom cpu memory right-end-top left-end-bottom temp battery
 
 
@@ -420,6 +420,31 @@ interval = 1
 click-right = $HOME/.local/bin/mediaplayer.sh -l
 scroll-up = playerctl volume 0.05+
 scroll-down = playerctl volume 0.05-
+
+[module/mpd]
+type = internal/mpd
+inherit = generic-format-style
+host = 127.0.0.1
+port = 6600
+interval = 1
+tail = true
+icon-play = 
+icon-pause = 
+icon-stop = ⏹
+icon-prev = 
+icon-next = 
+icon-random = 
+icon-repeat = 
+icon-repeatone = 
+icon-single = 
+icon-consume = ✀
+label-offline = " mpd offline"
+label-song = %artist% - %title%
+toggle-on-foreground = #ffcc1b
+toggle-off-foreground = #55
+format-online = %{F#FF5A67}<icon-prev> <toggle> <icon-next>%{F-} <icon-repeatone> <label-song> %{F#FF5A67}<label-time>%{F-}
+format-online-background = ${color.module-bg}
+format-offline = <label-offline>
 
 [module/dunst]
 type = custom/script

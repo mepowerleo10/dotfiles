@@ -4,6 +4,7 @@ configuration {
   icon-theme: "Papirus";
   display-run: " ";
   location: 0;
+  scroll-method: 1;
 }
 
 * {
@@ -22,7 +23,7 @@ configuration {
 }
 
 window {
-  width: 50%;
+  width: 49%;
   height: 50%;
   transparency: "real";
   margin-left: 10;
@@ -40,6 +41,7 @@ element {
   padding: 12;
   orientation: vertical;
   text-color: @fg;
+  margin: 0 15 0 15;
 }
 
 element selected {

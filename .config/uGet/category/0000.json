@@ -46,25 +46,25 @@
 		{
 			"info": {
 				"relation": {
-					"group": 3,
+					"group": 4,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 5750784,
-					"total": 546910666,
-					"elapsed": 5,
+					"complete": 150372352,
+					"total": 767623168,
+					"elapsed": 157,
 					"uploaded": 0,
-					"percent": 1
+					"percent": 19
 				},
 				"log": {
-					"added-time": 1590024188,
+					"added-time": 1590700466,
 					"completed-time": 0,
 					"messages": [
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/www.anaconda.com\/products\/individual#linux",
-					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/EC74033.cookie",
+					"referrer": "https:\/\/www.pirate-bay.net\/search?q=microsoft+office+2010#",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/76117264.cookie",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -72,10 +72,9 @@
 					"type": 0
 				},
 				"common": {
-					"name": "Anaconda3-2020.02-Linux-x86_64.sh",
-					"uri": "https:\/\/repo.anaconda.com\/archive\/Anaconda3-2020.02-Linux-x86_64.sh",
-					"file": "Anaconda3-2020.02-Linux-x86_64.sh",
-					"folder": "\/home\/mepowerleo10\/Downloads",
+					"name": "Microsoft OFFICE 2010  Pro Plus PRECRACKED",
+					"uri": "magnet:?xt=urn:btih:27113327FBC680659464B72F63A2C1C644AC8EF8&dn=Microsoft+OFFICE+2010++Pro+Plus+PRECRACKED&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+					"folder": "\/mnt\/local-data\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
@@ -89,14 +88,28 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/Anaconda3-2020.02-Linux-x86_64.sh",
+							"path": "\/mnt\/local-data\/Downloads\/14.0.4734.1000_ProfessionalPlus_volume_x86_en-us.iso",
+							"type": 0,
+							"state": 0,
+							"total": 767623168,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/14.0.4734.1000_ProfessionalPlus_volume_x86_en-us.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]Microsoft+OFFICE+2010++Pro+Plus+PRECRACKED",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/Anaconda3-2020.02-Linux-x86_64.sh.aria2",
+							"path": "[METADATA]Microsoft+OFFICE+2010++Pro+Plus+PRECRACKED.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,
@@ -111,25 +124,25 @@
 		{
 			"info": {
 				"relation": {
-					"group": 3,
+					"group": 4,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 2877967144,
-					"total": 4320185128,
-					"elapsed": 11064,
-					"uploaded": 4358144,
-					"percent": 66
+					"complete": 2703360,
+					"total": 2434740224,
+					"elapsed": 89,
+					"uploaded": 0,
+					"percent": 0
 				},
 				"log": {
-					"added-time": 1590008015,
+					"added-time": 1590700533,
 					"completed-time": 0,
 					"messages": [
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/www.pirate-bay.net\/search?q=bojack+horseman+season+1?q=bojack+horseman+season+1#",
-					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/6A3E87C2.cookie",
+					"referrer": "https:\/\/www.pirate-bay.net\/search?q=microsoft+office+2010#",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/71B48DC7.cookie",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -137,9 +150,9 @@
 					"type": 0
 				},
 				"common": {
-					"name": "Aashiqui 2 (2013) Hindi 1080p Blu-Ray x264 DD 5.1 ESub-HDSector",
-					"uri": "magnet:?xt=urn:btih:C7BEC3FB8A2317C8D3120F1FB5F348D89AF8B742&dn=Aashiqui+2+%282013%29+Hindi+1080p+Blu-Ray+x264+DD+5.1+ESub-HDSector&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
-					"folder": "\/home\/mepowerleo10\/Downloads",
+					"name": "Windows 7 Ultimate SP1 PT-BR x32 ISO",
+					"uri": "magnet:?xt=urn:btih:C55FB69644B12436C65564B1448C20DF72E797D9&dn=Windows+7+Ultimate+SP1+PT-BR+x32+ISO&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+					"folder": "\/mnt\/local-data\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
@@ -153,35 +166,28 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/Aashiqui 2 (2013) Hindi 1080p Blu-Ray x264 DD 5.1 ESub-HDSector\/Aashiqui 2 (2013) Hindi 1080p Blu-Ray - Sample.mkv",
+							"path": "\/mnt\/local-data\/Downloads\/Win7_Ult_SP1_BrazilianPortuguese_x32 - PHDowns.iso",
 							"type": 0,
 							"state": 0,
-							"total": 27058185,
+							"total": 2434740224,
 							"complete": 0
 						},
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/Aashiqui 2 (2013) Hindi 1080p Blu-Ray x264 DD 5.1 ESub-HDSector\/Aashiqui 2 (2013) Hindi 1080p Blu-Ray x264 DD 5.1 ESub-HDSector.mkv",
-							"type": 0,
+							"path": "\/mnt\/local-data\/Downloads\/Win7_Ult_SP1_BrazilianPortuguese_x32 - PHDowns.iso.aria2",
+							"type": 3,
 							"state": 0,
-							"total": 4293126721,
-							"complete": 192937984
-						},
-						{
-							"path": "\/home\/mepowerleo10\/Downloads\/Aashiqui 2 (2013) Hindi 1080p Blu-Ray x264 DD 5.1 ESub-HDSector\/HDSector.com.txt",
-							"type": 0,
-							"state": 0,
-							"total": 222,
+							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "[METADATA]Aashiqui+2+(2013)+Hindi+1080p+Blu-Ray+x264+DD+5.1+ESub-HDSector",
+							"path": "[METADATA]Windows+7+Ultimate+SP1+PT-BR+x32+ISO",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "[METADATA]Aashiqui+2+(2013)+Hindi+1080p+Blu-Ray+x264+DD+5.1+ESub-HDSector.aria2",
+							"path": "[METADATA]Windows+7+Ultimate+SP1+PT-BR+x32+ISO.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,

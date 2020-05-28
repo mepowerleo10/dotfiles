@@ -1,5 +1,8 @@
 #!/bin/bash
-
+################################################################
+###### "He who stops being better, stops being good" 	########
+######					~ Oliver Cromwell				########
+################################################################
 
 details() {
 	artist=$(playerctl metadata --format "{{artist}}")
