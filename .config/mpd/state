@@ -1,9 +1,9 @@
-sw_volume: 98
+sw_volume: 96
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 0
-time: 30.473000
+state: pause
+current: 2
+time: 66.227000
 random: 0
 repeat: 0
 single: 0
@@ -12,8 +12,33 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-song_begin: http://mp3channels.webradio.antenne.de:80/hitmix.aac
-Title: Hitmix - Hitmix 8
-Name: ANTENNE BAYERN Hitmix
-song_end
+0:FIFA 10 Soundtrack/21. Wyclef Jean, Melky - MVP Kompa (Album Version) (128).mp3
+1:FIFA 10 Soundtrack/11. Balkan Beat Box - Ramallah-Tel Aviv (128).mp3
+2:FIFA 10 Soundtrack/1. Los Fabulosos Cadillacs - La Luz del Ritmo (128).mp3
+3:FIFA 10 Soundtrack/1. Fidel Nadal - International Love (128).mp3
+4:FIFA 10 Soundtrack/2. Bomba Estéreo - Fuego (128).mp3
+5:FIFA 10 Soundtrack/4. The Bpa, Ashley Beedle - Should I Stay Or Should I Blow (.mp3
+6:FIFA 10 Soundtrack/7. The Whitest Boy Alive - 1517 (128).mp3
+7:FIFA 10 Soundtrack/1. BLK JKS - Lakeside (128).mp3
+8:FIFA 10 Soundtrack/Röyksopp - It s What I Want (128).mp3
+9:FIFA 10 Soundtrack/4. Peter Bjorn and John - Nothing To Worry About (128).mp3
+10:FIFA 10 Soundtrack/1. Nneka, Wesley Williams - Kangpe (128).mp3
+11:FIFA 10 Soundtrack/Fabri Fibra - Donna Famosa (Con Skit) (128).mp3
+12:FIFA 10 Soundtrack/Fantasies CD 1 TRACK 5 (128).mp3
+13:FIFA 10 Soundtrack/7. The Enemy - Be Somebody (128).mp3
+14:FIFA 10 Soundtrack/2. Mexican Institute of Sound - Alocatel (128).mp3
+15:FIFA 10 Soundtrack/3. Passion Pit - Moth s Wings (128).mp3
+16:FIFA 10 Soundtrack/2. Datarock - Give It Up (128).mp3
+17:FIFA 10 Soundtrack/2. Zap Mama - Vibrations (128).mp3
+18:FIFA 10 Soundtrack/1. Auletta - Meine Stadt (128).mp3
+19:FIFA 10 Soundtrack/1. Major Lazer, Mr. Lexx, Santigold - Hold the Line (128).mp3
+20:FIFA 10 Soundtrack/3. Macaco - Hacen falta dos (128).mp3
+21:FIFA 10 Soundtrack/14. Rocky Dawuni - Download the Revolution (128).mp3
+22:FIFA 10 Soundtrack/4. Casiokids - Fot I Hose (128).mp3
+23:FIFA 10 Soundtrack/2. Pint Shot Riot - Not Thinking Straight (128).mp3
+24:FIFA 10 Soundtrack/4. Buraka Som Sistema, Pongolove - Kalemba (Wegue Wegue) (12.mp3
+25:FIFA 10 Soundtrack/4. Márcio Local - Soul Do Samba (128).mp3
+26:FIFA 10 Soundtrack/4. Dananananaykroyd - Black Wax (128).mp3
+27:FIFA 10 Soundtrack/1_The_Answering_Machine_It_s_Over!_It_s_Over!_It_s_Over!.mp3
+28:FIFA 10 Soundtrack/1. Matt   Kim, Matt and Kim - Daylight (128).mp3
 playlist_end

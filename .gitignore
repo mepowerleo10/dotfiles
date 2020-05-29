@@ -31,8 +31,8 @@ hlint
 *.cookie
 supertuxkart
 
-!/.local
-/.local/*
-!/.local/bin
+!/.bin
+
+lyrics/
 
 !/.irssi

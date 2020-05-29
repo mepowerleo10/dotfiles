@@ -372,7 +372,7 @@ format-disconnected =
 type = custom/script
 inherit = generic-format-style
 
-exec = $HOME/.local/bin/measure_ping.py
+exec = $HOME/.local/bin/scripts/measure_ping.py
 tail = true
 click-left = kill -USR1 %pid%
 
@@ -405,7 +405,7 @@ label = %date% %{T2}%{F#a54242}%{F-}%{T-} %time%
 
 [module/wallpaper]
 type = custom/script
-exec = $HOME/.local/bin/wallpaper.sh
+exec = $HOME/.local/bin/scripts/wallpaper.sh
 interval = 900
 format =
 
@@ -413,11 +413,11 @@ format =
 type = custom/script
 inherit = generic-format-style
 
-exec = $HOME/.local/bin/mediaplayer.sh -p
+exec = $HOME/.local/bin/scripts/mediaplayer.sh -p
 tail = true
 interval = 1
 
-click-right = $HOME/.local/bin/mediaplayer.sh -l
+click-right = $HOME/.local/bin/scripts/mediaplayer.sh -l
 scroll-up = playerctl volume 0.05+
 scroll-down = playerctl volume 0.05-
 
@@ -449,7 +449,7 @@ format-offline = <label-offline>
 [module/dunst]
 type = custom/script
 inherit = generic-format-style
-exec = $HOME/.local/bin/dunst.sh
+exec = $HOME/.local/bin/scripts/dunst.sh
 tail = true
 click-left = "kill -USR1 %pid%"
 

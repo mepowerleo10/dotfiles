@@ -22,6 +22,7 @@ esac
 # my export variables, and paths
 export VISUAL="vim"
 export PATH="${PATH}:$HOME/.local/bin"
+export PATH="${PATH}:$HOME/.bin"
 
 # my aliases
 alias ls='ls --color=auto'
