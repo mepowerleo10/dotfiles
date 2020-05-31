@@ -17,9 +17,9 @@ function notify {
 	if [ -f "$COVER" ];then
 		src="/tmp/cover.jpg"
 		convert "$src" -resize 48x48 "$COVER"
-		notify-send -u normal -i "$COVER" "$title" "$artist • $album"
+		notify-send -u normal -i "$COVER" "$title" "$artist • <i>$album</i>"
 	else
-		notify-send -u normal "$title" "$artist • $album"
+		notify-send -u normal "$title" "$artist • <i>$album</i>"
 	fi
 }
 

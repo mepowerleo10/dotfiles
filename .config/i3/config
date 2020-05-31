@@ -123,7 +123,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec ~/.local/bin/scripts/powermenu.sh
+bindsym $mod+Shift+e exec ~/.bin/powermenu.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -167,17 +167,22 @@ set $roficalc rofi -show calc -modi calc -no-show-match -no-sort -calc-command "
 
 # Custom Key Bindings
 bindsym $mod+q exec --no-startup-id flash_window
-bindsym $mod+Print exec --no-startup-id flameshot gui
+bindsym $mod+Print exec --no-startup-id flameshot gui -p ~/Pictures/Captures
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -7%
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +7%
 #bindsym XF86Explorer exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+i exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
-bindsym $mod+t exec --no-startup-id ~/.local/bin/scripts/roficlip.sh
-bindsym $mod+n exec --no-startup-id playerctl next
-bindsym $mod+p exec --no-startup-id playerctl previous
-bindsym $mod+m exec --no-startup-id playerctl play-pause
-bindsym $mod+Shift+m exec --no-startup-id playerctl stop
+bindsym $mod+t exec --no-startup-id ~/.bin/roficlip.sh
+bindsym $mod+n exec --no-startup-id mpc next
+bindsym $mod+p exec --no-startup-id mpc prev
+bindsym $mod+m exec --no-startup-id mpc toggle
+bindsym $mod+Shift+m exec --no-startup-id mpc stop
 bindsym $mod+c exec --no-startup-id $roficalc
+
+# Window manipulation keybindings
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+bindsym $mod+Shift+period sticky toggle
 
 # Workspace-Monitor switching keybindings
 bindsym $mod+Prior move workspace to output left
@@ -206,7 +211,7 @@ exec_always --no-startup-id killall fusuma; fusuma
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
-exec --no-startup-id "i3-msg 'workspace 6; append_layout .config/i3/workspace-6.json'"
+#exec --no-startup-id "i3-msg 'workspace 6; append_layout .config/i3/workspace-6.json'"
 
 # Stick Windows to specific workspaces
 assign [class="firefox"] $ws1
@@ -223,4 +228,7 @@ assign [instance="ncmpcpp"] $ws6
 floating_maximum_size $max_float_size
 
 # windows special selections
-for_window [class="Blueman-*|Pavu*|Nm-connection*|Uget-gtk*|SpeedCrunch*"] floating enable
+for_window [instance="Kunst"] floating enable
+for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*"] floating enable
+for_window [class="Blueman-*|Pavu*|Nm-connection*|Dragon-drag-and-drop"] sticky enable
+for_window [title="uGet - New Download"] sticky enable

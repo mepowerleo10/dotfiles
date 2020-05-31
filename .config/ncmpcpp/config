@@ -30,9 +30,11 @@ visualizer_fifo_path = /tmp/mpd.fifo
 visualizer_output_name = Visualizer feed
 visualizer_in_stereo = yes
 visualizer_sync_interval = 30
-visualizer_type = wave	
-visualizer_look = ●▮
-visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
+visualizer_type = spectrum	
+#visualizer_look = •▮
+#visualizer_look = •⬢
+visualizer_look = ⬢•
+visualizer_color = 48, 85, 121, 157, 187, 217, 211, 205, 199, 163, 222, 252, 106
 
 ## Playlist
 song_columns_list_format = "(6f)[245]{nr:Track} (40)[252]{t|f} (25)[219]{a} (30)[118]{b} (10f)[245]{lr:Length}"
@@ -51,9 +53,22 @@ media_library_albums_split_by_date = "no"
 song_status_format = "$(218){%a$(end) $(216)$b›$/b$(end) }{$b%t$/b $(216)•$(end) }$(117){%b}$(end)"
 titles_visibility = "no"
 ignore_leading_the = yes
-color1 = "218"
-color2 = "223"
-main_window_highlight_color = "211"
+color1 = "117"
+color2 = "118"
+main_window_color = "211"
+window_border_color = "117"
+state_flags_color = "218:b"
+active_window_border = "117"
+current_item_prefix = "$r"
+current_item_suffix = "$/r"
+current_item_inactive_column_prefix = "$(132)$r"
+current_item_inactive_column_suffix = "$/r$(end)"
+modified_item_prefix = "$u"
+space_add_mode = add_remove
+seek_time = 5
+statusbar_time_color = "218:b"
+volume_color = "218:b"
+volume_change_step = "5"
 
 ## Progressbar
 progressbar_look = "-• "
@@ -63,4 +78,7 @@ progressbar_elapsed_color = "217"
 execute_on_song_change = "$HOME/.config/ncmpcpp/notify.sh"
 
 ## Display Modes
+follow_now_playing_lyrics = yes
 browser_display_mode = columns
+search_engine_display_mode = columns
+playlist_editor_display_mode = columns

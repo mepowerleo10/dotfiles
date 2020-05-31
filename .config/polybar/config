@@ -118,7 +118,7 @@ tray-position =
 inherit = bar/base
 bottom = true
 
-modules-left = volume mpd right-end-bottom left-end-top ping dunst right-end-bottom
+modules-left = volume now-playing right-end-bottom left-end-top ping dunst right-end-bottom
 modules-right = left-end-bottom cpu memory right-end-top left-end-bottom temp battery
 
 
@@ -372,7 +372,7 @@ format-disconnected =
 type = custom/script
 inherit = generic-format-style
 
-exec = $HOME/.local/bin/scripts/measure_ping.py
+exec = $HOME/.bin/measure_ping.py
 tail = true
 click-left = kill -USR1 %pid%
 
@@ -405,7 +405,7 @@ label = %date% %{T2}%{F#a54242}%{F-}%{T-} %time%
 
 [module/wallpaper]
 type = custom/script
-exec = $HOME/.local/bin/scripts/wallpaper.sh
+exec = $HOME/.bin/wallpaper.sh
 interval = 900
 format =
 
@@ -413,13 +413,13 @@ format =
 type = custom/script
 inherit = generic-format-style
 
-exec = $HOME/.local/bin/scripts/mediaplayer.sh -p
+exec = $HOME/.bin/mpdstatus.sh -p
 tail = true
 interval = 1
 
-click-right = $HOME/.local/bin/scripts/mediaplayer.sh -l
-scroll-up = playerctl volume 0.05+
-scroll-down = playerctl volume 0.05-
+click-right = $HOME/.bin/mpdstatus.sh -l
+scroll-up = mpc volume +5 &> /dev/null
+scroll-down = mpc volume -5 &> /dev/null
 
 [module/mpd]
 type = internal/mpd
@@ -449,7 +449,7 @@ format-offline = <label-offline>
 [module/dunst]
 type = custom/script
 inherit = generic-format-style
-exec = $HOME/.local/bin/scripts/dunst.sh
+exec = $HOME/.bin/dunst.sh
 tail = true
 click-left = "kill -USR1 %pid%"
 

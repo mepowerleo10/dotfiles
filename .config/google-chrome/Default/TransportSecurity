@@ -1,9 +1,9 @@
 {
    "+ccWXqaoHJ9hfuXbleKV6FQUrBlyXAJ31BdqjNQJpHs=": {
-      "expiry": 1622106792.367253,
+      "expiry": 1622390501.448579,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1590570792.367256
+      "sts_observed": 1590854501.448582
    },
    "+loO+DGmT6DTr59JZFAnGSlBAwPkO5M/R9ec1Sw/9KA=": {
       "expiry": 1622106984.000791,
@@ -36,16 +36,10 @@
       "sts_observed": 1590570541.787911
    },
    "5EdUoB7YUY9zZV+2DkgVXgho8WUvp+D+6KpeUOhNQIM=": {
-      "expiry": 1622106950.089109,
+      "expiry": 1622390812.058198,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1590570950.089112
-   },
-   "5OuPUlTQrUgdDtq2HTer0CHvzEt0ObX1rXjr5SKzlf4=": {
-      "expiry": 1590830705.532426,
-      "mode": "force-https",
-      "sts_include_subdomains": false,
-      "sts_observed": 1590571505.53243
+      "sts_observed": 1590854812.0582
    },
    "7vUutgKR67VoQM7DGY8fc7xlLXkzpX33vFPssTqOaa4=": {
       "expect_ct": {
@@ -60,10 +54,10 @@
       "sts_observed": 0.0
    },
    "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
-      "expiry": 1622106783.122557,
+      "expiry": 1622390405.273305,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1590570783.122559
+      "sts_observed": 1590854405.273308
    },
    "FHZJ0zUPbohW/UNvia8RyyYpcR1GsnYNWK9BWeFoscA=": {
       "expect_ct": {
@@ -102,10 +96,10 @@
       "sts_observed": 1590570979.642684
    },
    "LAZkYS46RVRcFiZAzmUJrz6TJHBd4nwE6VxPWfPLYHs=": {
-      "expiry": 1601457803.829048,
+      "expiry": 1601740833.515354,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1590571403.829053
+      "sts_observed": 1590854433.51536
    },
    "M4bfUnCmQAi4PNb3B8aI/2+SVJhHKsMfMMT7fzi6ij4=": {
       "expiry": 1622106983.496004,
@@ -118,12 +112,6 @@
       "mode": "force-https",
       "sts_include_subdomains": false,
       "sts_observed": 1590571518.10624
-   },
-   "PXVvHPJKuC1rOshSuvAHuMXZHBPf0pti2TLr3SwTIq8=": {
-      "expiry": 1590578721.724163,
-      "mode": "force-https",
-      "sts_include_subdomains": false,
-      "sts_observed": 1590571521.724164
    },
    "TZmujbl93Yt3JI8wZ4X/zjkA0WFNGNW44A+o7h4YyHw=": {
       "expiry": 1622107443.436881,
@@ -142,12 +130,6 @@
       "mode": "default",
       "sts_include_subdomains": false,
       "sts_observed": 0.0
-   },
-   "Wot+LkUZDkmilIa/tPwecg6BRY4OkSLkDaqWNp9ka6U=": {
-      "expiry": 1590578623.386891,
-      "mode": "force-https",
-      "sts_include_subdomains": false,
-      "sts_observed": 1590571423.386895
    },
    "fJjUrPqhktMfiTHJX3Q0pJi/P12Q72DBgzzJqjlNC4o=": {
       "expiry": 1601457383.024301,
@@ -173,11 +155,23 @@
       "sts_include_subdomains": false,
       "sts_observed": 1590570979.458056
    },
+   "mpapxZYpgH+mZFR+HwwXLup6Cn/8tf2BuBLZ3qgWY/s=": {
+      "expect_ct": {
+         "expect_ct_enforce": false,
+         "expect_ct_expiry": 1591459654.458629,
+         "expect_ct_observed": 1590854854.458629,
+         "expect_ct_report_uri": "https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      },
+      "expiry": 0.0,
+      "mode": "default",
+      "sts_include_subdomains": false,
+      "sts_observed": 0.0
+   },
    "nAuqgR4iEWti7SOdT3UHPl6rmZU/DeaIm38P2O2OkgA=": {
-      "expiry": 1622106802.154473,
+      "expiry": 1622390408.407257,
       "mode": "force-https",
       "sts_include_subdomains": false,
-      "sts_observed": 1590570802.154475
+      "sts_observed": 1590854408.40726
    },
    "pmiuY33u/eKa7Ym1/26ghsaD8eZSJIS/nyfDWElt/n0=": {
       "expect_ct": {
@@ -204,12 +198,6 @@
       "sts_observed": 0.0
    },
    "tXjOdUMSBgtiUbrbGkl6XP80fiDB8uXOkUbnCf0IKvw=": {
-      "expect_ct": {
-         "expect_ct_enforce": false,
-         "expect_ct_expiry": 1590657385.84035,
-         "expect_ct_observed": 1590570985.84035,
-         "expect_ct_report_uri": "https://www.linkedin.com/platform-telemetry/ct"
-      },
       "expiry": 1593162985.840331,
       "mode": "force-https",
       "sts_include_subdomains": false,

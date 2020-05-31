@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "index.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "This extension provides remote controller for LG Smart TVs.",
+   "icons": {
+      "128": "img/big-icon.png",
+      "48": "img/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApG6T60wvxUbq1IIrgjrzacvRBlmiUvrhXdGwXvhrDwJWt1iVutO2JOfj1pE7SlXxep4l3opKzHvSNoyOBBy2t+6TMqaWzYBmuGLWYsKbkc79ywXzHQDImeqeeIiNqLKCOCrhs7GnLnbYOhDABsl9hpWKzr58TKbwI1ISk7hSrAVmA3gteiYGa3oXNSWYS9s3Jv6pPq2yzWc8/8O++yyUvlUc0V6w5TPKXXYdPTZ4Z+R4Hf5xZrPgV2xFsjy/Xjl8QjypdBPJXF4N120KwhMxVYDoIL/cMOtarzHPLuqiUAwj7LXn2y3IfLem5BCY1yHgmgG54XgD2b7RuYg71N60cQIDAQAB",
+   "manifest_version": 2,
+   "name": "Smart TV Remote Controller",
+   "options_page": "options.html",
+   "permissions": [ "http://*/", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.10"
+}

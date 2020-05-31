@@ -1,44 +1,65 @@
-sw_volume: 96
+sw_volume: 90
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
+state: play
 current: 2
-time: 66.227000
+time: 8.981000
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:FIFA 10 Soundtrack/21. Wyclef Jean, Melky - MVP Kompa (Album Version) (128).mp3
-1:FIFA 10 Soundtrack/11. Balkan Beat Box - Ramallah-Tel Aviv (128).mp3
-2:FIFA 10 Soundtrack/1. Los Fabulosos Cadillacs - La Luz del Ritmo (128).mp3
-3:FIFA 10 Soundtrack/1. Fidel Nadal - International Love (128).mp3
-4:FIFA 10 Soundtrack/2. Bomba Estéreo - Fuego (128).mp3
-5:FIFA 10 Soundtrack/4. The Bpa, Ashley Beedle - Should I Stay Or Should I Blow (.mp3
-6:FIFA 10 Soundtrack/7. The Whitest Boy Alive - 1517 (128).mp3
-7:FIFA 10 Soundtrack/1. BLK JKS - Lakeside (128).mp3
-8:FIFA 10 Soundtrack/Röyksopp - It s What I Want (128).mp3
-9:FIFA 10 Soundtrack/4. Peter Bjorn and John - Nothing To Worry About (128).mp3
-10:FIFA 10 Soundtrack/1. Nneka, Wesley Williams - Kangpe (128).mp3
-11:FIFA 10 Soundtrack/Fabri Fibra - Donna Famosa (Con Skit) (128).mp3
-12:FIFA 10 Soundtrack/Fantasies CD 1 TRACK 5 (128).mp3
-13:FIFA 10 Soundtrack/7. The Enemy - Be Somebody (128).mp3
-14:FIFA 10 Soundtrack/2. Mexican Institute of Sound - Alocatel (128).mp3
-15:FIFA 10 Soundtrack/3. Passion Pit - Moth s Wings (128).mp3
-16:FIFA 10 Soundtrack/2. Datarock - Give It Up (128).mp3
-17:FIFA 10 Soundtrack/2. Zap Mama - Vibrations (128).mp3
-18:FIFA 10 Soundtrack/1. Auletta - Meine Stadt (128).mp3
-19:FIFA 10 Soundtrack/1. Major Lazer, Mr. Lexx, Santigold - Hold the Line (128).mp3
-20:FIFA 10 Soundtrack/3. Macaco - Hacen falta dos (128).mp3
-21:FIFA 10 Soundtrack/14. Rocky Dawuni - Download the Revolution (128).mp3
-22:FIFA 10 Soundtrack/4. Casiokids - Fot I Hose (128).mp3
-23:FIFA 10 Soundtrack/2. Pint Shot Riot - Not Thinking Straight (128).mp3
-24:FIFA 10 Soundtrack/4. Buraka Som Sistema, Pongolove - Kalemba (Wegue Wegue) (12.mp3
-25:FIFA 10 Soundtrack/4. Márcio Local - Soul Do Samba (128).mp3
-26:FIFA 10 Soundtrack/4. Dananananaykroyd - Black Wax (128).mp3
-27:FIFA 10 Soundtrack/1_The_Answering_Machine_It_s_Over!_It_s_Over!_It_s_Over!.mp3
-28:FIFA 10 Soundtrack/1. Matt   Kim, Matt and Kim - Daylight (128).mp3
+0:Classical Essentials/Officium CD 1 TRACK 1 (128).mp3
+1:Classical Essentials/Ultimate Voices CD 1 TRACK 20 (128).mp3
+2:Classical Essentials/Guitar Adagios CD 1 TRACK 17 (128).mp3
+3:Classical Essentials/Mozart Collection CD 47 TRACK 7 (128).mp3
+4:Classical Essentials/Szymanowski Violin Concerto No.1 CD 2 TRACK 6 (128).mp3
+5:Classical Essentials/Mozart Clarinet ConcertoPiano Concerto No. 25 CD 1 TRACK 2 (.mp3
+6:Classical Essentials/Lauridsen O Magnum Mysterium  Lux Aeterna  Madrigali  Les Ch.mp3
+7:Classical Essentials/Tribute to Zubin Mehta CD 1 TRACK 1 (128).mp3
+8:Classical Essentials/Tribute to Zubin Mehta CD 14 TRACK 1 (128).mp3
+9:Classical Essentials/Mahler  Symphony No.5 CD 1 TRACK 4 (128).mp3
+10:Classical Essentials/Bach Cello Suites Nos. 1-6, BWV 1007-1012 CD 1 TRACK 1 (128).mp3
+11:Classical Essentials/Fantasia 2000 CD 1 TRACK 6 (128).mp3
+12:Classical Essentials/Beethoven Symphony No.5 CD 1 TRACK 1 (128).mp3
+13:Classical Essentials/Trumpet Concertos CD 1 TRACK 12 (128).mp3
+14:Classical Essentials/Alina CD 1 TRACK 1 (128).mp3
+15:Classical Essentials/No Stress - The Platinum Collection CD 3 TRACK 13 (128).mp3
+16:Classical Essentials/Karajan Gold CD 1 TRACK 6 (128).mp3
+17:Classical Essentials/Karajan Gold CD 1 TRACK 9 (128).mp3
+18:Classical Essentials/100 Best Ballet CD 2 TRACK 9 (128).mp3
+19:Classical Essentials/Vivaldi The Four Seasons CD 1 TRACK 10 (128).mp3
+20:Classical Essentials/Samuel Barber - Adagio (100th anniversary) CD 1 TRACK 1 (128.mp3
+21:Classical Essentials/Rimsky-Korsakov Scheherezade CD 1 TRACK 4 (128).mp3
+22:Classical Essentials/Prokofiev Romeo and Juliet CD 1 TRACK 13 (128).mp3
+23:Classical Essentials/Liszt - My Piano Hero CD 1 TRACK 5 (128).mp3
+24:Classical Essentials/1. Lise de la Salle - Lieder aus Franz Schubert s Schwanenge.mp3
+25:Classical Essentials/Handel Sarabande CD 1 TRACK 1 (128).mp3
+26:Classical Essentials/French Impressions CD 1 TRACK 8 (128).mp3
+27:Classical Essentials/Impressions CD 1 TRACK 1 (128).mp3
+28:Classical Essentials/Nocturne CD 1 TRACK 5 (128).mp3
+29:Classical Essentials/Pure Classical CD 2 TRACK 10 (128).mp3
+30:Classical Essentials/Rachmaninov Piano Concerto No.2 CD 1 TRACK 2 (128).mp3
+31:Classical Essentials/Rhapsody_In_Blue_Saint_Säens,_Ravel.mp3
+32:Classical Essentials/Spring One - Vivaldi Recomposed - The Four Seasons CD 1 TRAC.mp3
+33:Classical Essentials/Schubert Symphony No.8 Unfinished.mp3
+34:Classical Essentials/For You - The World s Best Loved Classical Piano Pieces CD 2.mp3
+35:Classical Essentials/The Lark Ascending CD 1 TRACK 9 (128).mp3
+36:Classical Essentials/Tchaikovsky Piano Concerto No.1.mp3
+37:Classical Essentials/SIBELIUS Music from Timo Koivusalo s film CD 1 TRACK 12 (128.mp3
+38:Classical Essentials/BORODIN Prince Igor (Highlights)  In the Steppes of Central.mp3
+39:Classical Essentials/Grieg Piano Concerto   Lyric Pieces CD 1 TRACK 1 (128).mp3
+40:Classical Essentials/Rachmaninov Variations CD 1 TRACK 19 (128).mp3
+41:Classical Essentials/Songs from the Arc of Life CD 1 TRACK 14 (128).mp3
+42:Classical Essentials/Ravel Complete Works for Solo Piano CD 1 TRACK 2 (128).mp3
+43:Classical Essentials/Tchaikovsky   Grieg Piano Concertos CD 1 TRACK 4 (128).mp3
+44:Classical Essentials/Danse Macabre CD 1 TRACK 5 (128).mp3
+45:Classical Essentials/Arcadi Volodos - II. Intermezzo in A Major (128).mp3
+46:Classical Essentials/Debussy Suite bergamasque, L. 75, 3. Clair de lune CD 1 TRAC.mp3
+47:Classical Essentials/Beethoven_Bagatelle_No_25_in_A_Minor.mp3
+48:Classical Essentials/J.S. Bach The Well-Tempered Clavier Book 1, BWV 846-869 1. P.mp3
+49:Classical Essentials/Elégie in C Minor, Op. 24 (Arr. Parkin) CD 1 TRACK 1 (128).mp3
 playlist_end
