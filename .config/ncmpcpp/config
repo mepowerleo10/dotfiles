@@ -37,12 +37,13 @@ visualizer_look = ⬢•
 visualizer_color = 48, 85, 121, 157, 187, 217, 211, 205, 199, 163, 222, 252, 106
 
 ## Playlist
-song_columns_list_format = "(6f)[245]{nr:Track} (40)[252]{t|f} (25)[219]{a} (30)[118]{b} (10f)[245]{lr:Length}"
+#song_columns_list_format = "(6f)[245]{nr:Track} (40)[252]{t|f} (25)[219]{a} (30)[118]{b} (10f)[245]{lr:Length}"
+song_columns_list_format = "(5f)[245]{nr:Track} (25)[117]{a} (40)[219]{t|f} (30)[252]{b} (10f)[245]{lr:Length}"
 now_playing_prefix = "$b"
 now_playing_suffix = "$/b"
 playlist_display_mode = "columns" (classic/columns)
-autocenter_mode = "no"
-centered_cursor = "no"
+autocenter_mode = yes
+centered_cursor = yes
 cyclic_scrolling = "no"
 mouse_list_scroll_whole_page = "no"
 #song_list_format = "$1$9%l$1$9 $1¦$9 $2%a$9 $1¦$9 $5%b$9 $R$1$9%t$1$9 $1¦$9 $1%n$9"

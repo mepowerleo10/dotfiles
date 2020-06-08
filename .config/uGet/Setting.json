@@ -13,7 +13,7 @@
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 250,
-		"PanedPositionV": 473
+		"PanedPositionV": 458
 	},
 	"Summary": {
 		"name": true,
@@ -42,11 +42,11 @@
 		"Width": {
 			"state": 18,
 			"name": 580,
-			"complete": 74,
+			"complete": 70,
 			"total": 70,
 			"percent": 60,
 			"elapsed": 70,
-			"left": 68,
+			"left": 65,
 			"speed": 80,
 			"UploadSpeed": 80,
 			"uploaded": 0,
@@ -54,7 +54,7 @@
 			"retry": 46,
 			"category": 0,
 			"uri": 0,
-			"AddedOn": 140,
+			"AddedOn": 313,
 			"CompletedOn": 0
 		},
 		"completed": true
@@ -114,8 +114,8 @@
 		"OnError": null
 	},
 	"FolderHistory": [
-		"\/home\/mepowerleo10\/Downloads",
 		"\/mnt\/local-data\/Downloads",
+		"\/home\/mepowerleo10\/Downloads",
 		"\/mnt\/local-data\/Downloads\/GTA V",
 		"\/home\/mepowerleo10",
 		"\/mnt\/local-data\/Downloads\/Civilization VI",

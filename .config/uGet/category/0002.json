@@ -43,6 +43,841 @@
 		}
 	},
 	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 20,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 8095651501,
+					"total": 8095651501,
+					"elapsed": 44436,
+					"uploaded": 2183401132,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1591398755,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.pirate-bay.net\/search?q=barry+season+2#",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/7C78B32E.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Barry - Season 2 - Mp4 x264 AC3 1080p",
+					"uri": "magnet:?xt=urn:btih:E8F7E894870664DF240A8EBA9EF6736DBD27936E&dn=Barry+-+Season+2+-+Mp4+x264+AC3+1080p&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+					"folder": "\/mnt\/local-data\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E01.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 1063015125,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E02.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 979183473,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E03.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 913343868,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E04.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 994467552,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E05.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 1061626685,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E06.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 951630938,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E07.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 924417522,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Barry S02E08.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 1207965783,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Barry Season 2 Mp4 1080p\/Read Me.txt",
+							"type": 0,
+							"state": 0,
+							"total": 555,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]Barry+-+Season+2+-+Mp4+x264+AC3+1080p",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]Barry+-+Season+2+-+Mp4+x264+AC3+1080p.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 20,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 3410916092,
+					"total": 3410916092,
+					"elapsed": 42820,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1591400371,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.pirate-bay.net\/search?q=bojack+horseman+season+6#",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/6310E2D6.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Archer Season 1 2 3 4 5 6 7 - threesixtyp",
+					"uri": "magnet:?xt=urn:btih:1D3EC695BA570E02BD1E750F3545E05710A688F0&dn=Archer+Season+1+2+3+4+5+6+7+-+threesixtyp&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+					"folder": "\/mnt\/local-data\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E01 Mole Hunt.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38381293,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E01X01 Archersaurus.en-archer-only.srt",
+							"type": 0,
+							"state": 0,
+							"total": 25008,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E01X01 Archersaurus.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 25240331,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E02 Training Day.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41155199,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E03 Diversity Hire.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 33247629,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E04 Killing Utne.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 34284039,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E05 Honeypot.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36812969,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E06 Skorpio.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40296601,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E07 Skytanic.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36527717,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E08 The Rock.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35976968,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E09 Job Offer.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35991692,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S01 (360p re-blurip)\/Archer S01E10 Dial M for Mother.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37976145,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E01 Swiss Miss.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 56613189,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E02 A Going Concern.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 34246962,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E03 Blood Test.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37755890,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E04 Pipeline Fever.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41225676,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E05 The Double Deuce.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36252930,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E06 Tragical History.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37072484,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E07 Movie Star.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 33759061,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E08 Stage Two.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37606512,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E09 Placebo Effect.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 34616825,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E10 El Secuestro.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35095199,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E11 Jeu Monegasque.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 42967353,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E12 White Nights.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36330019,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S02 (360p re-blurip)\/Archer S02E13 Double Trouble.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36860806,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E01 Heart of Archness Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 43816596,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E02 Heart of Archness Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40218563,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E03 Heart of Archness Pt 3.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37365182,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E04 The Man From Jupiter.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35821683,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E05 El Contador.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 42927384,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E06 The Limited.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36409292,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E07 Drift Problem.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39458732,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E08 Lo Scandalo.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35917845,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E09 Bloody Ferlin.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40278266,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E10 Crossing Over.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 35700001,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E11 Skin Game.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37150534,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E12 Space Race Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 43775965,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S03 (360p re-blurip)\/Archer S03E13 Space Race Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40075776,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E01 Fugue and Riffs.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41707030,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E02 The Wind Cries Mary.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 42272502,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E03 Legs.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36690139,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E04 Midnight Run.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 45493970,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E05 Vicious Coupling.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36463857,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E06 Once Bitten.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38657560,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E07 Live and Let Dine.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36573687,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E08 Coyote Lovely.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37416616,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E09 The Honeymooners.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 32854830,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E10 Un Chien Tangerine.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 43061846,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E11 The Papal Chase.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 36443438,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E12 Sea Tunt Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37944939,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04E13 Sea Tunt Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41978628,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04X01 Media Day with Sterling Archer.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 489469,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04X02 Media Day with Lana Kane.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 636358,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04X03 Media Day with Malory Archer.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 458241,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S04 (360p re-blurip)\/Archer S04X04 Media Day with Cyril Figgis.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 821157,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E01 White Elephant.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 42103357,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E02 A Kiss While Dying.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39390848,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E03 A Debt of Honor.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37412141,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E04 House Call.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39297349,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E05 Southbound and Down.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 48241421,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E06 Baby Shower.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 43125168,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E07 Smugglers Blues.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38758323,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E08 The Rules of Extraction.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 44428860,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E09 On the Carpet.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 37235548,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E10 Palace Intrigue Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40638759,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E11 Palace Intrigue Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41783429,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E12 Filibuster.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38552526,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S05 (360p re-blurip)\/Archer S05E13 Arrival Departure.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40371998,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E01 The Holdout.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41223904,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E02 Three to Tango.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39811889,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E03 The Archer Sanction.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 43696458,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E04 Edie's Wedding.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41086341,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E05 Vision Quest.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39800286,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E06 Sitting.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 33647482,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E07 Nellis.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38296592,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E08 The Kanes.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 46075533,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E09 Pocket Listing.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40097008,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E10 Reignition Sequence.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40937816,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E11 Achub Y Morfilod.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40627709,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E12 Drastic Voyage Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39667601,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06E13 Drastic Voyage Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 47149310,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S06 (360p re-webrip)\/Archer S06X01 Sterling Archer meets Conan (Conan 2015-01-20).mp4",
+							"type": 0,
+							"state": 0,
+							"total": 10400534,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E01 The Figgis Agency.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 38160413,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E02 The Handoff.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39951331,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E03 Deadly Prep.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 39264185,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E04 Motherless Child.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 40629729,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E05 Bel Panto Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 42251545,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E06 Bel Panto Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 44341268,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E07 Double Indecency.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 44053655,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E08 Liquid Lunch.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 41844559,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E09 Deadly Velvet Pt 1.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 44437939,
+							"complete": 0
+						},
+						{
+							"path": "\/mnt\/local-data\/Downloads\/Archer S01-S07 (2007-)\/Archer S07 (360p re-webrip)\/Archer S07E10 Deadly Velvet Pt 2.mp4",
+							"type": 0,
+							"state": 0,
+							"total": 46924695,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]Archer+Season+1+2+3+4+5+6+7+-+threesixtyp",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "[METADATA]Archer+Season+1+2+3+4+5+6+7+-+threesixtyp.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
 	]
 }
 

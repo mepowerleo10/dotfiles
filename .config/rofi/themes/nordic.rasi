@@ -2,7 +2,7 @@ configuration {
   show-icons: true;
   font: "Ubuntu Mono Medium 10";
   drun-display-format: "{icon} {name}";
-  icon-theme: "Papirus";
+  icon-theme: "Newaita";
   display-run: " ";
   display-drun: " ";
   display-window: " ";
@@ -47,6 +47,10 @@ element {
   margin: 0 10 0 10;
 }
 
+element-icon {
+	size: 1.2ch;
+}
+
 element selected {
   background-color: @bg-alt;
   text-color: @nord-blue-light;
@@ -60,8 +64,9 @@ inputbar {
 prompt {
   enabled: true;
   font: "SauceCodePro Nerd Font 12";
-  padding: 12 0 0 12;
+  padding: 10 0 0 10;
   text-color: @nord-yellow;
+  margin: 0 10 0 10;
 }
 
 entry {

@@ -1,3 +1,6 @@
-2020/05/27-12:13:02.149 186ae Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/05/27-12:13:02.150 186ae Recovering log #4
-2020/05/27-12:13:02.150 186ae Reusing old log /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2020/05/30-19:00:00.798 648cf Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/05/30-19:00:00.822 648cf Recovering log #4
+2020/05/30-19:00:00.954 648cf Reusing old log /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2020/05/30-19:02:22.652 64ad6 Level-0 table #8: started
+2020/05/30-19:02:22.786 64ad6 Level-0 table #8: 10263 bytes OK
+2020/05/30-19:02:22.910 64ad6 Delete type=0 #4
