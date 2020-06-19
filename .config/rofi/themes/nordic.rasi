@@ -7,7 +7,7 @@ configuration {
   display-drun: " ";
   display-window: " ";
   modi: "window,run,drun";
-  location: 7;
+  location: 0;
   scroll-method: 1;
 }
 
@@ -28,6 +28,7 @@ configuration {
 
 window {
   width: 29%;
+  height: 40%;
   transparency: "real";
 }
 
@@ -44,7 +45,7 @@ element {
   padding: 12;
   orientation: vertical;
   text-color: @fg;
-  margin: 0 10 0 10;
+  margin: 0 20 0 20;
 }
 
 element-icon {

@@ -27,10 +27,12 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        $HOME/.local/bin/lockscreen.sh
+        #$HOME/.local/bin/lockscreen.sh
+        betterlockscreen --lock dimblur
         ;;
     $suspend)
-		$HOME/.local/bin/lockscreen.sh
+		    #$HOME/.local/bin/lockscreen.sh
+        betterlockscreen --lock dimblur
         systemctl suspend
         ;;
     $logout)

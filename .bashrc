@@ -22,7 +22,7 @@ esac
 # my export variables, and paths
 export VISUAL="vim"
 export PATH="${PATH}:$HOME/.local/bin"
-export PATH="${PATH}:$HOME/.bin"
+export PATH="$HOME/.bin:${PATH}"
 
 # my aliases
 alias ls='ls --color=auto'
@@ -30,6 +30,7 @@ alias ll='ls -l'
 alias lla='ll -a'
 alias sudo='sudo -E'
 alias dot-config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias mpv='~/.bin/umpv'
 
 GREEN="\[\033[0;32m\]"
 BLUE="\[\033[0;34m\]"
@@ -107,3 +108,12 @@ PERL_MM_OPT="INSTALL_BASE=/home/mepowerleo10/perl5"; export PERL_MM_OPT;
 HISTCONTROL=ignoredups:erasedups
 shopt -s histappend
 PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
+
+MANWIDTH=71
+
+man() {
+    local width=$(tput cols)
+    [ $width -gt $MANWIDTH ] && width=$MANWIDTH
+    env MANWIDTH=$width \
+    man "$@"
+}

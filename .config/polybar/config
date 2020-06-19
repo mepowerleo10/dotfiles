@@ -96,7 +96,7 @@ font-5 = Twemoji:style=Regular:scale=6;3
 inherit = bar/base
 
 modules-left = xwindow wallpaper right-end-top left-end-bottom i3 right-end-top
-modules-right = left-end-top wlan eth right-end-bottom left-end-top date right-end-bottom left-end-top
+modules-right = left-end-top wlan eth date right-end-bottom left-end-top
 
 tray-background = ${color.module-bg}
 tray-padding = ${layout.module-padding}

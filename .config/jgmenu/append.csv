@@ -1,0 +1,3 @@
+^sep()
+Lock,betterlockscreen --lock dimblur,system-lock-screen
+Exit,/home/mepowerleo10/.bin/powermenu.sh,system-shutdown

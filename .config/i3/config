@@ -39,8 +39,12 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
+# lockscreen
+bindsym $mod+Shift+x exec --no-startup-id betterlockscreen --lock dimblur
+
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/themes/nordic.rasi
+#bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/themes/nordic.rasi
+bindsym $mod+d exec jgmenu
 
 # change focused window:
 bindsym $mod+Left focus left
@@ -211,6 +215,7 @@ exec_always --no-startup-id killall fusuma; fusuma
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
+exec --no-startup-id i3-resurrect restore -w 6
 #exec --no-startup-id "i3-msg 'workspace 6; append_layout .config/i3/workspace-6.json'"
 
 # Stick Windows to specific workspaces
@@ -230,6 +235,7 @@ floating_maximum_size $max_float_size
 
 # windows special selections
 for_window [instance="Kunst"] floating enable
+for_window [class="mpv"] floating enable
 for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*"] floating enable
 for_window [class="Blueman-*|Pavu*|Nm-connection*|Dragon-drag-and-drop"] sticky enable
 for_window [title="uGet - New Download"] sticky enable

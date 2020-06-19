@@ -1,0 +1,49 @@
+#!/bin/sh
+
+#
+# Single-instance launcher for mpv.
+#
+#   - Written for use as a custom launcher in various DEs such as XFCE.
+#   - Plays a given file as soon as this script is run.
+#   - Uses mpv's IPC support to play files on a single instance.
+#   - Tested on Arch Linux.
+#   - Bonus: shellcheck didn't complain about anything.
+#
+# Usage:
+#   single-instance-mpv.sh <file>
+#
+# Dependencies:
+#   - mpv
+#   - socat
+#
+
+umask 077
+
+if [ -z "$1" ]
+then
+    echo "Usage: $0 <file>"
+    exit 1
+fi
+
+src_file=$(readlink -f "$1")
+tmp_dir="${TMPDIR:-/tmp}"
+pid_file="${tmp_dir}/$(id -u).mpv.pid"
+socket="${tmp_dir}/$(id -u).mpv.socket"
+
+if [ -f "$pid_file" ] && pgrep --pidfile="$pid_file" mpv > /dev/null
+then
+    # use an existing instance of mpv to play
+    com="{ \"command\": [\"loadfile\", \"$src_file\"] }"
+    echo "$com" | socat - "$socket" > /dev/null
+else
+    # no instance found, start a new one
+    mpv \
+        --player-operation-mode=pseudo-gui  \
+        --input-ipc-server="$socket"        \
+        --no-terminal                       \
+        "$src_file" &
+    pid="$!"
+    echo "$pid" > "$pid_file"
+    wait "$pid"
+    rm -f "$pid_file" "$socket"
+fi

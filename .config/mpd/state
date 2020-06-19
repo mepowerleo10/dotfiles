@@ -1,55 +1,42 @@
-sw_volume: 0
+sw_volume: 80
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: play
-current: 0
-time: 4.132000
+current: 2
+time: 9.117000
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:FIFA 15 Soundtrack/4. FMLYBND - Come Alive (Shining) (128).mp3
-1:FIFA 15 Soundtrack/3. ChocQuibTown - Uh la la (Album Version) (128).mp3
-2:FIFA 15 Soundtrack/The Valleys CD 1 TRACK 1 (128).mp3
-3:FIFA 15 Soundtrack/Glow CD 1 TRACK 3 (128).mp3
-4:FIFA 15 Soundtrack/How Do You Feel CD 1 TRACK 1 (128).mp3
-5:FIFA 15 Soundtrack/Supermodel CD 1 TRACK 1 (128).mp3
-6:FIFA 15 Soundtrack/Look Like You Love It CD 1 TRACK 2 (128).mp3
-7:FIFA 15 Soundtrack/Utopia CD 1 TRACK 2 (128).mp3
-8:FIFA 15 Soundtrack/3. MPB4 - Agiborê (Fatboy Slim Presents MPB4) (128).mp3
-9:FIFA 15 Soundtrack/Sunrise CD 1 TRACK 1 (128).mp3
-10:FIFA 15 Soundtrack/Mess Is Mine CD 1 TRACK 1 (128).mp3
-11:FIFA 15 Soundtrack/Sudamericana CD 1 TRACK 3 (128).mp3
-12:FIFA 15 Soundtrack/Jacob Banks - Move with You (128).mp3
-13:FIFA 15 Soundtrack/My Type CD 1 TRACK 1 (128).mp3
-14:FIFA 15 Soundtrack/The Kooks - Around Town (128).mp3
-15:FIFA 15 Soundtrack/5. Death From Above 1979 - Crystal Ball (128).mp3
-16:FIFA 15 Soundtrack/Catfish and the Bottlemen - Cocoon (128).mp3
-17:FIFA 15 Soundtrack/5. The Madden Brothers - We Are Done (128).mp3
-18:FIFA 15 Soundtrack/7. Lowell - Palm Trees (128).mp3
-19:FIFA 15 Soundtrack/Malhação Nacional 2014 CD 1 TRACK 18 (128).mp3
-20:FIFA 15 Soundtrack/Walk CD 1 TRACK 1 (128).mp3
-21:FIFA 15 Soundtrack/When the Day Comes CD 1 TRACK 1 (128).mp3
-22:FIFA 15 Soundtrack/One More CD 1 TRACK 2 (128).mp3
-23:FIFA 15 Soundtrack/Madeon - Imperium (128).mp3
-24:FIFA 15 Soundtrack/Kasabian - stevie (128).mp3
-25:FIFA 15 Soundtrack/5. Dirty South - Tunnel Vision (feat. Some Kinda Wonderful).mp3
-26:FIFA 15 Soundtrack/2. Saint Raymond - Wild Heart (128).mp3
-27:FIFA 15 Soundtrack/The Days  Nights CD 1 TRACK 2 (128).mp3
-28:FIFA 15 Soundtrack/Broods - L.A.F (128).mp3
-29:FIFA 15 Soundtrack/The Ting Tings - Super Critical (128).mp3
-30:FIFA 15 Soundtrack/Jungle CD 1 TRACK 3 (128).mp3
-31:FIFA 15 Soundtrack/Tune-Yards - Water Fountain (128).mp3
-32:FIFA 15 Soundtrack/Magic man - Tonight (128).mp3
-33:FIFA 15 Soundtrack/1. The Griswolds - 16 Years (128).mp3
-34:FIFA 15 Soundtrack/9. Prides - Out Of The Blue (128).mp3
-35:FIFA 15 Soundtrack/Teddybears - Sunshine (128).mp3
-36:FIFA 15 Soundtrack/Polock - Everlasting (128).mp3
-37:FIFA 15 Soundtrack/A-Trak, Andrew Wyatt - Push (128).mp3
-38:FIFA 15 Soundtrack/Cumbia del Corazon CD 1 TRACK 1 (128).mp3
-39:FIFA 15 Soundtrack/10. Milky Chance - Down By The River (Album Version) (128).mp3
+0:other/Vehicle CD 1 TRACK 1 (128).mp3
+1:other/Men s Health Beach Body Workout CD 1 TRACK 7 (128).mp3
+2:Childish Gambino - Awaken, My Love [2016]/Awaken, My Love! CD 1 TRACK 6 (128).mp3
+3:Sia - Essentials/Flames CD 1 TRACK 1 (128).mp3
+4:other/Faded CD 1 TRACK 2 (128).mp3
+5:other/Committed to the Crime CD 1 TRACK 3 (128).mp3
+6:other/Homework CD 1 TRACK 7 (128).mp3
+7:other/Trayci Jenkins and the Jenkenettes - Prisoner to My Emotions.mp3
+8:other/Waves (Robin Schulz Radio Edit) CD 1 TRACK 1 (128).mp3
+9:other/Adventure of a Lifetime CD 1 TRACK 1 (128).mp3
+10:other/Pray For Me CD 1 TRACK 1 (128).mp3
+11:other/Staying Alive (Original Motion Picture Soundtrack) CD 1 TRAC.mp3
+12:other/Sugar (feat. Francesco Yates) CD 1 TRACK 1 (128).mp3
+13:other/1. Rick and Morty, Kotomi, Ryan Elder - Don t Look Back (fea.mp3
+14:other/Hyperion CD 1 TRACK 3 (128).mp3
+15:other/Lost Boy CD 1 TRACK 1 (128).mp3
+16:other/San Andreas (Original Motion Picture Soundtrack) CD 1 TRACK.mp3
+17:other/Take Care (Deluxe) CD 1 TRACK 5 (128).mp3
+18:other/Little Help CD 1 TRACK 1 (128).mp3
+19:other/THE NIGHTDAY CD 1 TRACK 2 (128).mp3
+20:other/My Everything CD 1 TRACK 9 (128).mp3
+21:other/Something About Us (Love Theme from Interstella) CD 1 TRACK.mp3
+22:other/Faded (Remixes) CD 1 TRACK 7 (128).mp3
+23:other/Sad Story (Out Of Luck) CD 1 TRACK 1 (128).mp3
+24:other/Faded (Remixes) CD 1 TRACK 1 (128).mp3
+25:other/IMANY - Don t Be so Shy (Filatov   Karas Remix) (128).mp3
+26:other/More Than You Know CD 1 TRACK 1 (128).mp3
 playlist_end
