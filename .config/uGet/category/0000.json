@@ -46,29 +46,24 @@
 		{
 			"info": {
 				"relation": {
-					"group": 33,
+					"group": 3,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 0,
-					"total": 0,
-					"elapsed": 2,
+					"complete": 1966080,
+					"total": 318169619,
+					"elapsed": 19,
 					"uploaded": 0,
 					"percent": 0
 				},
 				"log": {
-					"added-time": 1592519409,
+					"added-time": 1593376915,
 					"completed-time": 0,
 					"messages": [
-						{
-							"string": "aria2: HTTP response header was bad or unexpected.",
-							"type": 3,
-							"time": 1592552471
-						}
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/www.nexusmods.com\/civilisationvi\/mods\/92?tab=files&file_id=820",
+					"referrer": "https:\/\/www.softmaker.com\/en\/old-versions",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -76,10 +71,10 @@
 					"type": 0
 				},
 				"common": {
-					"name": "Graphics Mod - Civilization VI",
-					"uri": "https:\/\/supporter-files.nexus-cdn.com\/1694\/92\/update%20of%20April%208-92-1-1-1555693581.zip?md5=cWWPn-pqtO2bWJruPu1Jrg&expires=1592533746&user_id=86409408&rip=41.59.81.189",
-					"file": "Graphics Mod - Civilization VI",
-					"folder": "\/mnt\/local-data\/Downloads",
+					"name": "softmaker-office-2018-976-amd64.tgz",
+					"uri": "https:\/\/www.softmaker.net\/down\/softmaker-office-2018-976-amd64.tgz",
+					"file": "softmaker-office-2018-976-amd64.tgz",
+					"folder": "\/home\/mepowerleo10\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
@@ -93,78 +88,14 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/mnt\/local-data\/Downloads\/Graphics Mod - Civilization VI",
+							"path": "\/home\/mepowerleo10\/Downloads\/softmaker-office-2018-976-amd64.tgz",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "\/mnt\/local-data\/Downloads\/Graphics Mod - Civilization VI.aria2",
-							"type": 3,
-							"state": 0,
-							"total": 0,
-							"complete": 0
-						}
-					]
-				}
-			},
-			"children": [
-			]
-		},
-		{
-			"info": {
-				"relation": {
-					"group": 72,
-					"priority": 1
-				},
-				"progress": {
-					"complete": 2526530774,
-					"total": 2526530774,
-					"elapsed": 833,
-					"uploaded": 0,
-					"percent": 100
-				},
-				"log": {
-					"added-time": 1592552599,
-					"completed-time": 1592554789,
-					"messages": [
-					]
-				},
-				"http": {
-					"referrer": "https:\/\/www.nexusmods.com\/civilisationvi\/mods\/92?tab=files&file_id=820",
-					"redirection-limit": 30
-				},
-				"proxy": {
-					"port": 80,
-					"type": 0
-				},
-				"common": {
-					"name": "Graphics Mod - Civilization VI",
-					"uri": "https:\/\/supporter-files.nexus-cdn.com\/1694\/92\/update%20of%20April%208-92-1-1-1555693581.zip?md5=D7PT3LuPmhrSNu1YFZ-kqA&expires=1592566985&user_id=86409408&rip=41.59.81.213",
-					"file": "Graphics Mod - Civilization VI",
-					"folder": "\/mnt\/local-data\/Downloads",
-					"connect-timeout": 15,
-					"transmit-timeout": 30,
-					"retry-delay": 6,
-					"retry-limit": 99,
-					"retry-count": 0,
-					"max-connections": 16,
-					"max-upload-speed": 0,
-					"max-download-speed": 0,
-					"timestamp": 1
-				},
-				"files": {
-					"list": [
-						{
-							"path": "\/mnt\/local-data\/Downloads\/Graphics Mod - Civilization VI",
-							"type": 0,
-							"state": 0,
-							"total": 0,
-							"complete": 0
-						},
-						{
-							"path": "\/mnt\/local-data\/Downloads\/Graphics Mod - Civilization VI.aria2",
+							"path": "\/home\/mepowerleo10\/Downloads\/softmaker-office-2018-976-amd64.tgz.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,

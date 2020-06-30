@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-cubism-config "2020-06-21 19:11:06"
+    (time 1592755866)
+    (tile-size 10)
+    (tile-saturation 2.5)
+    (bg-color (color-rgba 0 0 0 0))
+    (seed 0))
+
+# end of settings

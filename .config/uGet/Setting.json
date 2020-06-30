@@ -13,7 +13,7 @@
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 250,
-		"PanedPositionV": 458
+		"PanedPositionV": 457
 	},
 	"Summary": {
 		"name": true,
@@ -114,8 +114,8 @@
 		"OnError": null
 	},
 	"FolderHistory": [
-		"\/mnt\/local-data\/Downloads",
 		"\/home\/mepowerleo10\/Downloads",
+		"\/mnt\/local-data\/Downloads",
 		"\/mnt\/local-data\/Downloads\/GTA V",
 		"\/home\/mepowerleo10",
 		"\/mnt\/local-data\/Downloads\/Civilization VI",

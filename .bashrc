@@ -19,6 +19,17 @@ esac
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
+source /usr/share/bash-completion/completions/yay
+source $HOME/.bash_completion
+
+export FZF_DEFAULT_OPTS='
+  --prompt="› "
+  --pointer="› "
+'
+
+source $HOME/.bin/fzf-tab-completion.sh
+bind -x '"\t": fzf_bash_completion'
+
 # my export variables, and paths
 export VISUAL="vim"
 export PATH="${PATH}:$HOME/.local/bin"
@@ -26,8 +37,12 @@ export PATH="$HOME/.bin:${PATH}"
 
 # my aliases
 alias ls='ls --color=auto'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias lla='ll -a'
+
+alias le='exa --color=auto'
+alias lel='le -l'
+
 alias sudo='sudo -E'
 alias dot-config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias mpv='~/.bin/umpv'

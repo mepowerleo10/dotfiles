@@ -32,8 +32,8 @@ case $chosen in
         ;;
     $suspend)
 		    #$HOME/.local/bin/lockscreen.sh
-        betterlockscreen --lock dimblur
         systemctl suspend
+        betterlockscreen --lock dimblur
         ;;
     $logout)
         i3-msg exit

@@ -4,7 +4,7 @@
 ; |_| \___/_|\_, |_.__/\__,_|_|
 ;            |__/
 ;
-; Author: Benedikt Vollmerhaus
+; Author: Mipawa Shomari
 ; License: MIT
 
 ;  __
@@ -85,7 +85,7 @@ font-3 = mplus Nerd Font:style=Medium:size=6;3
 font-4 = mplus Nerd Font:style=Medium:size=7;3
 
 ; Twemoji font for emojis in the network
-font-5 = Twemoji:style=Regular:scale=6;3
+font-5 = Twemoji:style=Regular:scale=7;3
 
 ; ___        __
 ;  | _  _   |__) _  _
@@ -127,10 +127,6 @@ inherit = bar/bottom-primary
 modules-right = left-end-bottom cpu memory temp
 
 
-; A generic format for any modules that support it. Unfortunately, this
-; doesn't apply to all modules since some use different names for their
-; format and prefix definitions, such as format-NAME or ramp-NAME, which
-; don't fall back to the unnamed ones and have to be declared explicitly.
 [generic-format-style]
 format-background = ${color.module-bg}
 format-padding = ${layout.module-padding}

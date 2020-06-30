@@ -13,6 +13,7 @@ menu_border          = 1
 menu_halign          = left
 menu_height_mode     = dynamic
 sub_hover_action     = 1
+hover_delay          = 100
 item_margin_y        = 5
 item_height          = 30
 item_padding_x       = 8
