@@ -1,0 +1,11 @@
+# GIMP gimp-perspective-clone-tool options
+
+(foreground (color-rgb 0.074509806931018829 0.14509804546833038 0.22352941334247589))
+(brush "Sparks")
+(dynamics "Dynamics Off")
+(pattern "Warning!")
+(palette "Browns And Yellows")
+(brush-size 60)
+(brush-spacing 0.14999999999999999)
+
+# end of gimp-perspective-clone-tool options

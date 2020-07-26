@@ -46,24 +46,25 @@
 		{
 			"info": {
 				"relation": {
-					"group": 3,
+					"group": 72,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 1966080,
-					"total": 318169619,
-					"elapsed": 19,
+					"complete": 1620963,
+					"total": 1620963,
+					"elapsed": 41,
 					"uploaded": 0,
-					"percent": 0
+					"percent": 100
 				},
 				"log": {
-					"added-time": 1593376915,
-					"completed-time": 0,
+					"added-time": 1595012019,
+					"completed-time": 1595012061,
 					"messages": [
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/www.softmaker.com\/en\/old-versions",
+					"referrer": "https:\/\/github.com\/GNOME\/gnome-keyring\/releases",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/6C5C3BBD.cookie",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -71,9 +72,9 @@
 					"type": 0
 				},
 				"common": {
-					"name": "softmaker-office-2018-976-amd64.tgz",
-					"uri": "https:\/\/www.softmaker.net\/down\/softmaker-office-2018-976-amd64.tgz",
-					"file": "softmaker-office-2018-976-amd64.tgz",
+					"name": "gnome-keyring-3.36.0.zip",
+					"uri": "https:\/\/github.com\/GNOME\/gnome-keyring\/archive\/3.36.0.zip",
+					"file": "gnome-keyring-3.36.0.zip",
 					"folder": "\/home\/mepowerleo10\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
@@ -88,14 +89,14 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/softmaker-office-2018-976-amd64.tgz",
+							"path": "\/home\/mepowerleo10\/Downloads\/gnome-keyring-3.36.0.zip",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/softmaker-office-2018-976-amd64.tgz.aria2",
+							"path": "\/home\/mepowerleo10\/Downloads\/gnome-keyring-3.36.0.zip.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,

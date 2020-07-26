@@ -1,3 +1,9 @@
-set recolor-keephue		true
-set recolor-lightcolor	#0a0a0a 
+set recolor-keephue		    true
+set recolor-lightcolor	  #1a1a1b
+set recolor-darkcolor     #d7dadc
+set recolor-reverse-video false
+set window-title-basename true
+set window-title-page     false
+set statusbar-basename    true
+map <Space> navigate next
 

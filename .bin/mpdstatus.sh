@@ -1,7 +1,7 @@
 #!/bin/bash
 ################################################################
 ###### "He who stops being better, stops being good" 	########
-######					~ Oliver Cromwell				########
+######					~ Oliver Cromwell				              ########
 ################################################################
 
 STATE_FILE="$HOME/.config/mpd/state"

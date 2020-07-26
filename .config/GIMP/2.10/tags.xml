@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="5a4fb029b1e87e3d59282f0876dc872f">
+  <resource identifier="gimp-palette-color-history" checksum="0d50489faf5f2a9d3344c0e89fdfb332">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -4454,6 +4454,18 @@
   </resource>
 
   <resource identifier="Times Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Twemoji" checksum="(null)">

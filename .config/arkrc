@@ -1,0 +1,15 @@
+[ExtractDialog]
+DirHistory[$e]=/mnt/local-data/Media/Movies/Queen & Slim (2019) [720p] [BluRay] [YTS.MX]/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:///mnt/local-data/Media/Movies/Queen & Slim (2019) [720p] [BluRay] [YTS.MX]/
+detailViewIconSize=0
+
+[MainWindow]
+Height 768=712
+State=AAAA/wAAAAD9AAAAAAAAAqAAAAJ8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1366=672
+splitterSizes=445,223

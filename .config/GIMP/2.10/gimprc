@@ -12,7 +12,8 @@
 (theme "System")
 (icon-theme "Color")
 (icon-size small)
-(layer-new-name "The Car")
+(layer-new-name "New Rules BG")
+(layer-add-mask-type black)
 (fill-options
     (style solid)
     (antialias yes)

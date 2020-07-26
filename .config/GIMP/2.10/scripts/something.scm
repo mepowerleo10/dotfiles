@@ -1,0 +1,6 @@
+(define width 256)
+(define height 256)
+(define image (car (gimp-image-new width height 0)))
+(define layer (car (gimp-layer-new image width height 0 "Layer" 100 0)))
+(gimp-image-add-layer image layer 0)
+(gimp-display-new image)

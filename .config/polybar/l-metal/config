@@ -1,0 +1,589 @@
+;  ___     _      _
+; | _ \___| |_  _| |__  __ _ _ _
+; |  _/ _ \ | || | '_ \/ _` | '_|
+; |_| \___/_|\_, |_.__/\__,_|_|
+;            |__/
+;
+; Author: Mipawa Shomari
+; License: MIT
+
+;  __
+; /   _ |  _  _ _
+; \__(_)|_(_)| _)
+;
+
+[xcolor]
+bg     = ${xrdb:color0:#0a0a0a}
+fg     = ${xrdb:color7:#c8c8c8}
+color1 = ${xrdb:color1:#a54242}
+color2 = ${xrdb:color2:#8c9440}
+color3 = ${xrdb:color3:#de935f}
+color4 = ${xrdb:color4:#5f819d}
+color5 = ${xrdb:color5:#85678f}
+color6 = ${xrdb:color6:#5e8d87}
+color8 = ${xrdb:color8:#373b41}
+
+
+[color]
+base-bg     = #8c0a0a0a
+glyph-bg    = #de0d0d0d
+module-bg   = #f00d0d0d
+selected-bg = #dc1a1a1a
+
+text-fg = #c8c8c8
+icon-fg = ${xcolor.color1}
+bar-fg  = ${xcolor.color3}
+
+red     = #821717
+orange  = #824517
+yellow	= #ffcc1B
+
+;
+; |  _    _    _|_
+; |_(_|\/(_)|_| |
+;      /
+
+[layout]
+icon-font = 2
+
+icon-padding = 1
+module-padding = 2
+
+bar-format = %{T4}%fill%%indicator%%{F#dc404040}%empty%%{F-}%{T-}
+bar-fill-icon = ﭳ
+
+
+;  __            __
+; |__) _  _ _   |__) _  _
+; |__)(_|_)(/_  |__)(_||
+;
+
+[bar/base]
+monitor = ${env:MONITOR}
+width = 100%
+height = 20
+fixed-center = true
+
+background = ${color.base-bg}
+foreground = ${color.text-fg}
+
+; Size of under-/overlines
+line-size = 2
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+font-0 = Iosevka:style=Medium:size=8;3
+; Material Design Icons
+font-1 = icomoon\-feather:style=Medium:size=9;3
+; Powerline Glyphs
+font-2 = mplus Nerd Font:style=Medium:size=12;3
+
+; Larger font size for bar fill icons
+font-3 = mplus Nerd Font:style=Medium:size=6;3
+; Smaller font size for shorter spaces
+font-4 = mplus Nerd Font:style=Medium:size=7;3
+
+; Twemoji font for emojis in the network
+font-5 = Twemoji:style=Regular:scale=7;3
+
+; icomoon-steady font for power icons
+font-6 = icomoon\-steady:style=Medium:size=9;3
+font-7 = icomoon\-steady:style=Medium:size=9;3
+
+; ___        __
+;  | _  _   |__) _  _
+;  |(_)|_)  |__)(_||
+;      |
+
+[bar/top-primary]
+inherit = bar/base
+
+modules-left = xwindow wallpaper right-end-top left-end-bottom i3 right-end-top
+modules-right = left-end-top wlan eth date right-end-bottom left-end-top temp battery
+
+tray-position = 
+
+
+[bar/top-secondary]
+inherit = bar/top-primary
+modules-right = left-end-top battery
+tray-position =
+
+
+;  __                     __
+; |__) _ _|__|_ _  _ _   |__) _  _
+; |__)(_) |  | (_)| | |  |__)(_||
+;
+
+[bar/bottom-primary]
+inherit = bar/base
+bottom = true
+
+modules-left = volume now-playing right-end-bottom left-end-top ping dunst right-end-bottom
+modules-right = left-end-bottom cpu memory right-end-top left-end-bottom
+
+tray-background = ${color.module-bg}
+tray-padding = ${layout.module-padding}
+tray-position = right
+
+[bar/bottom-secondary]
+inherit = bar/bottom-primary
+modules-right = left-end-bottom cpu memory temp
+
+
+[generic-format-style]
+format-background = ${color.module-bg}
+format-padding = ${layout.module-padding}
+format-prefix-font = ${layout.icon-font}
+format-prefix-foreground = ${color.icon-fg}
+format-prefix-padding-right = ${layout.icon-padding}
+
+
+;  __                          __
+; |  \ _  _ _  _ _ _|_.   _   / _ |    _ |_  _
+; |__/(/_(_(_)| (_| | |\/(/_  \__)|_\/|_)| |_)
+;                                   / |
+
+[module/decor-glyph]
+type = custom/text
+content-background = ${color.base-bg}
+content-foreground = ${color.glyph-bg}
+
+[module/left-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/left-end-bottom]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-bottom]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+
+;   __
+; .  _)
+; | __)
+;
+
+[module/i3]
+type = internal/i3
+
+index-sort = true
+; Don't wrap around when scrolling through workspaces
+wrapping-scroll = false
+; Only show workspaces on the same output as the bar
+pin-workspaces = true
+; Split the workspace label on ':' to get its name
+strip-wsnumbers = false
+
+ws-icon-default = 
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
+
+format = <label-state><label-mode>
+
+; Active workspace on focused monitor
+label-focused = %{T2}%icon%%{T-} · %name%
+label-focused-background = ${color.selected-bg}
+label-focused-underline = ${xcolor.color1}
+label-focused-padding = ${layout.module-padding}
+
+; Inactive workspace on any monitor
+label-unfocused = ${self.label-visible}
+label-unfocused-background = ${color.module-bg}
+label-unfocused-padding = ${layout.module-padding}
+
+; Active workspace on unfocused monitor
+label-visible = %{T2}%icon%%{T-} %name%
+label-visible-background = ${color.module-bg}
+label-visible-underline = ${xcolor.color1}
+label-visible-padding = ${layout.module-padding}
+
+; Workspace with urgency hint set
+label-urgent = ${self.label-visible}
+label-urgent-background = ${color.selected-bg}
+label-urgent-underline = ${color.yellow}
+;label-urgent-foreground = ${color.yellow}
+label-urgent-padding = ${layout.module-padding}
+
+label-mode-background = ${color.module-bg}
+label-mode-padding = ${layout.module-padding}
+
+
+[module/xwindow]
+type = internal/xwindow
+inherit = generic-format-style
+
+format-prefix = 
+label = %title:0:35:...%
+
+
+;
+; |__| _  _ _|    _  _ _
+; |  |(_|| (_|\|/(_|| (/_
+;
+
+[module/cpu]
+type = internal/cpu
+inherit = generic-format-style
+
+format = <label> <bar-load>
+format-prefix = 
+
+label = "%percentage%%"
+
+; Bar
+bar-load-format = ${layout.bar-format}
+
+bar-load-foreground-0 = ${color.bar-fg}
+bar-load-foreground-1 = ${color.bar-fg}
+bar-load-foreground-2 = ${color.orange}
+bar-load-foreground-3 = ${color.red}
+bar-load-gradient = true
+
+bar-load-width = 5
+bar-load-fill = ${layout.bar-fill-icon}
+bar-load-indicator =
+bar-load-empty = ${layout.bar-fill-icon}
+
+
+[module/memory]
+type = internal/memory
+inherit = generic-format-style
+
+format-prefix = 
+label = %gb_used%
+
+
+[module/temp]
+type = internal/temperature
+interval = 2
+
+units = false
+warn-temperature = 80
+
+; Normal
+format-background = ${color.module-bg}
+format-padding = ${layout.module-padding}
+
+format-prefix = 
+format-prefix-font = ${layout.icon-font}
+format-prefix-foreground = ${color.icon-fg}
+format-prefix-padding-right = ${layout.icon-padding}
+
+label = %temperature-c% °C
+
+; Warning
+format-warn-background = ${color.module-bg}
+format-warn-underline = ${color.red}
+format-warn-padding = ${layout.module-padding}
+
+format-warn-prefix = 﨏
+format-warn-prefix-font = ${layout.icon-font}
+format-warn-prefix-foreground = ${color.icon-fg}
+format-warn-prefix-padding-right = ${layout.icon-padding}
+
+label-warn = ${self.label}
+label-warn-foreground = ${color.red}
+
+
+[module/xkeyboard]
+type = internal/xkeyboard
+inherit = generic-format-style
+blacklist-0 = num lock
+
+format-prefix = 
+
+label-indicator-underline = ${xcolor.color1}
+label-indicator-padding = 1
+label-indicator-margin = 1
+
+;
+; |\ | _ _|_    _  _|
+; | \|(/_ | \|/(_)| |<
+;
+
+[module/network]
+type = internal/network
+interval = 2
+
+; Connected
+format-connected-background = ${color.module-bg}
+format-connected-padding = ${layout.module-padding}
+
+format-connected-prefix-font = ${layout.icon-font}
+format-connected-prefix-foreground = ${color.icon-fg}
+format-connected-prefix-padding-right = ${layout.icon-padding}
+
+; Disconnected
+format-disconnected-background = ${color.module-bg}
+format-disconnected-foreground = ${xcolor.color3}
+format-disconnected-padding = ${layout.module-padding}
+
+format-disconnected-prefix-font = ${layout.icon-font}
+format-disconnected-prefix-foreground = ${color.icon-fg}
+format-disconnected-prefix-padding-right = ${layout.icon-padding}
+
+
+[module/wlan]
+inherit = module/network
+interface = ${env:IFACE_WLAN}
+
+format-connected-prefix = 
+label-connected = %essid%
+format-connected = <label-connected> · <ramp-signal>
+
+format-disconnected-prefix =
+label-disconnected =
+
+ramp-signal-0 = 😱
+ramp-signal-1 = 😠
+ramp-signal-2 = 😒
+ramp-signal-3 = 😊
+ramp-signal-4 = 😃
+ramp-signal-5 = 😈
+
+
+[module/eth]
+inherit = module/network
+interface = ${env:IFACE_ETH}
+
+format-connected-prefix = 
+label-connected = %local_ip%
+
+format-disconnected =
+
+
+[module/ping]
+type = custom/script
+inherit = generic-format-style
+
+exec = $HOME/.bin/measure_ping.py
+tail = true
+click-left = kill -USR1 %pid%
+
+format-prefix = 
+
+
+; ___
+;  | . _ _  _
+;  | || | |(/_
+;
+
+[module/date]
+type = internal/date
+inherit = generic-format-style
+interval = 1
+
+date =
+date-alt = %{T8}%{F#a54242}%{F-}%{T-} %A, %d %B %Y ·
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+label = %date% %{T8}%{F#a54242}%{F-}%{T-} %time%
+
+
+;
+; |\/| _  _|. _
+; |  |(/_(_||(_|
+;
+
+[module/wallpaper]
+type = custom/script
+exec = $HOME/.bin/wallpaper.sh
+interval = 900
+format =
+
+[module/now-playing]
+type = custom/script
+inherit = generic-format-style
+
+exec = $HOME/.bin/mpdstatus.sh -p
+tail = true
+interval = 1
+
+click-right = $HOME/.bin/mpdstatus.sh -l
+scroll-up = mpc volume +5 &> /dev/null
+scroll-down = mpc volume -5 &> /dev/null
+
+[module/mpd]
+type = internal/mpd
+inherit = generic-format-style
+host = 127.0.0.1
+port = 6600
+interval = 1
+tail = true
+icon-play = 
+icon-pause = 
+icon-stop = ⏹
+icon-prev = 
+icon-next = 
+icon-random = 
+icon-repeat = 
+icon-repeatone = 
+icon-single = 
+icon-consume = ✀
+label-offline = " mpd offline"
+label-song = %artist% - %title%
+toggle-on-foreground = #ffcc1b
+toggle-off-foreground = #55
+format-online = %{F#FF5A67}<icon-prev> <toggle> <icon-next>%{F-} <icon-repeatone> <label-song> %{F#FF5A67}<label-time>%{F-}
+format-online-background = ${color.module-bg}
+format-offline = <label-offline>
+
+[module/dunst]
+type = custom/script
+inherit = generic-format-style
+exec = $HOME/.bin/dunst.sh
+tail = true
+click-left = "kill -USR1 %pid%"
+
+[module/volume]
+type = internal/pulseaudio
+
+; Not muted
+format-volume = <ramp-volume><bar-volume>
+format-volume-background = ${color.module-bg}
+format-volume-padding = ${layout.module-padding}
+
+ramp-volume-font = ${layout.icon-font}
+ramp-volume-foreground = ${color.icon-fg}
+ramp-volume-padding-right = ${layout.icon-padding}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+; Bar
+bar-volume-format = ${layout.bar-format}
+bar-volume-foreground-0 = ${color.bar-fg}
+
+bar-volume-width = 6
+bar-volume-fill = ${layout.bar-fill-icon}
+bar-volume-indicator =
+bar-volume-empty = ${layout.bar-fill-icon}
+
+; Muted
+format-muted-background = ${color.module-bg}
+format-muted-foreground = ${xcolor.color3}
+format-muted-padding = ${layout.module-padding}
+
+format-muted-prefix = 
+format-muted-prefix-font = ${layout.icon-font}
+format-muted-prefix-foreground = ${color.icon-fg}
+format-muted-prefix-padding-right = ${layout.icon-padding}
+
+label-muted = " "  
+
+
+;  __
+; |__)_     _  _
+; |  (_)\|/(/_|
+;
+
+[module/battery]
+type = internal/battery
+
+battery = BAT0
+adapter = AC
+full-at = 100
+
+; Discharging
+format-discharging-prefix = 
+format-discharging-prefix-foreground = ${color.icon-fg}
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-background = ${color.module-bg}
+format-discharging-padding = ${layout.module-padding}
+
+label-discharging = %percentage%%
+
+; Charging
+format-charging-prefix =
+format-charging-prefix-foreground = ${color.icon-fg}
+format-charging = <animation-charging> <label-charging>%{F#a54242}%{T7}%{T-}%{F-}
+format-charging-background = ${color.module-bg}
+format-charging-padding = 1
+
+label-charging = ${self.label-discharging}
+
+; Full
+format-full = <ramp-capacity> <label-full>%{F#a54242}%{T7}%{T-}%{F-}
+label-full = ${self.label-discharging}
+format-full-background = ${color.module-bg}
+format-full-padding = 1
+
+ramp-capacity-foreground = ${color.icon-fg}
+ramp-capacity-0 = "%{T7}%{T-}"
+ramp-capacity-1 = "%{T7}%{T-}"
+ramp-capacity-2 = "%{T7}%{T-}"
+ramp-capacity-3 = "%{T7}%{T-}"
+ramp-capacity-4 = "%{T7}%{T-}"
+
+animation-charging-foreground = ${color.icon-fg}
+animation-charging-0 = "%{T7}%{T-}"
+animation-charging-1 = "%{T7}%{T-}"
+animation-charging-2 = "%{T7}%{T-}"
+animation-charging-3 = "%{T7}%{T-}"
+animation-charging-4 = "%{T7}%{T-}"
+animation-charging-5 = "%{T7}%{T-}"
+animation-charging-framerate = 900
+
+[module/wattage]
+inherit = module/battery
+
+; Discharging
+format-discharging = <label-discharging>
+
+format-discharging-prefix = 
+format-discharging-prefix-font = ${layout.icon-font}
+format-discharging-prefix-foreground = ${color.icon-fg}
+format-discharging-prefix-padding-right = ${layout.icon-padding}
+
+label-discharging = -%consumption:0:4% W
+
+; Charging
+format-charging = <label-charging>
+
+format-charging-prefix = ${self.format-discharging-prefix}
+format-charging-prefix-font = ${layout.icon-font}
+format-charging-prefix-foreground = ${color.icon-fg}
+format-charging-prefix-padding-right = ${layout.icon-padding}
+
+label-charging = +%consumption:0:4% W
+
+; Full
+format-full =
+
+
+;  __         __
+; |__) _  _  (_  _ _|__|_. _  _  _
+; |__)(_||   __)(/_ |  | || |(_|_)
+;                             _|
+
+[settings]
+; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
+screenchange-reload = true
+format-spacing = 0
+
+throttle-output = 5
+throttle-output-for = 10
+
+; vim:filetype=dosini
+; kak:filetype=ini
+

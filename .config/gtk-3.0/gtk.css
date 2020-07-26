@@ -1,7 +1,7 @@
 VteTerminal,
 TerminalScreen,
 vte-terminal {
-    padding: 15px;
+    padding: 25px 25px 24px 28px;
 }
 /* shrink headerbars (don't forget semicolons after each property) */
 headerbar {

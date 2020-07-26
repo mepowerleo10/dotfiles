@@ -44,7 +44,9 @@ bindsym $mod+Shift+x exec --no-startup-id betterlockscreen --lock dimblur
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/themes/nordic.rasi
-bindsym $mod+d exec jgmenu
+#bindsym $mod+d exec jgmenu
+bindsym $mod+d exec j4-dmenu-desktop
+bindsym $mod+Shift+d exec dmenu_run
 
 # change focused window:
 bindsym $mod+Left focus left
@@ -156,7 +158,7 @@ workspace_auto_back_and_forth yes
 # Variables
 set $picom picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 5 -m 0.88 --focus-exclude "x = 0 && y = 0 && override_redirect = true"
 set $flashfocus flashfocus
-set $polybar ~/.config/polybar/launch_polybar
+set $polybar ~/.config/polybar/dark-metal/launch_polybar
 set $udiskie udiskie -ant
 set $pasystray pasystray
 set $dunst dunst
@@ -172,8 +174,10 @@ set $roficalc rofi -show calc -modi calc -no-show-match -no-sort -calc-command "
 # Custom Key Bindings
 bindsym $mod+q exec --no-startup-id flash_window
 bindsym $mod+Print exec --no-startup-id flameshot gui -p ~/Pictures/Captures
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -3%
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +3%
+#bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -3%
+#bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +3%
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
 #bindsym XF86Explorer exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+i exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+t exec --no-startup-id ~/.bin/roficlip.sh
@@ -212,6 +216,7 @@ exec_always --no-startup-id killall blueman-applet; blueman-applet
 exec_always --no-startup-id killall clipster; $clipster
 exec_always --no-startup-id redshift -P
 exec_always --no-startup-id killall fusuma; fusuma
+exec_always --no-startup-id light -N 20
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
@@ -237,6 +242,20 @@ floating_maximum_size $max_float_size
 # windows special selections
 for_window [instance="Kunst"] floating enable
 for_window [class="mpv"] floating enable
-for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3"] floating enable
+for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop"] floating enable
+for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Dragon-drag-and-drop|Soffice"] move position center
 for_window [class="Blueman-*|Pavu*|Nm-connection*|Dragon-drag-and-drop"] sticky enable
 for_window [title="uGet - New Download"] sticky enable
+for_window [class="TelegramDesktop" floating] resize set 697 505
+for_window [class="mpv" floating] resize set 867 505
+for_window [class="mpv|firefox"] move position center
+
+# Colors configuration
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff

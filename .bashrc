@@ -21,14 +21,15 @@ esac
 
 source /usr/share/bash-completion/completions/yay
 source $HOME/.bash_completion
+source $HOME/.bin/fzf-scripts.sh
 
 export FZF_DEFAULT_OPTS='
   --prompt="› "
   --pointer="› "
 '
 
-source $HOME/.bin/fzf-tab-completion.sh
-bind -x '"\t": fzf_bash_completion'
+#source $HOME/.bin/fzf-tab-completion.sh
+#bind -x '"\t": fzf_bash_completion'
 
 # my export variables, and paths
 export VISUAL="vim"
@@ -90,21 +91,6 @@ set_prompt() {
 
 PROMPT_COMMAND=set_prompt
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
-        . "/opt/anaconda/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/anaconda/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # The size of the album art to be displayed
 export KUNST_SIZE="250x250"
 
@@ -113,6 +99,15 @@ export KUNST_POSITION="+0+0"
 
 # Where your music is located
 export KUNST_MUSIC_DIR='/mnt/local-data/Media/Music/'
+
+# man-pages coloring
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 PATH="/home/mepowerleo10/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/mepowerleo10/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -132,3 +127,5 @@ man() {
     env MANWIDTH=$width \
     man "$@"
 }
+
+source /home/mepowerleo10/.config/broot/launcher/bash/br

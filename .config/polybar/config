@@ -26,8 +26,8 @@ color8 = ${xrdb:color8:#373b41}
 
 [color]
 base-bg     = #8c0a0a0a
-glyph-bg    = #de0a0a0a
-module-bg   = #f00a0a0a
+glyph-bg    = #de0d0d0d
+module-bg   = #f00d0d0d
 selected-bg = #dc1a1a1a
 
 text-fg = #c8c8c8
@@ -87,6 +87,10 @@ font-4 = mplus Nerd Font:style=Medium:size=7;3
 ; Twemoji font for emojis in the network
 font-5 = Twemoji:style=Regular:scale=7;3
 
+; icomoon-steady font for power icons
+font-6 = icomoon\-steady:style=Medium:size=9;3
+font-7 = icomoon\-steady:style=Medium:size=9;3
+
 ; ___        __
 ;  | _  _   |__) _  _
 ;  |(_)|_)  |__)(_||
@@ -96,11 +100,9 @@ font-5 = Twemoji:style=Regular:scale=7;3
 inherit = bar/base
 
 modules-left = xwindow wallpaper right-end-top left-end-bottom i3 right-end-top
-modules-right = left-end-top wlan eth date right-end-bottom left-end-top
+modules-right = left-end-top wlan eth date right-end-bottom left-end-top temp battery
 
-tray-background = ${color.module-bg}
-tray-padding = ${layout.module-padding}
-tray-position = right
+tray-position = 
 
 
 [bar/top-secondary]
@@ -119,8 +121,11 @@ inherit = bar/base
 bottom = true
 
 modules-left = volume now-playing right-end-bottom left-end-top ping dunst right-end-bottom
-modules-right = left-end-bottom cpu memory right-end-top left-end-bottom temp battery
+modules-right = left-end-bottom cpu memory right-end-top left-end-bottom
 
+tray-background = ${color.module-bg}
+tray-padding = ${layout.module-padding}
+tray-position = right
 
 [bar/bottom-secondary]
 inherit = bar/bottom-primary
@@ -386,12 +391,12 @@ inherit = generic-format-style
 interval = 1
 
 date =
-date-alt = %{T2}%{F#a54242}%{F-}%{T-} %A, %d %B %Y ·
+date-alt = %{T8}%{F#a54242}%{F-}%{T-} %A, %d %B %Y ·
 
 time = %H:%M
 time-alt = %H:%M:%S
 
-label = %date% %{T2}%{F#a54242}%{F-}%{T-} %time%
+label = %date% %{T8}%{F#a54242}%{F-}%{T-} %time%
 
 
 ;
@@ -500,22 +505,44 @@ adapter = AC
 full-at = 100
 
 ; Discharging
-format-discharging-prefix = " " 
+format-discharging-prefix = 
 format-discharging-prefix-foreground = ${color.icon-fg}
-format-discharging = <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-background = ${color.module-bg}
 format-discharging-padding = ${layout.module-padding}
 
 label-discharging = %percentage%%
 
 ; Charging
-format-charging-prefix = " "
+format-charging-prefix =
 format-charging-prefix-foreground = ${color.icon-fg}
-format-charging = <label-charging>
+format-charging = <animation-charging> <label-charging>%{F#a54242}%{T7}%{T-}%{F-}
 format-charging-background = ${color.module-bg}
-format-charging-padding = ${layout.module-padding}
+format-charging-padding = 1
 
 label-charging = ${self.label-discharging}
+
+; Full
+format-full = <ramp-capacity> <label-full>%{F#a54242}%{T7}%{T-}%{F-}
+label-full = ${self.label-discharging}
+format-full-background = ${color.module-bg}
+format-full-padding = 1
+
+ramp-capacity-foreground = ${color.icon-fg}
+ramp-capacity-0 = "%{T7}%{T-}"
+ramp-capacity-1 = "%{T7}%{T-}"
+ramp-capacity-2 = "%{T7}%{T-}"
+ramp-capacity-3 = "%{T7}%{T-}"
+ramp-capacity-4 = "%{T7}%{T-}"
+
+animation-charging-foreground = ${color.icon-fg}
+animation-charging-0 = "%{T7}%{T-}"
+animation-charging-1 = "%{T7}%{T-}"
+animation-charging-2 = "%{T7}%{T-}"
+animation-charging-3 = "%{T7}%{T-}"
+animation-charging-4 = "%{T7}%{T-}"
+animation-charging-5 = "%{T7}%{T-}"
+animation-charging-framerate = 900
 
 [module/wattage]
 inherit = module/battery
