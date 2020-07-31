@@ -46,25 +46,29 @@
 		{
 			"info": {
 				"relation": {
-					"group": 72,
+					"group": 33,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 1620963,
-					"total": 1620963,
-					"elapsed": 41,
+					"complete": 0,
+					"total": 0,
+					"elapsed": 1440,
 					"uploaded": 0,
-					"percent": 100
+					"percent": 0
 				},
 				"log": {
-					"added-time": 1595012019,
-					"completed-time": 1595012061,
+					"added-time": 1595872490,
+					"completed-time": 0,
 					"messages": [
+						{
+							"string": "aria2: HTTP response header was bad or unexpected.",
+							"type": 3,
+							"time": 1595873930
+						}
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/github.com\/GNOME\/gnome-keyring\/releases",
-					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/6C5C3BBD.cookie",
+					"referrer": "https:\/\/picster.itch.io\/bottomless?download",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -72,15 +76,15 @@
 					"type": 0
 				},
 				"common": {
-					"name": "gnome-keyring-3.36.0.zip",
-					"uri": "https:\/\/github.com\/GNOME\/gnome-keyring\/archive\/3.36.0.zip",
-					"file": "gnome-keyring-3.36.0.zip",
+					"name": "bottomless-linux.zip",
+					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/593714\/2097875?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1595872503&Signature=TJdouYXaNooe86pRODcZ0Klnh%2F%2FhA6jhnrUmoSF%2BNuDfCtqu70n2%2F1%2B%2FxE1Tw%2BMTNmSaIn6vopTSYdQeOpkhjA2XGEVCewUwohp4nQBjExxYRhlYwsnBEJZ0GCJqpa%2Bxb1VkUJgLMfGImAkaQFbJGva%2FM5h3vCK4BWnz7%2BNJ8iLwKeQrfNEzHUD4gvc3eyeRVkQiErEQGLU9WFHvx8e0NwBN5btiJClAj2lp%2FLPdvHz9TYMhwpXeEOA0Q9eMNdDB62yBgrhaDNyjz5aZ0%2Bx0LeTn1buS%2FbCpTnLk5WGt8KJaB2%2Fl%2F8cRnG3DBEK2BFurKws1WopXItH018WbrKBbQQ==&hwexp=1595872763&hwsig=e61c751759770002ebb9c80a6e4d567a",
+					"file": "bottomless-linux.zip",
 					"folder": "\/home\/mepowerleo10\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
 					"retry-limit": 99,
-					"retry-count": 0,
+					"retry-count": 1,
 					"max-connections": 16,
 					"max-upload-speed": 0,
 					"max-download-speed": 0,
@@ -89,14 +93,14 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/gnome-keyring-3.36.0.zip",
+							"path": "\/home\/mepowerleo10\/Downloads\/bottomless-linux.zip",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/gnome-keyring-3.36.0.zip.aria2",
+							"path": "\/home\/mepowerleo10\/Downloads\/bottomless-linux.zip.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,

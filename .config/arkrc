@@ -1,9 +1,9 @@
 [ExtractDialog]
-DirHistory[$e]=/mnt/local-data/Media/Movies/Queen & Slim (2019) [720p] [BluRay] [YTS.MX]/
+DirHistory[$e]=/mnt/local-data/Media/Movies/Inn/,/mnt/local-data/Media/Movies/Queen & Slim (2019) [720p] [BluRay] [YTS.MX]/
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:$HOME
-Recent URLs[$e]=file:///mnt/local-data/Media/Movies/Queen & Slim (2019) [720p] [BluRay] [YTS.MX]/
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:///mnt/local-data/Media/Movies/Inn/
 detailViewIconSize=0
 
 [MainWindow]

@@ -13,6 +13,8 @@
 !.gitignore
 !.gitconfig
 !README.md
+!.zshrc
+!.oh-my-zsh
 
 !/.config/
 **/logs

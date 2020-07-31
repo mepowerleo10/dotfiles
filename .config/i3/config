@@ -232,6 +232,7 @@ assign [class="TelegramDesktop"] $ws5
 assign [class="Mailspring"] $ws7
 assign [class="Uget-gtk"] $ws8
 assign [class="jetbrains-studio"] $ws10
+assign [class="discord"] $ws10
 assign [instance="Kunst"] $ws6
 assign [instance="ncmpcpp"] $ws6
 #assign [name="cava"] $ws10
