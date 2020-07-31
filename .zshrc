@@ -101,3 +101,5 @@ source $ZSH/oh-my-zsh.sh
 
 # global_commands
 source $HOME/.bin/global_commands.sh
+
+precmd() { precmd() { print "" }}
