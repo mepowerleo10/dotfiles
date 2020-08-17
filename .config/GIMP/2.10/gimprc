@@ -2,16 +2,20 @@
 # 
 # This is your personal gimprc file.  Any variable defined in this file takes
 # precedence over the value defined in the system-wide gimprc:
-# /etc/gimp/2.0/gimprc
+# /usr/local/etc/gimp/2.0/gimprc
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
+(language "kiswahilitz")
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
+(check-update-timestamp 1596967453)
+(last-release-timestamp 1591488000)
 (monitor-xresolution 112)
 (monitor-yresolution 115)
 (theme "System")
 (icon-theme "Color")
 (icon-size small)
+(user-manual-online yes)
 (layer-new-name "New Rules BG")
 (layer-add-mask-type black)
 (fill-options

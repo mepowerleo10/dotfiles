@@ -19,7 +19,7 @@ function notify {
 		convert "$src" -resize 48x48 "$COVER"
 		notify-send -u normal -i "$COVER" "$title" "$artist • <i>$album</i>"
 	else
-		notify-send -u normal "$title" "$artist • <i>$album</i>"
+		notify-send -u normal "$title" "$artist • <i>$album</i>" -i '/usr/share/icons/Papirus/48x48/categories/alsamixergui.svg' 
 	fi
 }
 

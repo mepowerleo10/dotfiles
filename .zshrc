@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+ZSH_DISABLE_COMPFIX=true
 export ZSH="/home/mepowerleo10/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -70,6 +71,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+plugins=(auto-notify $plugins)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -101,5 +104,36 @@ source $ZSH/oh-my-zsh.sh
 
 # global_commands
 source $HOME/.bin/global_commands.sh
+
+# zsh syntax highlighting
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(brackets pattern)
+
+# Declare the variable
+typeset -A ZSH_HIGHLIGHT_PATTERNS
+
+# To have commands starting with `rm -rf` in red:
+ZSH_HIGHLIGHT_PATTERNS+=('rm -rf *' 'fg=red,bold')
+ZSH_HIGHLIGHT_PATTERNS+=('"*"' 'fg=yellow')
+
+typeset -A ZSH_HIGHLIGHT_REGEXP
+ZSH_HIGHLIGHT_REGEXP+=('\bsudo\b' 'fg=red,bold')
+
+char() {
+    if [ "$USER" = "root" ];then
+      char="$fg_bold[yellow]#"
+    else
+      char="➜"
+    fi
+    echo $char
+}
+
+PROMPT="%(?:%{$fg_bold[green]%}$(char) :%{$fg_bold[red]%}$(char) )"
+PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+
+export AUTO_NOTIFY_THRESHOLD=20
+export AUTO_NOTIFY_TITLE="Command finished!"
+export AUTO_NOTIFY_BODY="<i>%command</i> completed in %elapsed seconds with exit code %exit_code"
+AUTO_NOTIFY_IGNORE+=("vi" "ncmpcpp" "kunst" "cava")
 
 precmd() { precmd() { print "" }}

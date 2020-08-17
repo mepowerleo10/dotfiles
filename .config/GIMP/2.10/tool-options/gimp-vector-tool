@@ -5,7 +5,7 @@
 (brush "Sparks")
 (dynamics "Dynamics Off")
 (pattern "Warning!")
-(gradient "Custom")
+(gradient "Standard")
 (palette "Browns And Yellows")
 
 # end of gimp-vector-tool options

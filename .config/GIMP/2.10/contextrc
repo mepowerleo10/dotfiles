@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-text-tool")
 (paint-info "gimp-paintbrush")
 (foreground (color-rgb 1 1 1))
 (background (color-rgb 0 0 0))
@@ -8,7 +8,7 @@
 (dynamics "Dynamics Off")
 (mybrush "100% Opaque")
 (pattern "Warning!")
-(gradient "Custom")
+(gradient "Standard")
 (palette "Browns And Yellows")
 (font "Iosevka Expanded")
 (tool-preset "Core Pointer")

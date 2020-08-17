@@ -1753,6 +1753,9 @@
   <resource identifier="Fira Sans weight=950 Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="FontAwesome" checksum="(null)">
+  </resource>
+
   <resource identifier="FreeMono" checksum="(null)">
   </resource>
 
@@ -2446,7 +2449,13 @@
   <resource identifier="IBM Plex Serif weight=450 Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="icomoon" checksum="(null)">
+  </resource>
+
   <resource identifier="icomoon-feather" checksum="(null)">
+  </resource>
+
+  <resource identifier="icomoon-steady" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka" checksum="(null)">
@@ -4222,6 +4231,9 @@
   <resource identifier="Noto Serif Tibetan Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="octicons Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="P052" checksum="(null)">
   </resource>
 
@@ -4232,6 +4244,9 @@
   </resource>
 
   <resource identifier="P052 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Pomodoro" checksum="(null)">
   </resource>
 
   <resource identifier="PowerlineSymbols Medium" checksum="(null)">

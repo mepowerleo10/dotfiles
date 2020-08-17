@@ -1,4 +1,28 @@
 # recently closed docks
 
+(GimpSessionInfo "Toolbox - Tool Options, Devices, Undo, Images"
+    (factory-entry "gimp-toolbox-window")
+    (position 583 123)
+    (size 204 505)
+    (open-on-exit)
+    (gimp-toolbox
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-device-status"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-undo-history"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-image-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))))
 
 # end of recently closed docks

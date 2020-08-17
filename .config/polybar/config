@@ -85,11 +85,13 @@ font-3 = mplus Nerd Font:style=Medium:size=6;3
 font-4 = mplus Nerd Font:style=Medium:size=7;3
 
 ; Twemoji font for emojis in the network
-font-5 = Twemoji:style=Regular:scale=7;3
+font-5 = Twemoji:style=Regular:scale=8;3
 
 ; icomoon-steady font for power icons
 font-6 = icomoon\-steady:style=Medium:size=9;3
 font-7 = icomoon\-steady:style=Medium:size=9;3
+
+font-8 = Weather Icons:style=Medium:size=9;3
 
 ; ___        __
 ;  | _  _   |__) _  _
@@ -120,7 +122,7 @@ tray-position =
 inherit = bar/base
 bottom = true
 
-modules-left = volume now-playing right-end-bottom left-end-top ping dunst right-end-bottom
+modules-left = volume now-playing right-end-bottom left-end-top ping dunst weather right-end-bottom
 modules-right = left-end-bottom cpu memory right-end-top left-end-bottom
 
 tray-background = ${color.module-bg}
@@ -301,6 +303,12 @@ format-warn-prefix-padding-right = ${layout.icon-padding}
 label-warn = ${self.label}
 label-warn-foreground = ${color.red}
 
+[module/weather]
+type = custom/script
+inherit = generic-format-style
+exec = $HOME/.bin/polybar-forecast
+exec-if = ping openweathermap.org -c 1
+interval = 600
 
 [module/xkeyboard]
 type = internal/xkeyboard

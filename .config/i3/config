@@ -182,7 +182,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
 bindsym $mod+i exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+t exec --no-startup-id ~/.bin/roficlip.sh
 bindsym $mod+n exec --no-startup-id mpc next
-bindsym $mod+p exec --no-startup-id mpc prev
+bindsym $mod+b exec --no-startup-id mpc prev
 bindsym $mod+m exec --no-startup-id mpc toggle
 bindsym $mod+Shift+m exec --no-startup-id mpc stop
 bindsym $mod+c exec --no-startup-id $roficalc
@@ -217,11 +217,12 @@ exec_always --no-startup-id killall clipster; $clipster
 exec_always --no-startup-id redshift -P
 exec_always --no-startup-id killall fusuma; fusuma
 exec_always --no-startup-id light -N 20
+exec_always --no-startup-id /home/mepowerleo10/.bin/pulse-audio-watcher.py | xob
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
 exec --no-startup-id i3-resurrect restore -w 6
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 #exec --no-startup-id "i3-msg 'workspace 6; append_layout .config/i3/workspace-6.json'"
 
 # Stick Windows to specific workspaces

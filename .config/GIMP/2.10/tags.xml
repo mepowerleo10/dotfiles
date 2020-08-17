@@ -955,10 +955,10 @@
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
   </resource>
 
-  <resource identifier="gimp-gradient-fg-bg-hsv-cw" checksum="86589f70c8a7777c6e2d1d14b99e3759">
+  <resource identifier="gimp-gradient-fg-bg-hsv-ccw" checksum="65aacbbd72d99ff20ca1bd310f0a21a5">
   </resource>
 
-  <resource identifier="gimp-gradient-fg-bg-hsv-ccw" checksum="65aacbbd72d99ff20ca1bd310f0a21a5">
+  <resource identifier="gimp-gradient-fg-bg-hsv-cw" checksum="86589f70c8a7777c6e2d1d14b99e3759">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb" checksum="4a878c6cfae0b0e03c0834723daadf92">
@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="0d50489faf5f2a9d3344c0e89fdfb332">
+  <resource identifier="gimp-palette-color-history" checksum="6ea6106d1e5d9527a5613bae8c338aa5">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1247,9 +1247,6 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Lights.gpl" checksum="3483aee51ec01db06b41463903da53f9">
-  </resource>
-
-  <resource identifier="${gimp_data_dir}/palettes/Linux.gpl" checksum="0e7549f6e63ef2b1de3f537cc7da022b">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Muted.gpl" checksum="24bc023216795f2eb722546696d3082d">
@@ -1754,6 +1751,9 @@
   </resource>
 
   <resource identifier="Fira Sans weight=950 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FontAwesome" checksum="(null)">
   </resource>
 
   <resource identifier="FreeMono" checksum="(null)">
@@ -2449,7 +2449,13 @@
   <resource identifier="IBM Plex Serif weight=450 Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="icomoon" checksum="(null)">
+  </resource>
+
   <resource identifier="icomoon-feather" checksum="(null)">
+  </resource>
+
+  <resource identifier="icomoon-steady" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka" checksum="(null)">
@@ -4225,6 +4231,9 @@
   <resource identifier="Noto Serif Tibetan Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="octicons Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="P052" checksum="(null)">
   </resource>
 
@@ -4235,6 +4244,9 @@
   </resource>
 
   <resource identifier="P052 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Pomodoro" checksum="(null)">
   </resource>
 
   <resource identifier="PowerlineSymbols Medium" checksum="(null)">
@@ -4559,6 +4571,9 @@
   </resource>
 
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Weather Icons" checksum="(null)">
   </resource>
 
   <resource identifier="Z003 Medium Italic" checksum="(null)">
