@@ -1,9 +1,9 @@
-sw_volume: 95
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 7
-time: 77.849000
+state: play
+current: 6
+time: 6.124000
 random: 0
 repeat: 0
 single: 0
@@ -12,91 +12,51 @@ crossfade: 2
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:other/1. Harry Styles - Adore You (128).mp3
-1:Sia - Essentials/This Is Acting (Deluxe Version) CD 1 TRACK 19 (128).mp3
-2:other/1. Khalid, Normani - Love Lies (128).mp3
-3:other/1. Everybody Loves an Outlaw - I See Red (128).mp3
-4:other/No.6 Collaborations Project CD 1 TRACK 10 (128).mp3
-5:other/Phosphorescent - Song For Zula (128).mp3
-6:other/18 Months CD 1 TRACK 8 (128).mp3
-7:other/Runaway (U   I) CD 1 TRACK 1 (128).mp3
-8:other/It Ain t Me CD 1 TRACK 1 (128).mp3
-9:other/Memories...Do Not Open CD 1 TRACK 9 (128).mp3
-10:other/Lukas Graham CD 1 TRACK 1 (128).mp3
-11:other/World War Joy...Takeaway CD 1 TRACK 3 (128).mp3
-12:other/Sincerely, Tokyo CD 1 TRACK 10 (128).mp3
-13:other/1. The Chainsmokers - Paris (128).mp3
-14:other/Sick Boy CD 1 TRACK 3 (128).mp3
-15:other/Silence CD 1 TRACK 1 (128).mp3
-16:Sia - Essentials/Cheap Thrills CD 1 TRACK 1 (128) (2).mp3
-17:Sia - Essentials/This Is Acting (Deluxe Version) CD 1 TRACK 5 (128).mp3
-18:Sia - Essentials/1000 Forms Of Fear CD 1 TRACK 1 (128).mp3
-19:other/The Hobbit - The Desolation Of Smaug CD 1 TRACK 28 (128).mp3
-20:The xx - xx [2009]/xx CD 1 TRACK 1 (128).mp3
-21:other/Be Honest (feat. Burna Boy) CD 1 TRACK 1 (128).mp3
-22:Spider-Man, Into the Spider-Verse Soundtrack [2019]/Spider-Man Into the Spider-Verse (Soundtrack From   Inspired (2).mp3
-23:other/Mirrors (Radio Edit) CD 1 TRACK 1 (128).mp3
-24:other/Scared to Be Lonely CD 1 TRACK 1 (128).mp3
-25:other/1. Calvin Harris, Ellie Goulding - Outside (128).mp3
-26:other/105 dark jungle.mp3
-27:other/Symphony (feat. Zara Larsson) CD 1 TRACK 1 (128).mp3
-28:other/Sound CD 1 TRACK 1 (128).mp3
-29:other/102 main title (extended version).mp3
-30:The xx - I See You (Deluxe) [2017]/The xx - Dangerous (128).mp3
-31:other/(What s The Story) Morning Glory (Remastered) CD 1 TRACK 3 (.mp3
-32:other/Led Zeppelin IV (Deluxe Edition) CD 1 TRACK 4 (128).mp3
-33:other/1. Purple Disco Machine, Sophie and the Giants - Hypnotized.mp3
-34:other/1. Kate Boy - Northern Lights (128).mp3
-35:other/Rebecca Ferguson - Heroes (Film Mix).mp3
-36:other/In A Perfect World... CD 1 TRACK 5 (128).mp3
-37:other/Let You Know CD 1 TRACK 1 (128).mp3
-38:other/Stole the Show CD 1 TRACK 1 (128).mp3
-39:other/Waves (Robin Schulz Radio Edit) CD 1 TRACK 1 (128).mp3
-40:other/IMANY - Don t Be so Shy (Filatov   Karas Remix) (128).mp3
-41:other/Starboy CD 1 TRACK 1 (128).mp3
-42:other/1. Kygo, Whitney Houston - Higher Love (128).mp3
-43:other/Lost Boy CD 1 TRACK 1 (128).mp3
-44:other/Sweet Nothing CD 1 TRACK 1 (128).mp3
-45:other/Starboy CD 1 TRACK 18 (128).mp3
-46:other/American Teen CD 1 TRACK 2 (128).mp3
-47:other/1. Rick and Morty, Kotomi, Ryan Elder - Don t Look Back (fea.mp3
-48:other/2. Billie Eilish - bad guy (128).mp3
-49:other/Know Your Worth CD 1 TRACK 1 (128).mp3
-50:other/Ctrl CD 1 TRACK 6 (128).mp3
-51:other/1. Billie Eilish, Khalid - lovely (128).mp3
-52:other/1. Billie Eilish - everything i wanted (128).mp3
-53:other/My Way CD 1 TRACK 1 (128).mp3
-54:other/Men s Health Beach Body Workout CD 1 TRACK 7 (128).mp3
-55:other/Bones (feat. OneRepublic) CD 1 TRACK 1 (128).mp3
-56:other/Lost Frequencies, Zonderling, Kelvin Jones - Love To Go (128.mp3
-57:other/World War Joy...Takeaway CD 1 TRACK 2 (128).mp3
-58:Sia - Essentials/1000 Forms Of Fear CD 1 TRACK 8 (128).mp3
-59:Drake - More Life [2017]/More Life CD 1 TRACK 16 (128).mp3
-60:The xx - I See You (Deluxe) [2017]/The xx - A Violent Noise (128).mp3
-61:Drake - More Life [2017]/More Life CD 1 TRACK 22 (128).mp3
-62:other/Memories...Do Not Open CD 1 TRACK 6 (128).mp3
-63:other/THE NIGHTDAY CD 1 TRACK 2 (128).mp3
-64:other/World War Joy...Takeaway CD 1 TRACK 4 (128).mp3
-65:other/You Belong Here CD 1 TRACK 4 (128).mp3
-66:Drake - More Life [2017]/More Life CD 1 TRACK 14 (128).mp3
-67:other/Location CD 1 TRACK 1 (128).mp3
-68:other/104 jungle exploration.mp3
-69:other/Alicia Keys ft. Kendrick Lamar - It s On Again.mp3
-70:Drake - More Life [2017]/More Life CD 1 TRACK 5 (128).mp3
-71:other/Dancing With A Stranger CD 1 TRACK 1 (128).mp3
-72:other/World War Joy CD 1 TRACK 4 (128).mp3
-73:other/Mahmut Orhan, Sena Sener - Feel (Radio Edit) (128).mp3
-74:Drake - More Life [2017]/More Life CD 1 TRACK 17 (128).mp3
-75:NF - The Goodies/The Search CD 1 TRACK 6 (320).mp3
-76:other/Memories...Do Not Open CD 1 TRACK 7 (128).mp3
-77:IMAGINE DRAGONS - DISCOGRAPHY [2009-15] [CHANNEL NEO]/[2012] Continued Silence [EP]/02 - Demons.mp3
-78:London Grammar - If You Wait [2014]/If You Wait (Deluxe) CD 1 TRACK 2 (128).mp3
-79:Major Lazer - Major Lazer Essentials [2018]/Major Lazer Essentials CD 1 TRACK 1 (128).mp3
-80:IMAGINE DRAGONS - DISCOGRAPHY [2009-15] [CHANNEL NEO]/[2012] Continued Silence [EP]/05 - It's Time.mp3
-81:London Grammar - Truth Is A Beautiful Thing [2017]/Truth Is A Beautiful Thing (Deluxe) CD 1 TRACK 7 (128).mp3
-82:FIFA 15 Soundtrack/Jungle CD 1 TRACK 3 (128).mp3
-83:IMAGINE DRAGONS - DISCOGRAPHY [2009-15] [CHANNEL NEO]/[2014] Night Visions Live/09 - Demons.mp3
-84:Major Lazer - Major Lazer Essentials [2018]/Cold Water (feat. Justin Bieber   MØ) CD 1 TRACK 1 (128).mp3
-85:London Grammar - If You Wait [2014]/If You Wait (Deluxe) CD 1 TRACK 3 (128).mp3
-86:Major Lazer - Major Lazer Essentials [2018]/Peace Is the Mission CD 1 TRACK 1 (128).mp3
+0:FIFA 13 Soundtrack/1. Jagwar Ma - What Love (128).mp3
+1:FIFA 13 Soundtrack/Royal CD 1 TRACK 6 (128).mp3
+2:FIFA 13 Soundtrack/1. Duologue - Get out While You Can (128).mp3
+3:FIFA 13 Soundtrack/1. Jonathan Boulet - You re A Animal (128).mp3
+4:FIFA 13 Soundtrack/10. Reptar - Sweet Sipping Soda (128).mp3
+5:FIFA 13 Soundtrack/5. Astro - Panda (128).mp3
+6:FIFA 13 Soundtrack/2. The Presets - Ghosts (128).mp3
+7:FIFA 13 Soundtrack/3. Metric - Speed the Collapse (128).mp3
+8:FIFA 13 Soundtrack/Bad Blood CD 1 TRACK 6 (128).mp3
+9:FIFA 13 Soundtrack/Mit K CD 1 TRACK 1 (128).mp3
+10:FIFA 13 Soundtrack/Night Visions CD 1 TRACK 5 (128).mp3
+11:FIFA 13 Soundtrack/1. Featurecast, Pugs Atomz, Ill Legit - Got That Fire (Oh La.mp3
+12:FIFA 13 Soundtrack/Finale CD 1 TRACK 1 (128).mp3
+13:FIFA 13 Soundtrack/Youngblood Hawke (EP) CD 1 TRACK 1 (128).mp3
+14:FIFA 13 Soundtrack/Walk The Moon CD 1 TRACK 1 (128).mp3
+15:FIFA 13 Soundtrack/1. Young Empires - Rain Of Gold (128).mp3
+16:FIFA 13 Soundtrack/3. Matisyahu - Searchin (128).mp3
+17:FIFA 13 Soundtrack/Fly or Die CD 1 TRACK 1 (128).mp3
+18:FIFA 13 Soundtrack/Kasabian CD 1 TRACK 1 (128).mp3
+19:FIFA 13 Soundtrack/12. Bloc Party - We Are Not Good People (128).mp3
+20:FIFA 13 Soundtrack/2. Atlas Genius - If So (128).mp3
+21:FIFA 13 Soundtrack/2. Django Django - Hail Bop (128).mp3
+22:FIFA 13 Soundtrack/2. Passion Pit - I ll Be Alright (Album Version) (128).mp3
+23:FIFA 13 Soundtrack/1. Ashtar Command - Mark IV with Joshua Radin (From Fifa13).mp3
+24:FIFA 13 Soundtrack/3. Hadouken! - Bliss Out (128).mp3
+25:FIFA 13 Soundtrack/Cut It Out EP CD 1 TRACK 3 (128).mp3
+26:FIFA 13 Soundtrack/1. Elliphant, Adam Kanyama - TeKKno Scene (128).mp3
+27:FIFA 13 Soundtrack/12. Foreign Beggars, BARE NOIZE - See the Light (128).mp3
+28:FIFA 13 Soundtrack/2. Zemaria - Past 2 (128).mp3
+29:FIFA 13 Soundtrack/1. The Enemy - Saturday (128).mp3
+30:FIFA 13 Soundtrack/The Glorious Dead CD 1 TRACK 9 (128).mp3
+31:FIFA 13 Soundtrack/Glow CD 1 TRACK 3 (128).mp3
+32:FIFA 13 Soundtrack/11. Santigold - Big Mouth (128).mp3
+33:FIFA 13 Soundtrack/Album Title Goes Here  CD 1 TRACK 5 (128).mp3
+34:FIFA 13 Soundtrack/1. St. Lucia - September (128).mp3
+35:FIFA 13 Soundtrack/Animal Kingdom - Get Away With It (128).mp3
+36:FIFA 13 Soundtrack/1. Ladyhawke - Black White   Blue (128).mp3
+37:FIFA 13 Soundtrack/3. Reverend And The Makers - Shine the Light (128).mp3
+38:FIFA 13 Soundtrack/4. Fitz and The Tantrums - Spark (128).mp3
+39:FIFA 13 Soundtrack/1. The Chevin - Champion (128).mp3
+40:FIFA 13 Soundtrack/Flo Rida - Let It Roll (128).mp3
+41:FIFA 13 Soundtrack/Sleep Alone CD 1 TRACK 1 (128).mp3
+42:FIFA 13 Soundtrack/2. Stepdad - Jungles (128).mp3
+43:FIFA 13 Soundtrack/Mirage Rock CD 1 TRACK 9 (128).mp3
+44:FIFA 13 Soundtrack/Happy to You CD 1 TRACK 10 (128).mp3
+45:FIFA 13 Soundtrack/Vows CD 1 TRACK 8 (128).mp3
+46:FIFA 13 Soundtrack/1. Crystal Fighters - Follow (128).mp3
 playlist_end

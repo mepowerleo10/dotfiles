@@ -53,12 +53,14 @@ bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
+bindsym $mod+Tab focus right
 
 # move focused window:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Tab move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -180,7 +182,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
 #bindsym XF86Explorer exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
 bindsym $mod+i exec --no-startup-id rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"
-bindsym $mod+t exec --no-startup-id ~/.bin/roficlip.sh
+#bindsym $mod+t exec --no-startup-id ~/.bin/roficlip.sh
+bindsym $mod+t exec --no-startup-id copyq toggle
 bindsym $mod+n exec --no-startup-id mpc next
 bindsym $mod+b exec --no-startup-id mpc prev
 bindsym $mod+m exec --no-startup-id mpc toggle
@@ -197,6 +200,7 @@ bindsym $mod+Prior move workspace to output left
 bindsym $mod+Next move workspace to output right
 bindsym $mod+Shift+Prior move workspace to output up
 bindsym $mod+Shift+Next move workspace to output down
+bindsym $mod+o focus output right
 
 # Pactl audio control shortcuts
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -218,6 +222,8 @@ exec_always --no-startup-id redshift -P
 exec_always --no-startup-id killall fusuma; fusuma
 exec_always --no-startup-id light -N 20
 exec_always --no-startup-id /home/mepowerleo10/.bin/pulse-audio-watcher.py | xob
+exec_always --no-startup-id killall power-daemon.sh; /home/mepowerleo10/.bin/power-daemon.sh
+exec_always --no-startup-id pkill copyq; copyq
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
@@ -244,12 +250,12 @@ floating_maximum_size $max_float_size
 # windows special selections
 for_window [instance="Kunst"] floating enable
 for_window [class="mpv"] floating enable
-for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop"] floating enable
+for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Zathura|ranger|feh|copyq"] floating enable
 for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Dragon-drag-and-drop|Soffice"] move position center
 for_window [class="Blueman-*|Pavu*|Nm-connection*|Dragon-drag-and-drop"] sticky enable
 for_window [title="uGet - New Download"] sticky enable
 for_window [class="TelegramDesktop" floating] resize set 697 505
-for_window [class="mpv" floating] resize set 867 505
+for_window [class="mpv|Zathura|ranger" floating] resize set 867 505
 for_window [class="mpv|firefox"] move position center
 
 # Colors configuration

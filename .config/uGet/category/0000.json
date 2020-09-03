@@ -46,29 +46,25 @@
 		{
 			"info": {
 				"relation": {
-					"group": 33,
+					"group": 72,
 					"priority": 1
 				},
 				"progress": {
-					"complete": 0,
-					"total": 0,
-					"elapsed": 1440,
+					"complete": 168839168,
+					"total": 168839168,
+					"elapsed": 91,
 					"uploaded": 0,
-					"percent": 0
+					"percent": 100
 				},
 				"log": {
-					"added-time": 1595872490,
-					"completed-time": 0,
+					"added-time": 1598914129,
+					"completed-time": 1598914221,
 					"messages": [
-						{
-							"string": "aria2: HTTP response header was bad or unexpected.",
-							"type": 3,
-							"time": 1595873930
-						}
 					]
 				},
 				"http": {
-					"referrer": "https:\/\/picster.itch.io\/bottomless?download",
+					"referrer": "http:\/\/sp.lolfile.com\/episodes\/S01\/0101\/movie\/",
+					"cookie-file": "\/home\/mepowerleo10\/.config\/uGet\/attachment\/4CEB0507.cookie",
 					"redirection-limit": 30
 				},
 				"proxy": {
@@ -76,15 +72,15 @@
 					"type": 0
 				},
 				"common": {
-					"name": "bottomless-linux.zip",
-					"uri": "https:\/\/w3g3a5v6.ssl.hwcdn.net\/upload2\/game\/593714\/2097875?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1595872503&Signature=TJdouYXaNooe86pRODcZ0Klnh%2F%2FhA6jhnrUmoSF%2BNuDfCtqu70n2%2F1%2B%2FxE1Tw%2BMTNmSaIn6vopTSYdQeOpkhjA2XGEVCewUwohp4nQBjExxYRhlYwsnBEJZ0GCJqpa%2Bxb1VkUJgLMfGImAkaQFbJGva%2FM5h3vCK4BWnz7%2BNJ8iLwKeQrfNEzHUD4gvc3eyeRVkQiErEQGLU9WFHvx8e0NwBN5btiJClAj2lp%2FLPdvHz9TYMhwpXeEOA0Q9eMNdDB62yBgrhaDNyjz5aZ0%2Bx0LeTn1buS%2FbCpTnLk5WGt8KJaB2%2Fl%2F8cRnG3DBEK2BFurKws1WopXItH018WbrKBbQQ==&hwexp=1595872763&hwsig=e61c751759770002ebb9c80a6e4d567a",
-					"file": "bottomless-linux.zip",
-					"folder": "\/home\/mepowerleo10\/Downloads",
+					"name": "101 - Cartman analis beultetese - DualDub.avi",
+					"uri": "http:\/\/sp.lolfile.com\/episodes\/S01\/0101\/movie\/101%20-%20Cartman%20analis%20beultetese%20-%20DualDub.avi",
+					"file": "101 - Cartman analis beultetese - DualDub.avi",
+					"folder": "\/mnt\/local-data\/Downloads",
 					"connect-timeout": 15,
 					"transmit-timeout": 30,
 					"retry-delay": 6,
 					"retry-limit": 99,
-					"retry-count": 1,
+					"retry-count": 0,
 					"max-connections": 16,
 					"max-upload-speed": 0,
 					"max-download-speed": 0,
@@ -93,14 +89,14 @@
 				"files": {
 					"list": [
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/bottomless-linux.zip",
+							"path": "\/mnt\/local-data\/Downloads\/101 - Cartman analis beultetese - DualDub.avi",
 							"type": 0,
 							"state": 0,
 							"total": 0,
 							"complete": 0
 						},
 						{
-							"path": "\/home\/mepowerleo10\/Downloads\/bottomless-linux.zip.aria2",
+							"path": "\/mnt\/local-data\/Downloads\/101 - Cartman analis beultetese - DualDub.avi.aria2",
 							"type": 3,
 							"state": 0,
 							"total": 0,

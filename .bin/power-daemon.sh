@@ -16,10 +16,10 @@ checkstatus()
     BAT=$(cat /sys/class/power_supply/BAT0/capacity)
     
     # Is there a second battery?
-    if [ -d /sys/class/power_supply/BAT1 ];then
-        BAT1=$(cat /sys/class/power_supply/BAT1/capacity)
-        BAT=$((($BAT + $BAT1) / 2))
-    fi
+    #if [ -d /sys/class/power_supply/BAT1 ];then
+    #    BAT1=$(cat /sys/class/power_supply/BAT1/capacity)
+    #    BAT=$((($BAT + $BAT1) / 2))
+    #fi
     
     # the adapter is not connected
     if [ $AC  -lt 1 ];then
@@ -63,7 +63,7 @@ checkstatus()
         elif [ $BAT -lt 10 ] && [ $BAT -gt 5 ];then
             t=1
         elif [ $BAT -gt 98 ];then
-            [ $f -eq 1] &&  {
+            [ $f -eq 1 ] &&  {
                 notify-send -a "$appname" -u critical "Battery Fully Charged! ($BAT%)" "Battery full, please unplug power adapter"
                 f=1
         }

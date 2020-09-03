@@ -28,21 +28,22 @@ audio_output {
 allow_for_physical_item_deletion = yes
 
 ## Visualizer
-visualizer_fifo_path = /tmp/mpd.fifo
-visualizer_output_name = Visualizer feed
-visualizer_in_stereo = yes
-visualizer_sync_interval = 30
-visualizer_type = spectrum	
+#visualizer_fifo_path = /tmp/mpd.fifo
+#visualizer_output_name = Visualizer feed
+#visualizer_in_stereo = yes
+#visualizer_sync_interval = 30
+#visualizer_type = spectrum	
 #visualizer_look = •▮
 #visualizer_look = •⬢
-visualizer_look = ⬢•
-visualizer_color = 48, 85, 121, 157, 187, 217, 211, 205, 199, 163, 222, 252, 106
+#visualizer_look = ⬢•
+#visualizer_color = 48, 85, 121, 157, 187, 217, 211, 205, 199, 163, 222, 252, 106
 
 ## Playlist
 #song_columns_list_format = "(6f)[245]{nr:Track} (40)[252]{t|f} (25)[219]{a} (30)[118]{b} (10f)[245]{lr:Length}"
 #song_columns_list_format = "(5f)[245]{nr:Track} (25)[117]{a} (40)[219]{t|f} (30)[252]{b} (10f)[245]{lr:Length}"
 song_columns_list_format = "(35)[212]{tr|fr} (20)[117]{a} (5f)[245]{lr:Length}"
-now_playing_prefix = "$b›"
+#now_playing_prefix = "$b›"
+now_playing_prefix = "$b"
 now_playing_suffix = "$/b"
 playlist_display_mode = "columns" (classic/columns)
 autocenter_mode = yes

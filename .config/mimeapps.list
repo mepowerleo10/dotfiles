@@ -6,8 +6,25 @@ x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/about=firefox.desktop
 x-scheme-handler/unknown=firefox.desktop
+x-scheme-handler/mailto=mailspring.desktop
+message/rfc822=userapp-Thunderbird-5201P0.desktop
+x-scheme-handler/news=userapp-Thunderbird-9NT2P0.desktop
+x-scheme-handler/snews=userapp-Thunderbird-9NT2P0.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-9NT2P0.desktop
+x-scheme-handler/feed=userapp-Thunderbird-1ZY5P0.desktop
+application/rss+xml=userapp-Thunderbird-1ZY5P0.desktop
+application/x-extension-rss=userapp-Thunderbird-1ZY5P0.desktop
 
 [Added Associations]
 application/x-bittorrent=uget-gtk.desktop;
 application/zip=org.kde.ark.desktop;
 image/png=feh.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-5201P0.desktop;
+message/rfc822=userapp-Thunderbird-5201P0.desktop;
+x-scheme-handler/news=userapp-Thunderbird-9NT2P0.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-9NT2P0.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-9NT2P0.desktop;
+x-scheme-handler/feed=userapp-Thunderbird-1ZY5P0.desktop;
+application/rss+xml=userapp-Thunderbird-1ZY5P0.desktop;
+application/x-extension-rss=userapp-Thunderbird-1ZY5P0.desktop;
+video/x-msvideo=mpv.desktop;

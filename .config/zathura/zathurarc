@@ -34,6 +34,9 @@ map d scroll half-down
 map u scroll half-up
 map x toggle_page_mode
 map r rotate
+map <Button2>   navigate  previous
+map <S-Button3>   navigate  previous
+map <Button3>   navigate  next
 
 set recolor-reverse-video false
 set window-title-basename true

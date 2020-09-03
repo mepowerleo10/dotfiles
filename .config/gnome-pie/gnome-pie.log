@@ -1,0 +1,15 @@
+[2020:08:27:01:16:39:652135 WARNING] Failed to find pie configuration file "pies.conf"! (This should only happen when Gnome-Pie is started for the first time...)
+[2020:08:27:01:16:39:652267 WARNING] Failed to find settings file "gnome-pie.conf"! (This should only happen when Gnome-Pie is started for the first time...)
+[2020:08:27:01:16:39:653071 MESSAGE] Welcome to Gnome-Pie 0.7.2!
+[2020:08:27:01:16:39:653568 MESSAGE] Creating new configuration file in "/home/mepowerleo10/.config/gnome-pie/pies.conf".
+[2020:08:27:01:16:40:150984  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:08:27:01:16:40:151133  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:08:27:01:16:40:151504  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:08:27:01:16:40:151658  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:08:27:01:16:40:152155  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:08:27:01:16:40:152309  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:08:27:01:16:40:156523 MESSAGE] Saving Pies to "/home/mepowerleo10/.config/gnome-pie/pies.conf".
+[2020:08:27:01:16:40:650622 WARNING] Error loading settings: gnome-pie.conf not found! Using defaults...
+[2020:08:27:01:16:40:657496 WARNING] No theme specified! Using default...
+[2020:08:27:01:16:40:670094 MESSAGE] Started happily...
+[2020:08:27:01:16:53:933963 MESSAGE] Caught signal (2), bye!

@@ -131,7 +131,9 @@ tray-position = right
 
 [bar/bottom-secondary]
 inherit = bar/bottom-primary
-modules-right = left-end-bottom cpu memory temp
+;modules-right = left-end-bottom cpu memory temp
+modules-right =
+modules-left = 
 
 
 [generic-format-style]
@@ -308,7 +310,7 @@ type = custom/script
 inherit = generic-format-style
 exec = $HOME/.bin/polybar-forecast
 exec-if = ping openweathermap.org -c 1
-interval = 600
+interval = 1800
 
 [module/xkeyboard]
 type = internal/xkeyboard
