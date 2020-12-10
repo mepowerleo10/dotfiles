@@ -1,0 +1,96 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Copy">
+        <ActionSummary times="1" last="1604408205786" />
+      </entry>
+      <entry key="$SelectAll">
+        <ActionSummary times="2" last="1604408456187" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="2" last="1604408564157" />
+      </entry>
+      <entry key="Android.SyncProject">
+        <ActionSummary times="2" last="1604400958497" />
+      </entry>
+      <entry key="CleanGradleProject">
+        <ActionSummary times="5" last="1604411821848" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="2" last="1604409408331" />
+      </entry>
+      <entry key="EditCustomVmOptions">
+        <ActionSummary times="1" last="1604403328654" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="11" last="1604408456850" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="7" last="1604408278584" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="1" last="1604408539315" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="1" last="1604408541332" />
+      </entry>
+      <entry key="ExternalSystem.ProjectRefreshAction">
+        <ActionSummary times="2" last="1604408576401" />
+      </entry>
+      <entry key="ExternalSystem.RefreshProject">
+        <ActionSummary times="1" last="1604407524265" />
+      </entry>
+      <entry key="ExternalSystem.ShowSettings">
+        <ActionSummary times="4" last="1604407418555" />
+      </entry>
+      <entry key="Gradle.ToggleOfflineAction">
+        <ActionSummary times="8" last="1604412271622" />
+      </entry>
+      <entry key="HideActiveWindow">
+        <ActionSummary times="1" last="1604407379718" />
+      </entry>
+      <entry key="ImportProject">
+        <ActionSummary times="1" last="1604408717466" />
+      </entry>
+      <entry key="ImportSettings">
+        <ActionSummary times="1" last="1604412282844" />
+      </entry>
+      <entry key="InvalidateCaches">
+        <ActionSummary times="3" last="1604408735129" />
+      </entry>
+      <entry key="RebuildGradleProject">
+        <ActionSummary times="1" last="1604411854754" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="29" last="1604412242426" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="4" last="1604408808084" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="7" last="1604408892034" />
+      </entry>
+      <entry key="Synchronize">
+        <ActionSummary times="1" last="1604409111700" />
+      </entry>
+      <entry key="WelcomeScreen.ImportProject">
+        <ActionSummary times="1" last="1604409434876" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$HyperlinkNavigationAction">
+        <ActionSummary times="2" last="1604412263518" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="1" last="1604409400285" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="18" last="1604408579028" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="6" last="1604407508126" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="1" last="1604412252013" />
+      </entry>
+    </data>
+  </component>
+</application>

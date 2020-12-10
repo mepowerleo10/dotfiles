@@ -1,0 +1,138 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="6" last="1606190470441" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="3" last="1605944717198" />
+      </entry>
+      <entry key="Adtui.ZoomInAction">
+        <ActionSummary times="4" last="1607349039411" />
+      </entry>
+      <entry key="Android.BuildApk">
+        <ActionSummary times="3" last="1605944915604" />
+      </entry>
+      <entry key="Android.SyncProject">
+        <ActionSummary times="2" last="1604416550896" />
+      </entry>
+      <entry key="CleanGradleProject">
+        <ActionSummary times="2" last="1604422871973" />
+      </entry>
+      <entry key="CloseProject">
+        <ActionSummary times="4" last="1607619528400" />
+      </entry>
+      <entry key="ConfigureIcs">
+        <ActionSummary times="1" last="1604420389999" />
+      </entry>
+      <entry key="EditCustomVmOptions">
+        <ActionSummary times="1" last="1604417635540" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="110" last="1606206963569" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="3" last="1604420286508" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="1" last="1604420145026" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="82" last="1604423999994" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="5" last="1606206953838" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="14" last="1605944730241" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="2" last="1604420145314" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="1" last="1604417835016" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="2" last="1604423993910" />
+      </entry>
+      <entry key="Gradle.ExecuteTask">
+        <ActionSummary times="2" last="1604423099211" />
+      </entry>
+      <entry key="Gradle.ToggleOfflineAction">
+        <ActionSummary times="2" last="1604422828570" />
+      </entry>
+      <entry key="InvalidateCaches">
+        <ActionSummary times="2" last="1606190128173" />
+      </entry>
+      <entry key="NewClass">
+        <ActionSummary times="1" last="1606190438224" />
+      </entry>
+      <entry key="RebuildGradleProject">
+        <ActionSummary times="4" last="1604423010290" />
+      </entry>
+      <entry key="RenameElement">
+        <ActionSummary times="1" last="1604423316982" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="10" last="1605944781039" />
+      </entry>
+      <entry key="SafeDelete">
+        <ActionSummary times="3" last="1606206828509" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="15" last="1606206963866" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="14" last="1606206892029" />
+      </entry>
+      <entry key="Switcher">
+        <ActionSummary times="3" last="1604419358991" />
+      </entry>
+      <entry key="Synchronize">
+        <ActionSummary times="1" last="1604421631117" />
+      </entry>
+      <entry key="ToggleDistractionFreeMode">
+        <ActionSummary times="2" last="1606189738228" />
+      </entry>
+      <entry key="ToggleLineBreakpoint">
+        <ActionSummary times="1" last="1606191636641" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="2" last="1606189626497" />
+      </entry>
+      <entry key="WelcomeScreen.ImportProject">
+        <ActionSummary times="2" last="1607619536576" />
+      </entry>
+      <entry key="com.android.tools.idea.common.editor.DesignToolsSplitEditor$MyToolBarAction">
+        <ActionSummary times="2" last="1607349034261" />
+      </entry>
+      <entry key="com.intellij.execution.actions.StopProcessAction">
+        <ActionSummary times="28" last="1604419841459" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="4" last="1607348983005" />
+      </entry>
+      <entry key="com.intellij.ide.actions.ToolWindowMoveAction">
+        <ActionSummary times="1" last="1606191402112" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerMain$2">
+        <ActionSummary times="1" last="1606191647314" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="5" last="1604423104283" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="34" last="1606206839281" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="2" last="1606191391135" />
+      </entry>
+      <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
+        <ActionSummary times="2" last="1604417206927" />
+      </entry>
+      <entry key="template.create.ActivityEmpty Activity">
+        <ActionSummary times="4" last="1606206854284" />
+      </entry>
+    </data>
+  </component>
+</application>

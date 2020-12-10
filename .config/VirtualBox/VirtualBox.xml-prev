@@ -18,6 +18,7 @@
       <ExtraDataItem name="GUI/RecentListCD" value="/mnt/local-data/Software/ISOs/Windows_7_AIO_SP1_x64_x86.iso,/mnt/local-data/Software/ISOs/14.0.4734.1000_ProfessionalPlus_volume_x86_en-us.iso,/mnt/local-data/Software/ISOs/Win7_Ult_SP1_BrazilianPortuguese_x32 - PHDowns.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="447,902"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
       <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
     <MachineRegistry>

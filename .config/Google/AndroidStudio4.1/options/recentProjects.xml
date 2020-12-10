@@ -1,0 +1,65 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/SikiaAudioBooksfix">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1jmnbCCzj7pto4VcGs30elUWXI4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875367885" />
+              <frame x="0" y="0" width="1366" height="789" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1604418856474" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/SampleMusicApp">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1kiiCmY5BHKZFjWei9n1MkwAbHC">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875412445" />
+              <frame x="0" y="0" width="1366" height="768" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1607348839753" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/SikiaAudioBooks">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1j5WZPHFOIhnqGYeEmyKPVc0GXD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875365745" />
+              <frame x="0" y="42" width="1366" height="726" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1607619482635" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/exoplayer-intro-master/exoplayer-codelab-00">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1lTSMuRnQuDry7u0cQakB6nhYz4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875368799" />
+              <frame x="0" y="42" width="1366" height="726" extendedState="1" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1607624897788" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects/exoplayer-intro-master/exoplayer-codelab-00" />
+        <option value="$USER_HOME$/AndroidStudioProjects/SikiaAudioBooks" />
+        <option value="$USER_HOME$/AndroidStudioProjects/SampleMusicApp" />
+        <option value="$USER_HOME$/AndroidStudioProjects/SikiaAudioBooksfix" />
+      </list>
+    </option>
+  </component>
+</application>

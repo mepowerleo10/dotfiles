@@ -47,15 +47,15 @@ class Default(ColorScheme):
                 else:
                     fg = magenta
             if context.container:
-                fg = 9
+                attr |= bold
+                fg = 185
             if context.directory:
                 attr |= bold
                 fg = 140
             elif context.executable and not \
                 any((context.media, context.container, context.fifo, context.socket, context.document)):
                 attr |= bold
-                fg = green
-                fg += BRIGHT
+                fg = 9
             if context.socket:
                 attr |= bold
                 fg = magenta
@@ -99,11 +99,9 @@ class Default(ColorScheme):
 
             if context.inactive_pane:
                 fg = cyan
-            
             if context.bad:
                 attr |= bold
                 fg = 161
-             
         elif context.in_titlebar:
             if context.hostname:
                 fg = red if context.bad else green

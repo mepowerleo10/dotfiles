@@ -1,0 +1,124 @@
+#!/bin/bash
+
+source ~/.umpa
+
+while getopts "s:l:vcn" opt; do
+  case $opt in
+    s)
+      ACTION=sync
+      PLAYLIST=$OPTARG
+      ;;
+    l)
+      ACTION=list
+      LIST_SELECTION=$OPTARG
+      ;;
+    v)
+      VERBOSE=1
+      ;;
+    n)
+      DRY_RUN=1
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+    :)
+      echo "Option -$OPTARG requires an argument." >&2
+      exit 1
+      ;;
+  esac
+done
+
+# now we go looking for a phone under a gvfs mount point
+# they should be under /var/run/${UID}/mtp*
+# since we are looking to the sync to the Card we add
+# that as well
+PHONE_COUNT=$(ls -d ${PHONE_GUESS} 2> /dev/null | wc -l)
+if [[ ${PHONE_COUNT} -ne 1 ]]; then
+  echo "Seems that there are ${PHONE_COUNT} targets to copy to"
+  exit 1
+fi
+PHONE_MOUNT="$(readlink -f ${PHONE_GUESS})"
+
+if [ $VERBOSE ]; then
+  echo "Music directory   : ${MUSIC_DIR}"
+  echo "Playlist directory: ${PLAYLIST_DIR}"
+  echo "Phone Mount       : ${PHONE_MOUNT}"
+fi
+
+case $ACTION in
+  "sync")
+    # if we weren't provided a playlist we let the user know
+    # what's available
+    if [ -z "${PLAYLIST}" ]; then
+      echo "You must provide us a playlist name. Here are the ones available:"
+      ls "${PLAYLIST_DIR}" | sed 's/.m3u$//; s/^/* /'
+     exit 1
+    fi
+    # if we weren't provided a playlist we let the user know
+    # what's available
+    if [ ! -f "${PLAYLIST_DIR}/${PLAYLIST}.m3u" ]; then
+      echo "no M3U playlist with the name \"${PLAYLIST}\" (${PLAYLIST}.m3u)"
+      exit 1
+    fi
+
+    if [ $DRY_RUN ]; then
+      echo "*** dry run only ***"
+    fi
+    echo "syncing music:"
+    IFS='
+'
+    for x in $(cat "${PLAYLIST_DIR}/${PLAYLIST}.m3u"); do
+      d=$(dirname $x)
+      echo -n "- ${x}"
+      # make the directory if needed
+      if [ ! -d ${PHONE_MOUNT}/${d} ]; then
+        if [ $VERBOSE ]; then
+          echo -n " .. create dir"
+        fi
+        if [ ! $DRY_RUN ]; then
+          mkdir -p ${PHONE_MOUNT}/${d}
+        fi
+      fi
+      # copy the file if it doesn't exist
+      if [ ! -f ${PHONE_MOUNT}/${x} ]; then
+        if [ $VERBOSE ]; then
+          echo -n " .. syncing"
+        fi
+        if [ ! $DRY_RUN ]; then
+          cp ${MUSIC_DIR}/${x} ${PHONE_MOUNT}/${x}
+        fi
+      else
+        if [ $VERBOSE ]; then
+          echo -n " .. exists"
+        fi
+      fi
+      echo
+    done
+
+    if [ $VERBOSE ]; then
+      echo "syncing playlist file ${PLAYLIST}"
+    fi
+    if [ ! $DRY_RUN ]; then
+      gvfs-copy "${PLAYLIST_DIR}/${PLAYLIST}.m3u" "${PHONE_MOUNT}/Playlists/"
+    fi
+    ;;
+  "list")
+    case $LIST_SELECTION in
+      "songs")
+        echo "listing contents of phone"
+        cd "${PHONE_MOUNT}" && find * -not -path "Playlists/*" -type f 
+        ;;
+      "playlists")
+        echo "listing playsists on phone"
+        cd "${PHONE_MOUNT}/Playlists" && find * -type f
+        ;;
+    esac
+    ;;
+  "clean")
+    echo "clean not yet implemented"
+    ;;
+  *)
+    echo "unknown option"
+    ;;
+esac

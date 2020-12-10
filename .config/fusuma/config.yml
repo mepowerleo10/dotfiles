@@ -1,13 +1,18 @@
 swipe:
   4:
     down:
-      command: "i3-msg 'workspace next'"
+      command: "awesome-client 'awful.tag.viewnext()'"
     up:
-      command: "i3-msg 'workspace prev'"
+      command: "awesome-client 'awful.tag.viewprev()'"
     left:
       command: "xdotool key alt+Right" 
     right:
       command: "xdotool key alt+Left"
+  3:
+    down:
+      command: "awesome-client 'awful.client.focus.byidx(1)'"
+    up:
+      command: "awesome-client 'awful.client.focus.byidx(-1)'"
 
 threshold:
   swipe: 0.4

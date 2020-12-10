@@ -1,0 +1,23 @@
+{
+ "theme": "dark",
+ "audioVolume": 1,
+ "audioPlaybackRate": 1,
+ "audioOutputDevice": "default",
+ "audioMuted": false,
+ "audioShuffle": false,
+ "audioRepeat": "none",
+ "librarySort": {
+  "by": "artist",
+  "order": "asc"
+ },
+ "sleepBlocker": false,
+ "autoUpdateChecker": true,
+ "minimizeToTray": false,
+ "displayNotifications": true,
+ "bounds": {
+  "width": 1000,
+  "height": 600,
+  "x": 683,
+  "y": 384
+ }
+}

@@ -13,3 +13,12 @@
 [2020:08:27:01:16:40:657496 WARNING] No theme specified! Using default...
 [2020:08:27:01:16:40:670094 MESSAGE] Started happily...
 [2020:08:27:01:16:53:933963 MESSAGE] Caught signal (2), bye!
+[2020:10:01:20:36:05:432961 MESSAGE] Welcome to Gnome-Pie 0.7.2!
+[2020:10:01:20:36:05:445364 MESSAGE] Loading Pies from "/home/mepowerleo10/.config/gnome-pie/pies.conf".
+[2020:10:01:20:36:05:934673  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:10:01:20:36:05:934764  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:10:01:20:36:05:935011  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:10:01:20:36:05:935094  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:10:01:20:36:05:935483  ERROR ] gnome_pie_app_action_construct: assertion 'icon != NULL' failed
+[2020:10:01:20:36:05:935557  ERROR ] gnome_pie_action_group_add_action: assertion 'new_action != NULL' failed
+[2020:10:01:20:36:06:732094 MESSAGE] Started happily...

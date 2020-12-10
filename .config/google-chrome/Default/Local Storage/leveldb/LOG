@@ -1,3 +1,24 @@
-2020/06/05-11:25:07.117 1e80ef Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2020/06/05-11:25:07.139 1e80ef Recovering log #7
-2020/06/05-11:25:07.162 1e80ef Reusing old log /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/000007.log 
+2020/12/09-21:07:59.609 3 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/12/09-21:07:59.633 3 Recovering log #15
+2020/12/09-21:07:59.675 3 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/Local Storage/leveldb/000015.log 
+2020/12/10-06:16:29.241 10 Level-0 table #19: started
+2020/12/10-06:16:29.300 10 Level-0 table #19: 449350 bytes OK
+2020/12/10-06:16:29.325 10 Delete type=0 #15
+2020/12/10-06:16:29.326 e Compacting 4@0 + 1@1 files
+2020/12/10-06:16:29.384 e Generated table #20@0: 229 keys, 489797 bytes
+2020/12/10-06:16:29.384 e Compacted 4@0 + 1@1 files => 489797 bytes
+2020/12/10-06:16:29.415 e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/10-06:16:29.416 e Delete type=2 #13
+2020/12/10-06:16:29.416 e Delete type=2 #11
+2020/12/10-06:16:29.416 e Delete type=2 #16
+2020/12/10-06:16:29.417 e Delete type=2 #8
+2020/12/10-06:16:29.417 e Delete type=2 #19
+2020/12/10-06:18:14.463 12 Level-0 table #22: started
+2020/12/10-06:18:14.506 12 Level-0 table #22: 452609 bytes OK
+2020/12/10-06:18:14.534 12 Delete type=0 #18
+2020/12/10-06:19:09.287 e Level-0 table #24: started
+2020/12/10-06:19:09.341 e Level-0 table #24: 560722 bytes OK
+2020/12/10-06:19:09.369 e Delete type=0 #21
+2020/12/10-06:29:31.550 1a Level-0 table #26: started
+2020/12/10-06:29:31.596 1a Level-0 table #26: 560686 bytes OK
+2020/12/10-06:29:31.633 1a Delete type=0 #23

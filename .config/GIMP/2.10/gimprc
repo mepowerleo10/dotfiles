@@ -6,10 +6,11 @@
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
-(language "kiswahilitz")
+(language "en_US")
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(check-update-timestamp 1596967453)
-(last-release-timestamp 1591488000)
+(check-update-timestamp 1606325095)
+(last-release-timestamp 1601769600)
+(last-known-release "2.10.22")
 (monitor-xresolution 112)
 (monitor-yresolution 115)
 (theme "System")

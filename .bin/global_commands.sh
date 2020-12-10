@@ -21,6 +21,7 @@ alias dot-config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias mpv='~/.bin/umpv'
 
 alias bat='bat -p'
+
 GREEN="\[\033[0;32m\]"
 BLUE="\[\033[0;34m\]"
 RED="\[\033[0;31m\]"

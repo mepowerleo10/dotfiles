@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu Mono 8
+font pango:Ubuntu Mono 0
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -34,7 +34,8 @@ exec_always --no-startup-id nm-applet
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -45,8 +46,8 @@ bindsym $mod+Shift+x exec --no-startup-id betterlockscreen --lock dimblur
 # start dmenu (a program launcher)
 #bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/themes/nordic.rasi
 #bindsym $mod+d exec jgmenu
-bindsym $mod+d exec j4-dmenu-desktop
-bindsym $mod+Shift+d exec dmenu_run
+#bindsym $mod+d exec j4-dmenu-desktop
+#bindsym $mod+Shift+d exec dmenu_run
 
 # change focused window:
 bindsym $mod+Left focus left
@@ -224,6 +225,8 @@ exec_always --no-startup-id light -N 20
 exec_always --no-startup-id /home/mepowerleo10/.bin/pulse-audio-watcher.py | xob
 exec_always --no-startup-id killall power-daemon.sh; /home/mepowerleo10/.bin/power-daemon.sh
 exec_always --no-startup-id pkill copyq; copyq
+exec_always --no-startup-id pkill glava; glava
+exec_always --no-startup-id pkill albert; albert
 # exec --no-startup-id clementine
 exec --no-startup-id telegram-desktop
 exec --no-startup-id firefox
@@ -234,7 +237,7 @@ exec --no-startup-id i3-resurrect restore -w 6
 # Stick Windows to specific workspaces
 assign [class="firefox"] $ws1
 assign [class="code-oss"] $ws2
-assign [class="TelegramDesktop"] $ws5
+#assign [class="TelegramDesktop"] $ws5
 #assign [class="Clementine"] $ws6
 assign [class="Mailspring"] $ws7
 assign [class="Uget-gtk"] $ws8
@@ -242,6 +245,7 @@ assign [class="jetbrains-studio"] $ws10
 assign [class="discord"] $ws10
 assign [instance="Kunst"] $ws6
 assign [instance="ncmpcpp"] $ws6
+assign [class="GLava"] $ws6
 #assign [name="cava"] $ws10
 
 # floating windows sizes
@@ -249,14 +253,15 @@ floating_maximum_size $max_float_size
 
 # windows special selections
 for_window [instance="Kunst"] floating enable
-for_window [class="mpv"] floating enable
+for_window [class="mpv|Gnome-dictionary"] floating enable
 for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Zathura|ranger|feh|copyq"] floating enable
-for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Dragon-drag-and-drop|Soffice"] move position center
+for_window [class="Blueman-*|Pavu*|Nm-connection*|SpeedCrunch*|Kid3|TelegramDesktop|Dragon-drag-and-drop|Soffice|Gnome-dictionary"] move position center
 for_window [class="Blueman-*|Pavu*|Nm-connection*|Dragon-drag-and-drop"] sticky enable
 for_window [title="uGet - New Download"] sticky enable
 for_window [class="TelegramDesktop" floating] resize set 697 505
 for_window [class="mpv|Zathura|ranger" floating] resize set 867 505
 for_window [class="mpv|firefox"] move position center
+for_window [class="albert"] move position 363 127
 
 # Colors configuration
 # class                 border  backgr. text    indicator child_border

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-feh --randomize --bg-fill ~/Pictures/Space
+feh --randomize --bg-fill ~/Pictures/Popular

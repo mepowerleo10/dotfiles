@@ -21,9 +21,7 @@
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
       <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
-    <MachineRegistry>
-      <MachineEntry uuid="{e5265242-72aa-4b2a-a5de-963b1305625f}" src="/mnt/local-data/virtualbox-vms/Windows 7/Windows 7.vbox"/>
-    </MachineRegistry>
+    <MachineRegistry/>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

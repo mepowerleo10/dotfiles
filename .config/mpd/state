@@ -1,62 +1,60 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 6
-time: 6.124000
+state: pause
+current: 26
+time: 169.587000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
-crossfade: 2
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:FIFA 13 Soundtrack/1. Jagwar Ma - What Love (128).mp3
-1:FIFA 13 Soundtrack/Royal CD 1 TRACK 6 (128).mp3
-2:FIFA 13 Soundtrack/1. Duologue - Get out While You Can (128).mp3
-3:FIFA 13 Soundtrack/1. Jonathan Boulet - You re A Animal (128).mp3
-4:FIFA 13 Soundtrack/10. Reptar - Sweet Sipping Soda (128).mp3
-5:FIFA 13 Soundtrack/5. Astro - Panda (128).mp3
-6:FIFA 13 Soundtrack/2. The Presets - Ghosts (128).mp3
-7:FIFA 13 Soundtrack/3. Metric - Speed the Collapse (128).mp3
-8:FIFA 13 Soundtrack/Bad Blood CD 1 TRACK 6 (128).mp3
-9:FIFA 13 Soundtrack/Mit K CD 1 TRACK 1 (128).mp3
-10:FIFA 13 Soundtrack/Night Visions CD 1 TRACK 5 (128).mp3
-11:FIFA 13 Soundtrack/1. Featurecast, Pugs Atomz, Ill Legit - Got That Fire (Oh La.mp3
-12:FIFA 13 Soundtrack/Finale CD 1 TRACK 1 (128).mp3
-13:FIFA 13 Soundtrack/Youngblood Hawke (EP) CD 1 TRACK 1 (128).mp3
-14:FIFA 13 Soundtrack/Walk The Moon CD 1 TRACK 1 (128).mp3
-15:FIFA 13 Soundtrack/1. Young Empires - Rain Of Gold (128).mp3
-16:FIFA 13 Soundtrack/3. Matisyahu - Searchin (128).mp3
-17:FIFA 13 Soundtrack/Fly or Die CD 1 TRACK 1 (128).mp3
-18:FIFA 13 Soundtrack/Kasabian CD 1 TRACK 1 (128).mp3
-19:FIFA 13 Soundtrack/12. Bloc Party - We Are Not Good People (128).mp3
-20:FIFA 13 Soundtrack/2. Atlas Genius - If So (128).mp3
-21:FIFA 13 Soundtrack/2. Django Django - Hail Bop (128).mp3
-22:FIFA 13 Soundtrack/2. Passion Pit - I ll Be Alright (Album Version) (128).mp3
-23:FIFA 13 Soundtrack/1. Ashtar Command - Mark IV with Joshua Radin (From Fifa13).mp3
-24:FIFA 13 Soundtrack/3. Hadouken! - Bliss Out (128).mp3
-25:FIFA 13 Soundtrack/Cut It Out EP CD 1 TRACK 3 (128).mp3
-26:FIFA 13 Soundtrack/1. Elliphant, Adam Kanyama - TeKKno Scene (128).mp3
-27:FIFA 13 Soundtrack/12. Foreign Beggars, BARE NOIZE - See the Light (128).mp3
-28:FIFA 13 Soundtrack/2. Zemaria - Past 2 (128).mp3
-29:FIFA 13 Soundtrack/1. The Enemy - Saturday (128).mp3
-30:FIFA 13 Soundtrack/The Glorious Dead CD 1 TRACK 9 (128).mp3
-31:FIFA 13 Soundtrack/Glow CD 1 TRACK 3 (128).mp3
-32:FIFA 13 Soundtrack/11. Santigold - Big Mouth (128).mp3
-33:FIFA 13 Soundtrack/Album Title Goes Here  CD 1 TRACK 5 (128).mp3
-34:FIFA 13 Soundtrack/1. St. Lucia - September (128).mp3
-35:FIFA 13 Soundtrack/Animal Kingdom - Get Away With It (128).mp3
-36:FIFA 13 Soundtrack/1. Ladyhawke - Black White   Blue (128).mp3
-37:FIFA 13 Soundtrack/3. Reverend And The Makers - Shine the Light (128).mp3
-38:FIFA 13 Soundtrack/4. Fitz and The Tantrums - Spark (128).mp3
-39:FIFA 13 Soundtrack/1. The Chevin - Champion (128).mp3
-40:FIFA 13 Soundtrack/Flo Rida - Let It Roll (128).mp3
-41:FIFA 13 Soundtrack/Sleep Alone CD 1 TRACK 1 (128).mp3
-42:FIFA 13 Soundtrack/2. Stepdad - Jungles (128).mp3
-43:FIFA 13 Soundtrack/Mirage Rock CD 1 TRACK 9 (128).mp3
-44:FIFA 13 Soundtrack/Happy to You CD 1 TRACK 10 (128).mp3
-45:FIFA 13 Soundtrack/Vows CD 1 TRACK 8 (128).mp3
-46:FIFA 13 Soundtrack/1. Crystal Fighters - Follow (128).mp3
+0:Sillicon Valley End-Credit Songs/3. Mala Rodríguez - Jugadoras,Jugadores (128).mp3
+1:Sillicon Valley End-Credit Songs/1. Pusha T, Diddy - Changing Of The Guards (128).mp3
+2:Sillicon Valley End-Credit Songs/8. John Popper   The Duskray Troubadours - Champipple (128).mp3
+3:Sillicon Valley End-Credit Songs/12. Old Man Saxon, Mount Cyanide - On My Own (128).mp3
+4:Sillicon Valley End-Credit Songs/1. Girl Talk   Erick the Architect - Trouble in Paradise (12.mp3
+5:Sillicon Valley End-Credit Songs/2. DJ Shadow, Nas - Systematic (128).mp3
+6:Sillicon Valley End-Credit Songs/4. Beastie Boys, Nas - Too Many Rappers (128).mp3
+7:Sillicon Valley End-Credit Songs/1. Cypress Hill, Tom Morello - Rise Up (128).mp3
+8:Sillicon Valley End-Credit Songs/1. Clearside - Cop Drama (128).mp3
+9:Sillicon Valley End-Credit Songs/2. Crispian St. Peters - The Pied Piper (128).mp3
+10:Sillicon Valley End-Credit Songs/3. Higher Brothers, Famous Dex - Made In China (128).mp3
+11:Sillicon Valley End-Credit Songs/1. Alabama Shakes - Don t Wanna Fight (128).mp3
+12:Sillicon Valley End-Credit Songs/1. Portugal. The Man, Danny Brown - Evil Friends (feat. Dann.mp3
+13:Sillicon Valley End-Credit Songs/6. Buddy Guy - She s Got The Devil In Her (128).mp3
+14:Sillicon Valley End-Credit Songs/8. Dr. Octagon - Blue Flowers (128).mp3
+15:Sillicon Valley End-Credit Songs/1. Cut Chemist, Edan, Mr.Lif - Metalstorm (128).mp3
+16:Sillicon Valley End-Credit Songs/3. Run The Jewels - Blockbuster Night, Pt. 1 (128).mp3
+17:Sillicon Valley End-Credit Songs/11. Ernesto Molina - Los Cazadores (128).mp3
+18:Sillicon Valley End-Credit Songs/14. Danny Brown - Smokin   Drinkin (128).mp3
+19:Sillicon Valley End-Credit Songs/5. The Pioneers - Time Hard (128).mp3
+20:Sillicon Valley End-Credit Songs/4. Hudson Mohawke, Remy Banks - Passports (128).mp3
+21:Sillicon Valley End-Credit Songs/8. Geto Boys - First Light of the Day (128).mp3
+22:Sillicon Valley End-Credit Songs/1. San Holo - RAW (128).mp3
+23:Sillicon Valley End-Credit Songs/18. Green Day - Minority (128).mp3
+24:Sillicon Valley End-Credit Songs/18. Uncle Walt s Band - Shine On (128).mp3
+25:Sillicon Valley End-Credit Songs/7. Pregnant Boy, Grip Plyaz, Og Swaggerdick - Fun House (128.mp3
+26:Sillicon Valley End-Credit Songs/5. Too Short, Meter Mobb - You Came To Party (128).mp3
+27:Sillicon Valley End-Credit Songs/2. Dizzee Rascal - I Don t Need A Reason (128).mp3
+28:Sillicon Valley End-Credit Songs/3. Israel Kamakawiwo ole - White Sandy Beach Of Hawai i (128.mp3
+29:Sillicon Valley End-Credit Songs/6. The Fabulous Thunderbirds - The Monkey (128).mp3
+30:Sillicon Valley End-Credit Songs/10. DJ Shadow, Run The Jewels - Nobody Speak (128).mp3
+31:Sillicon Valley End-Credit Songs/4. Big Makk - BANDZ (128).mp3
+32:Sillicon Valley End-Credit Songs/7. Chali 2na - Comin  Thru (128).mp3
+33:Sillicon Valley End-Credit Songs/9. Bell Biv DeVoe - Poison (128).mp3
+34:Sillicon Valley End-Credit Songs/1. MadeinTYO, 2 Chainz - I Want (feat. 2 Chainz) (128).mp3
+35:Sillicon Valley End-Credit Songs/15. Tobacco - Father Sister Berzerker (128).mp3
+36:Sillicon Valley End-Credit Songs/11. Pusha T, Future - Pain (128).mp3
+37:Sillicon Valley End-Credit Songs/11. Wu-Tang Clan - Don t Stop (128).mp3
+38:Sillicon Valley End-Credit Songs/3. Blake Mills - Hey Lover (128).mp3
+39:Sillicon Valley End-Credit Songs/2. Tinariwen - Chaghaybou (128).mp3
+40:Sillicon Valley End-Credit Songs/1. ZZ Top - Rhythmeen (128).mp3
+41:Sillicon Valley End-Credit Songs/2. C2C - Down The Road (128).mp3
+42:Sillicon Valley End-Credit Songs/1. Shirt - Phantom (Redux) (128).mp3
+43:Sillicon Valley End-Credit Songs/5. Bassnectar, jantsen, Fashawn, Zion I - Lost in the Crowd.mp3
+44:Sillicon Valley End-Credit Songs/1. Death From Above 1979 - Freeze Me (128).mp3
 playlist_end

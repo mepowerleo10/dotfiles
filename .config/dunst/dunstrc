@@ -166,8 +166,10 @@
     max_icon_size = 48
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Papirus/32x32/status/:/usr/share/icons/Papirus/32x32/devices/
-
+    #icon_path = /usr/share/icons/Papirus/32x32/status/:/usr/share/icons/Papirus/32x32/devices/
+    #icon_path = /home/mepowerleo10/.local/share/icons/Flatery-Dark/status/48/:/home/mepowerleo10/.local/share/icons/Flatery-Dark/devices/32/
+    icon_path = /home/mepowerleo10/.local/share/icons/Qogir-dark/32/status/:/home/mepowerleo10/.local/share/icons/Qogir-dark/32/devices/
+    
     ### History ###
 
     # Should a notification popped up from history be sticky or timeout

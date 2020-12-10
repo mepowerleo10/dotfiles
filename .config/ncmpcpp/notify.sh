@@ -7,11 +7,24 @@ function reset_bg {
 	print "\e]20;;100x100+1000+1000\a"
 }
 
+function shortify {
+	string=$1
+	len=$2
+	if [ ${#string} -gt $len ];then
+		string="${string:0:$len}..."
+	fi
+	echo $string
+}
+
 function notify {
 	artist="$(mpc -f %artist% current)"
 	album="$(mpc -f %album% current)"
 	title="$(mpc -f %title% current)"
 	file="$(mpc -f %file% current)"
+
+	artist=$(shortify "$artist" 20)
+	album=$(shortify "$album" 35)
+	title=$(shortify "$title" 35)
 	rm -f "$COVER" &> /dev/null
 	ffmpeg -i "$MUSIC_DIR$file" "/tmp/cover.jpg" -y &> /dev/null
 	if [ -f "$COVER" ];then

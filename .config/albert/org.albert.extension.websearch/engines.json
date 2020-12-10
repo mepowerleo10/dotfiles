@@ -1,0 +1,14 @@
+[
+    {
+        "iconPath": ":duckduckgo",
+        "name": "DuckDuckGo",
+        "trigger": "dd ",
+        "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+        "iconPath": "/home/mepowerleo10/.config/albert/org.albert.extension.websearch/{e5c95e51-371d-4fdb-a996-ee4f99c01b6c}.",
+        "name": "Wolfram",
+        "trigger": "= ",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    }
+]

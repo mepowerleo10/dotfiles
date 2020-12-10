@@ -1,5 +1,5 @@
-2020/05/30-19:07:04.314 655f3 Recovering log #8
-2020/05/30-19:07:04.353 655f3 Level-0 table #10: started
-2020/05/30-19:07:04.409 655f3 Level-0 table #10: 7653 bytes OK
-2020/05/30-19:07:04.487 655f3 Delete type=0 #8
-2020/05/30-19:07:04.487 655f3 Delete type=3 #6
+2020/12/09-12:56:51.680 1e0b Recovering log #11
+2020/12/09-12:56:51.690 1e0b Level-0 table #13: started
+2020/12/09-12:56:51.738 1e0b Level-0 table #13: 3497 bytes OK
+2020/12/09-12:56:51.806 1e0b Delete type=0 #11
+2020/12/09-12:56:51.806 1e0b Delete type=3 #9

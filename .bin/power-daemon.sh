@@ -14,7 +14,9 @@ checkstatus()
     appname="Power Manager"
     AC=$(cat /sys/class/power_supply/AC/online)
     BAT=$(cat /sys/class/power_supply/BAT0/capacity)
-    
+    levels=(empty caution low medium good full)
+    bat="/home/mepowerleo10/.local/share/icons/Flatery-Dark/panel/32@2x/battery-"
+
     # Is there a second battery?
     #if [ -d /sys/class/power_supply/BAT1 ];then
     #    BAT1=$(cat /sys/class/power_supply/BAT1/capacity)
@@ -35,7 +37,7 @@ checkstatus()
                             break
                         else
                             notify-send -a "$appname" -u critical "Low Battery ($BAT%)" "Battery level critical, computer will suspend in 10s"
-                            echo "$(date +%a_%d-%m-%Y_%H:%M:%S)... System Suspend In $t's"
+                            echo "$(date +%a_%d-%m-%Y_%H:%M:%S)... System Suspend In $t's" -i "$bat${levels[0]}.svg"
                         fi
                     done
                     if [ "$(cat /sys/class/power_supply/AC/online)" = "0" ];then
@@ -43,11 +45,11 @@ checkstatus()
                         echo "$(date +%a_%d-%m-%Y_%H:%M:%S)... System Suspended"
                     fi
                 else
-                    if [ $t = 1 ];then t=2; notify-send -a "$appname" -u normal "Very Low Battery ($BAT%)" "Battery very low, please plugin power adapter"; fi
+                    if [ $t = 1 ];then t=2; notify-send -a "$appname" -u normal "Very Low Battery ($BAT%)" "Battery very low, please plugin power adapter" -i "$bat${levels[0]}.svg"; fi
                     echo "$(date +%a_%d-%m-%Y_%H:%M:%S)... Battery Very Low ($BAT%)"
                 fi
             else
-                if [ $t = 0 ];then t=1;notify-send -a "$appname" -u low "Low Battery ($BAT%)" "Battery low, please plugin power adapter"; fi
+                if [ $t = 0 ];then t=1;notify-send -a "$appname" -u low "Low Battery ($BAT%)" "Battery low, please plugin power adapter" -i "$bat${levels[1]}.svg"; fi
                 echo "$(date +%a_%d-%m-%Y_%H:%M:%S)... Battery Low alert ($BAT%)"
             fi
         fi
@@ -55,7 +57,8 @@ checkstatus()
     else
         if [ $c -lt 1 ]; then
             c=1
-            notify-send -a "$appname" -u normal "Charging ($BAT%)" "Power adapter plugged in, battery charging"
+            idx=$((($BAT*6/100)%6))
+            notify-send -a "$appname" -u normal "Charging ($BAT%)" "Power adapter plugged in, battery charging" -i "$bat${levels[$idx]}-charging.svg"
         fi
  
         if [ $BAT -lt 20 ] && [ $BAT -gt 10 ];then

@@ -5,15 +5,15 @@
 		"Category": true,
 		"Summary": true,
 		"Banner": false,
-		"x": 8,
-		"y": 28,
+		"x": 16,
+		"y": 21,
 		"width": 1350,
 		"height": 712,
 		"maximized": false,
 		"NthCategory": 0,
 		"NthStatus": 0,
 		"PanedPositionH": 250,
-		"PanedPositionV": 457
+		"PanedPositionV": 456
 	},
 	"Summary": {
 		"name": true,
@@ -114,12 +114,14 @@
 		"OnError": null
 	},
 	"FolderHistory": [
-		"\/mnt\/local-data\/Downloads",
 		"\/home\/mepowerleo10\/Downloads",
-		"\/mnt\/local-data\/Downloads\/GTA V",
-		"\/home\/mepowerleo10",
-		"\/mnt\/local-data\/Downloads\/Civilization VI",
-		"\/home\/mepowerleo10\/Downloads\/win10-drivers"
+		"\/home\/mepowerleo10\/Downloads\/FIFA15\/moddingway",
+		"\/home\/mepowerleo10\/Downloads\/FIFA15",
+		"\/home\/mepowerleo10\/Desktop",
+		"\/mnt\/local-data\/Downloads",
+		"\/mnt\/local-data\/Media\/Shows\/Archer S01-S07 (2007-)",
+		"\/mnt\/local-data\/Silicon Valley",
+		"\/mnt\/local-data\/Downloads\/GTA V"
 	],
 	"AutoSave": 1,
 	"AutoSaveInterval": 3,

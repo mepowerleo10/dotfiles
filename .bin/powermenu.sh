@@ -8,6 +8,14 @@
 rofi_command="rofi -theme ~/.config/rofi/themes/powermenu.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
+notify=$(cat /tmp/notify)
+
+if [ $notify = "true" ]; then
+  notifications=""
+else
+  notifications=""
+fi
+
 # Options
 shutdown=""
 reboot=""
@@ -16,7 +24,7 @@ suspend=""
 logout=""
 
 # Variable passed to rofi
-options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
+options="$shutdown\n$reboot\n$lock\n$suspend\n$logout\n$notifications"
 
 chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 2)"
 case $chosen in
@@ -36,7 +44,16 @@ case $chosen in
         betterlockscreen --lock dimblur
         ;;
     $logout)
-        i3-msg exit
+        awesome-client 'awesome.quit()'
+        ;;
+    $notifications)
+        if [ $notify = "true" ]; then
+          awesome-client 'naughty.suspend()'
+          echo "false" > /tmp/notify
+        else
+          awesome-client 'naughty.resume()'
+          echo "true" > /tmp/notify
+        fi
         ;;
 esac
 

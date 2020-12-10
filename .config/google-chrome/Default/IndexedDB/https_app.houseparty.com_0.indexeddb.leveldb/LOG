@@ -1,0 +1,5 @@
+2020/09/22-11:13:52.565 62bc0 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_app.houseparty.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/22-11:15:00.262 6308f Level-0 table #5: started
+2020/09/22-11:15:00.304 6308f Level-0 table #5: 27030 bytes OK
+2020/09/22-11:15:00.333 6308f Delete type=0 #3
+2020/09/22-11:15:00.334 6308f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
