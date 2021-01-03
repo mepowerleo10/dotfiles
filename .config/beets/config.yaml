@@ -1,0 +1,4 @@
+directory: /mnt/local-data/Media/Musica
+library: ~/.config/beets/library.db
+import:
+  move: yes

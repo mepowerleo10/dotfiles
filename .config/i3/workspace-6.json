@@ -1,0 +1,72 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 250,
+       "width": 250,
+       "x": 98,
+       "y": 269
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 250,
+               "width": 250,
+               "x": 0,
+               "y": 0
+            },
+            "name": "kunst",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^Sxiv$",
+                "instance": "^Kunst$",
+                "title": "^sxiv$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 505,
+       "width": 867,
+       "x": 410,
+       "y": 132
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 768,
+               "width": 1366,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^kitty$",
+                "instance": "^ncmpcpp$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
