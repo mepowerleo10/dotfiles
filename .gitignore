@@ -1,8 +1,11 @@
 # Ignore everything
 /*
-.config/sddmthemeinstallerrc
 
 # Except these
+!.config/
+.config/*
+!.config/zathura
+!.config/awesome
 
 !.vimrc
 !.bashrc
@@ -33,5 +36,3 @@ hlint
 supertuxkart
 
 !/.bin
-!/.config/awesome
-!/.config/zathura

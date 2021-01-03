@@ -1,6 +1,0 @@
-@search,,5,10,200,20,0,left,center,auto,#000000 0,Type to Search
-^sep()
-Ranger,~/.bin/ranger,utilities-terminal
-Browser,firefox,firefox
-File manager,nautilus,system-file-manager
-^sep()

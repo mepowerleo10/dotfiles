@@ -1,1 +1,0 @@
-General;File Name:	%CompleteName%\nAlbum:		%Album%\nArtist:		%Album/Performer%\nTrack Name:	%Track%\nDuration:	%Duration/String%\nGenre:		%Genre%\nComposer:	%Composer%\nLyricist:	%Lyricist%\nDate:		%Recorded_Date%\nCopyright:	%Copyright%\nPublisher:	%Publisher%\nFormat:		%Format%\nFile Size:	%FileSize/String3%

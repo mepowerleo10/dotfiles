@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="enabled" mtime="1592664946" type="bool" value="true"/>
-	<entry name="needs_terminal" mtime="1592664946" type="bool" value="false"/>
-	<entry name="command" mtime="1592664946" type="string">
-		<stringvalue>/opt/bettergram/Bettergram -- %s</stringvalue>
-	</entry>
-</gconf>
