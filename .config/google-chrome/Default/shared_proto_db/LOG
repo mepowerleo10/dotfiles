@@ -1,1 +1,6 @@
-2020/12/09-21:08:11.155 13e5 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2021/01/03-12:36:10.442 605 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2021/01/03-12:36:10.442 605 Recovering log #3
+2021/01/03-12:36:10.718 605 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/shared_proto_db/000003.log 
+2021/01/03-16:11:56.729 5197 Level-0 table #5: started
+2021/01/03-16:11:56.789 5197 Level-0 table #5: 107487 bytes OK
+2021/01/03-16:11:56.829 5197 Delete type=0 #3

@@ -42,5 +42,6 @@ set recolor-reverse-video false
 set window-title-basename true
 set window-title-page     true
 set statusbar-basename    true
+set guioptions            ""
 map <Space> navigate next
 

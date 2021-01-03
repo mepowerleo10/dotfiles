@@ -1,0 +1,33 @@
+2021/01/03-12:36:01.885 605 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/03-12:36:01.885 605 Recovering log #114
+2021/01/03-12:36:02.533 605 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/chrome-extension_klbibkeccnjlkjkiokjodocebajanakg_0.indexeddb.leveldb/000114.log 
+2021/01/03-13:37:18.958 1007 Level-0 table #120: started
+2021/01/03-13:37:19.074 1007 Level-0 table #120: 3049147 bytes OK
+2021/01/03-13:37:19.110 1007 Delete type=0 #114
+2021/01/03-15:12:39.269 2493 Compacting 1@1 + 1@2 files
+2021/01/03-15:12:39.352 2493 Generated table #121@1: 1188 keys, 475116 bytes
+2021/01/03-15:12:39.352 2493 Compacted 1@1 + 1@2 files => 475116 bytes
+2021/01/03-15:12:39.382 2493 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/03-15:12:39.382 2493 Delete type=2 #117
+2021/01/03-15:12:39.382 2493 Delete type=2 #120
+2021/01/03-15:49:39.012 475d Level-0 table #123: started
+2021/01/03-15:49:39.124 475d Level-0 table #123: 3151304 bytes OK
+2021/01/03-15:49:39.152 475d Delete type=0 #119
+2021/01/03-16:17:22.585 55f3 Compacting 1@1 + 1@2 files
+2021/01/03-16:17:22.660 55f3 Generated table #124@1: 1222 keys, 491984 bytes
+2021/01/03-16:17:22.660 55f3 Compacted 1@1 + 1@2 files => 491984 bytes
+2021/01/03-16:17:22.688 55f3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/03-16:17:22.689 55f3 Delete type=2 #123
+2021/01/03-16:17:22.689 55f3 Delete type=2 #121
+2021/01/03-16:27:53.580 5a07 Level-0 table #126: started
+2021/01/03-16:27:53.704 5a07 Level-0 table #126: 3592492 bytes OK
+2021/01/03-16:27:53.754 5a07 Delete type=0 #122
+2021/01/03-17:06:03.987 7b6c Compacting 1@1 + 1@2 files
+2021/01/03-17:06:04.095 7b6c Generated table #127@1: 1222 keys, 492386 bytes
+2021/01/03-17:06:04.095 7b6c Compacted 1@1 + 1@2 files => 492386 bytes
+2021/01/03-17:06:04.197 7b6c compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/03-17:06:04.198 7b6c Delete type=2 #126
+2021/01/03-17:06:04.198 7b6c Delete type=2 #124
+2021/01/03-17:26:52.713 8587 Level-0 table #129: started
+2021/01/03-17:26:52.854 8587 Level-0 table #129: 3516886 bytes OK
+2021/01/03-17:26:52.889 8587 Delete type=0 #125

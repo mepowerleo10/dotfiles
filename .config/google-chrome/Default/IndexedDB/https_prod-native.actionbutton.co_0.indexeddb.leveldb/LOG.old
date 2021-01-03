@@ -1,0 +1,5 @@
+2020/12/24-09:01:12.535 237ea Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_prod-native.actionbutton.co_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/24-09:01:14.761 237ff Level-0 table #5: started
+2020/12/24-09:01:14.786 237ff Level-0 table #5: 842 bytes OK
+2020/12/24-09:01:14.828 237ff Delete type=0 #3
+2020/12/24-09:01:14.828 237ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

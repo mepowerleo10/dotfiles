@@ -1,0 +1,8 @@
+2021/01/03-12:35:59.630 5db Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/03-12:35:59.630 5db Recovering log #61
+2021/01/03-12:35:59.630 5db Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000061.log 
+2021/01/03-12:36:31.421 5e6 Level-0 table #65: started
+2021/01/03-12:36:31.421 5e6 Level-0 table #65: 0 bytes OK
+2021/01/03-12:36:31.479 5e6 Delete type=0 #61
+2021/01/03-12:36:31.479 5e6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/03-12:36:31.479 5e6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

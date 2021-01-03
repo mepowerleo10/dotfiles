@@ -1,0 +1,5 @@
+2020/12/30-16:24:47.366 18cc Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/30-16:33:10.858 180a Level-0 table #5: started
+2020/12/30-16:33:10.956 180a Level-0 table #5: 14228 bytes OK
+2020/12/30-16:33:11.006 180a Delete type=0 #3
+2020/12/30-16:33:11.007 180a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

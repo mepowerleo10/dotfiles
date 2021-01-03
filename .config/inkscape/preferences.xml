@@ -540,8 +540,8 @@
        page="0"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="387"
+       h="419"
        visible="1"
        state="2"
        placement="1" />
@@ -575,8 +575,8 @@
        id="object"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="387"
+       h="282"
        visible="1"
        state="2"
        placement="2" />
@@ -587,8 +587,8 @@
        path=""
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="387"
+       h="438"
        visible="1"
        state="2"
        placement="1">
@@ -945,8 +945,8 @@
      id="desktop"
      style="fill:#f2f2f2;fill-opacity:0">
     <group
-       width="733"
-       height="480"
+       width="802"
+       height="461"
        x="633"
        y="21"
        fullscreen="0"

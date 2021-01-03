@@ -1,14 +1,20 @@
 [
     {
-        "iconPath": ":duckduckgo",
-        "name": "DuckDuckGo",
-        "trigger": "dd ",
-        "url": "https://duckduckgo.com/?q=%s"
+        "iconPath": ":google",
+        "name": "Google",
+        "trigger": "gg ",
+        "url": "https://www.google.com/search?q=%s"
     },
     {
-        "iconPath": "/home/mepowerleo10/.config/albert/org.albert.extension.websearch/{e5c95e51-371d-4fdb-a996-ee4f99c01b6c}.",
-        "name": "Wolfram",
-        "trigger": "= ",
+        "iconPath": ":github",
+        "name": "GitHub",
+        "trigger": "gh ",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "iconPath": ":wolfram",
+        "name": "Wolfram Alpha",
+        "trigger": "=",
         "url": "https://www.wolframalpha.com/input/?i=%s"
     }
 ]

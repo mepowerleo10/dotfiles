@@ -1,0 +1,15 @@
+2020/12/24-09:01:15.022 237ea Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_prod-native.actionbutton.co_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/24-09:01:15.022 237ea Recovering log #4
+2020/12/24-09:01:15.022 237ea Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_prod-native.actionbutton.co_0.indexeddb.leveldb/000004.log 
+2020/12/24-09:01:17.089 23a62 Level-0 table #8: started
+2020/12/24-09:01:17.121 23a62 Level-0 table #8: 609 bytes OK
+2020/12/24-09:01:17.145 23a62 Delete type=0 #4
+2020/12/24-09:01:17.146 23a62 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/24-09:01:17.146 23a62 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01"\x00A\x00c\x00t\x00i\x00o\x00n\x00B\x00u\x00t\x00t\x00o\x00n\x00_\x00W\x00i\x00d\x00g\x00e\x00t\x00_\x00C\x00u\x00s\x00t\x00o\x00m\x00C\x00l\x00i\x00e\x00n\x00t\x00I\x00d' @ 50 : 1
+2020/12/24-09:01:17.146 23a62 Compacting 1@1 + 1@2 files
+2020/12/24-09:01:17.179 23a62 Generated table #9@1: 20 keys, 735 bytes
+2020/12/24-09:01:17.179 23a62 Compacted 1@1 + 1@2 files => 735 bytes
+2020/12/24-09:01:17.203 23a62 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/24-09:01:17.204 23a62 Delete type=2 #5
+2020/12/24-09:01:17.204 23a62 Delete type=2 #8
+2020/12/24-09:01:17.204 23a62 Manual compaction at level-1 from '\x00\x01\x01\x02\x01"\x00A\x00c\x00t\x00i\x00o\x00n\x00B\x00u\x00t\x00t\x00o\x00n\x00_\x00W\x00i\x00d\x00g\x00e\x00t\x00_\x00C\x00u\x00s\x00t\x00o\x00m\x00C\x00l\x00i\x00e\x00n\x00t\x00I\x00d' @ 50 : 1 .. (end); will stop at (end)

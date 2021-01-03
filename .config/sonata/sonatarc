@@ -75,7 +75,7 @@ use_infofile = False
 w = 1366
 withdrawn = False
 x = 0
-xfade = 2
+xfade = 5
 xfade_enabled = True
 y = 21
 

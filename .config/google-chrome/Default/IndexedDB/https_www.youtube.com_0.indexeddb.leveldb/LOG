@@ -1,8 +1,3 @@
-2020/12/09-21:17:44.361 13e3 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/09-21:17:44.361 13e3 Recovering log #10
-2020/12/09-21:17:44.361 13e3 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000010.log 
-2020/12/09-21:17:47.304 13e3 Level-0 table #14: started
-2020/12/09-21:17:47.305 13e3 Level-0 table #14: 0 bytes OK
-2020/12/09-21:17:47.345 13e3 Delete type=0 #10
-2020/12/09-21:17:47.345 13e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/12/09-21:17:47.345 13e3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2021/01/03-16:27:34.923 5a07 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/03-16:27:34.923 5a07 Recovering log #148
+2021/01/03-16:27:34.923 5a07 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000148.log 

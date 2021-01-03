@@ -2,8 +2,10 @@ swipe:
   4:
     down:
       command: "awesome-client 'awful.tag.viewnext()'"
+      #command: "awesome-client 'require(\"revelation\")()'"
     up:
-      command: "awesome-client 'awful.tag.viewprev()'"
+      #command: "awesome-client 'awful.tag.viewprev()'"
+      command: "awesome-client 'require(\"revelation\")()'"
     left:
       command: "xdotool key alt+Right" 
     right:

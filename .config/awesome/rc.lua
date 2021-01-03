@@ -21,7 +21,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
-require("collision")()
+require("collision") ()
 
 local helpers = require("helpers")
 
@@ -31,6 +31,8 @@ local naughty = require("naughty")
 local revelation = require("revelation")
 -- beautiful.init()
 revelation.init()
+
+local dpi = require("beautiful.xresources").apply_dpi
 
 -- require("exit-screen")
 
@@ -112,15 +114,21 @@ awful.layout.layouts = {
 -- {{{ Menu
 -- Create a launcher widget and a main menu
 myawesomemenu = {
-    {"hotkeys", function()
+    {
+        "hotkeys",
+        function()
             hotkeys_popup.show_help(nil, awful.screen.focused())
-        end},
+        end
+    },
     {"manual", terminal .. " -e man awesome"},
     {"edit config", editor_cmd .. " " .. awesome.conffile},
     {"restart", awesome.restart},
-    {"quit", function()
+    {
+        "quit",
+        function()
             awesome.quit()
-        end}
+        end
+    }
 }
 
 mymainmenu =
@@ -228,7 +236,7 @@ local tasklist_buttons =
     awful.button(
         {},
         2,
-        function (c)
+        function(c)
             c:kill()
         end
     ),
@@ -407,7 +415,8 @@ awful.screen.connect_for_each_screen(
                     weather_widget(
                         {
                             api_key = "e5d6565ea5aaefba70e5fd671f801cfa",
-                            coordinates = {-6.824, 39.270},
+                            -- coordinates = {-6.824, 39.270}, -- Dar-es-salaam
+                            coordinates = {-6.2180937, 35.8084139}, -- Dodoma, In4mtx
                             time_format_12h = true,
                             units = "metric",
                             both_units_widget = false,
@@ -432,8 +441,9 @@ awful.screen.connect_for_each_screen(
                     battery_widget(
                         {
                             path_to_icons = "/usr/share/icons/Newaita-dark/.DP/32/",
-                            font = "Iosevka 8",
-                            enable_battery_warning = false
+                            -- path_to_icons = os.getenv("HOME") .. "/.local/share/icons/Qogir-dark/symbolic/status/"
+                            font = "Iosevka 8"
+                            -- enable_battery_warning = false
                         }
                     )
                 },
@@ -450,18 +460,71 @@ require("keys")
 -- Rules
 require("rules")
 
+local nice = require("nice")
+nice {
+    titlebar_height = 20,
+    titlebar_font = "Iosevka 8",
+    titlebar_radius = 0,
+    button_size = 12,
+    win_shade_enabled = false,
+    no_titlebar_maximized = true,
+    titlebar_items = {
+        left = {},
+        right = {"minimize", "maximize", "close"},
+        middle = "title"
+    },
+    context_menu_theme = {
+        bg_focus = beautiful.bg_focus,
+        bg_normal = beautiful.bg_normal,
+        border_color = "#00000000",
+        border_width = 1,
+        fg_focus = beautiful.fg_focus,
+        fg_normal = beautiful.fg_normal,
+        font = "Iosevka 8",
+        height = 20,
+        width = 250
+    }
+}
+
 -- {{{ Signals
+
+function Set(list)
+    local set = {}
+    for _, l in ipairs(list) do
+        set[l] = true
+    end
+    return set
+end
 
 -- client titlebar toggling
 function client_titlebars_toggle(c)
-    if c.maximized then
-        -- Remove titlebars on a maximized client
-        awful.titlebar.hide(c)
-        c.height = c.height + 20
-    elseif c.titlebars_enabled then
-        c.height = c.height - 20
-        -- awful.titlebar.show(c)
-        c:emit_signal("request::titlebars")
+    local height = 19.0
+    local non_titled_windows = Set {}
+    if non_titled_windows[c.class] then
+        if c.maximized then
+            -- Remove titlebars on a maximized client
+            awful.titlebar.hide(c)
+            c.height = c.height + dpi(height)
+        else
+            c.height = c.height - dpi(height)
+            -- awful.titlebar.show(c)
+            c:emit_signal("request::titlebars")
+        end
+    end
+end
+
+function set_forced_geometry(c)
+    if c.floating then
+        if c.class == "feh" then
+            c.width = 670
+            c.height = 670
+        elseif c.class == "Org.gnome.Nautilus" and not c.role == "dialog" then
+            c.width = 824
+            c.height = 507
+        --[[ elseif c.role == "GtkFileChooserDialog" then
+            c.width = 866
+            c.height = 647 ]]
+        end
     end
 end
 
@@ -473,17 +536,27 @@ client.connect_signal(
         -- i.e. put it at the end of others instead of setting it master.
         -- if not awesome.startup then awful.client.setslave(c) end
 
-        client_titlebars_toggle(c)
+        -- client_titlebars_toggle(c)
 
         if awesome.startup and not c.size_hints.user_position and not c.size_hints.program_position then
             -- Prevent clients from being unreachable after screen count changes.
             awful.placement.no_offscreen(c)
         end
+
+        set_forced_geometry(c)
+    end
+)
+
+-- Manage clients intending to change their geometry
+client.connect_signal(
+    "request::geometry",
+    function(c)
+        set_forced_geometry(c)
     end
 )
 
 -- Add a titlebar if titlebars_enabled is set to true in the rules.
-client.connect_signal(
+--[[ client.connect_signal(
     "request::titlebars",
     function(c)
         -- buttons for the titlebar
@@ -538,8 +611,7 @@ client.connect_signal(
             layout = wibox.layout.align.horizontal
         }
     end
-)
-
+) ]]
 -- Enable sloppy focus, so that focus follows mouse.
 client.connect_signal(
     "mouse::enter",
@@ -582,12 +654,17 @@ client.connect_signal(
 
 client.connect_signal(
     "property::maximized",
-    function (c)
-        client_titlebars_toggle(c)
+    function(c)
+        -- client_titlebars_toggle(c)
     end
 )
 -- }}}
 
+-- {{{ Theming naughty actions
+
+-- }}}
+
 -- {{{ Autostart apps
 require("apps")
+start_apps()
 -- }}}

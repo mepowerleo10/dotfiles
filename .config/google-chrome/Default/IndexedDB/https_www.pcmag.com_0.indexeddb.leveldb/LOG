@@ -1,0 +1,7 @@
+2021/01/01-09:10:56.631 fb27 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.pcmag.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/01-09:10:56.632 fb27 Recovering log #3
+2021/01/01-09:10:56.632 fb27 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.pcmag.com_0.indexeddb.leveldb/000003.log 
+2021/01/01-09:11:24.096 fa3d Level-0 table #5: started
+2021/01/01-09:11:24.177 fa3d Level-0 table #5: 10755 bytes OK
+2021/01/01-09:11:24.205 fa3d Delete type=0 #3
+2021/01/01-09:11:24.205 fa3d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

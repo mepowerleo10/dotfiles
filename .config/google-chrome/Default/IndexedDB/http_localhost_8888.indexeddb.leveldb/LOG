@@ -1,0 +1,8 @@
+2021/01/02-21:46:51.224 e4b6 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/http_localhost_8888.indexeddb.leveldb/MANIFEST-000001
+2021/01/02-21:46:51.224 e4b6 Recovering log #4
+2021/01/02-21:46:51.224 e4b6 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/http_localhost_8888.indexeddb.leveldb/000004.log 
+2021/01/02-21:50:43.293 edcb Level-0 table #8: started
+2021/01/02-21:50:43.293 edcb Level-0 table #8: 0 bytes OK
+2021/01/02-21:50:43.318 edcb Delete type=0 #4
+2021/01/02-21:50:43.318 edcb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/02-21:50:43.318 edcb Manual compaction at level-1 from (begin) .. (end); will stop at (end)

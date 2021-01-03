@@ -44,7 +44,7 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="AI-201.8743.12.41.6858069" />
               <option name="buildTimestamp" value="1600875368799" />
-              <frame x="0" y="42" width="1366" height="726" extendedState="1" />
+              <frame x="0" y="0" width="1366" height="768" />
               <option name="productionCode" value="AI" />
               <option name="projectOpenTimestamp" value="1607624897788" />
             </RecentProjectMetaInfo>

@@ -1,0 +1,5 @@
+2020/12/23-12:35:05.469 6dc9 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_scroll.in_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/23-12:36:09.837 6dc9 Level-0 table #5: started
+2020/12/23-12:36:09.862 6dc9 Level-0 table #5: 92886 bytes OK
+2020/12/23-12:36:09.884 6dc9 Delete type=0 #3
+2020/12/23-12:36:09.885 6dc9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

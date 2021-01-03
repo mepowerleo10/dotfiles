@@ -1,11 +1,11 @@
 [Default Applications]
 x-scheme-handler/mailspring=mailspring.desktop
-x-scheme-handler/tg=bettergram.desktop
-text/html=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
-x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-M9JYV0.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/mailto=mailspring.desktop
 message/rfc822=userapp-Thunderbird-5201P0.desktop
 x-scheme-handler/news=userapp-Thunderbird-9NT2P0.desktop
@@ -15,10 +15,13 @@ x-scheme-handler/feed=userapp-Thunderbird-1ZY5P0.desktop
 application/rss+xml=userapp-Thunderbird-1ZY5P0.desktop
 application/x-extension-rss=userapp-Thunderbird-1ZY5P0.desktop
 x-scheme-handler/postman=Postman.desktop
+video/mp4=mpv.desktop
+video/x-matroska=mpv.desktop
+audio/mpeg=mpv.desktop
 
 [Added Associations]
 application/x-bittorrent=uget-gtk.desktop;
-application/zip=firefox.desktop;org.kde.ark.desktop;
+application/zip=org.kde.ark.desktop;firefox.desktop;
 image/png=feh.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-5201P0.desktop;
 message/rfc822=userapp-Thunderbird-5201P0.desktop;
@@ -35,5 +38,7 @@ video/mp4=mpv.desktop;
 image/jpeg=feh.desktop;
 text/plain=vim.desktop;code-oss.desktop;
 text/x-lua=code-oss.desktop;
-audio/mpeg=org.kde.kid3-qt.desktop;
+audio/mpeg=org.kde.kid3-qt.desktop;mpv.desktop;
 application/octet-stream=vim.desktop;org.kde.kid3-qt.desktop;
+image/gif=feh.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-M9JYV0.desktop;

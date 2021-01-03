@@ -1,0 +1,5 @@
+2020/12/30-16:24:49.509 18cf Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.verizon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/30-16:33:11.007 180a Level-0 table #5: started
+2020/12/30-16:33:11.090 180a Level-0 table #5: 1533 bytes OK
+2020/12/30-16:33:11.201 180a Delete type=0 #3
+2020/12/30-16:33:11.201 180a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
