@@ -1,5 +1,0 @@
-2020/12/24-09:21:02.085 24301 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.pluralsight.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/24-09:21:34.188 24302 Level-0 table #5: started
-2020/12/24-09:21:34.231 24302 Level-0 table #5: 1291 bytes OK
-2020/12/24-09:21:34.257 24302 Delete type=0 #3
-2020/12/24-09:21:34.257 24302 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

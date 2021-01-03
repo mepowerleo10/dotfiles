@@ -134,6 +134,8 @@ PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 export AUTO_NOTIFY_THRESHOLD=20
 export AUTO_NOTIFY_TITLE="Command finished!"
 export AUTO_NOTIFY_BODY="<i>%command</i> completed in %elapsed seconds with exit code %exit_code"
-AUTO_NOTIFY_IGNORE+=("vi" "ncmpcpp" "kunst" "cava")
+AUTO_NOTIFY_IGNORE+=("vi" "ncmpcpp" "kunst" "cava" "sudo vi")
 
 precmd() { precmd() { print "" }}
+
+export PATH="$HOME/.poetry/bin:$PATH"

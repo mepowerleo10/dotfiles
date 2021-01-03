@@ -1,5 +1,0 @@
-2021/01/01-09:18:33.854 fcd7 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.thenorthface.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/01-09:21:27.243 fd49 Level-0 table #5: started
-2021/01/01-09:21:27.280 fd49 Level-0 table #5: 2775 bytes OK
-2021/01/01-09:21:27.305 fd49 Delete type=0 #3
-2021/01/01-09:21:27.305 fd49 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,7 +1,0 @@
-2021/01/01-11:13:33.808 11140 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.vulture.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/01-11:13:33.808 11140 Recovering log #3
-2021/01/01-11:13:33.859 11140 Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.vulture.com_0.indexeddb.leveldb/000003.log 
-2021/01/01-11:17:18.984 11317 Level-0 table #5: started
-2021/01/01-11:17:19.034 11317 Level-0 table #5: 388115 bytes OK
-2021/01/01-11:17:19.067 11317 Delete type=0 #3
-2021/01/01-11:17:19.068 11317 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

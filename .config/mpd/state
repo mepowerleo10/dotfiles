@@ -1,7 +1,9 @@
 sw_volume: 95
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: play
+current: 2
+time: 125.090000
 random: 0
 repeat: 0
 single: 0
@@ -10,10 +12,9 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:other/Beauty Behind The Madness CD 1 TRACK 7 (128).mp3
-1:The Weekend - After Hours [2020]/The Weeknd - Hardest To Love (128).mp3
-2:The Weekend - After Hours [2020]/The Weeknd - Heartless (128).mp3
-3:other/My Dear Melancholy, CD 1 TRACK 1 (128).mp3
-4:other/Starboy CD 1 TRACK 1 (128).mp3
-5:other/Starboy CD 1 TRACK 18 (128).mp3
+0:other/18 Months CD 1 TRACK 8 (128).mp3
+1:other/My Way CD 1 TRACK 1 (128).mp3
+2:Ellie Goulding - Delirium [2015]/Outside CD 1 TRACK 1 (128).mp3
+3:other/Sweet Nothing CD 1 TRACK 1 (128).mp3
+4:other/1. Calvin Harris, Ellie Goulding - Outside (128).mp3
 playlist_end

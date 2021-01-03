@@ -1,5 +1,0 @@
-2021/01/02-15:30:39.405 6fbb Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.theguardian.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/02-15:35:34.337 6fbe Level-0 table #5: started
-2021/01/02-15:35:34.371 6fbe Level-0 table #5: 53282 bytes OK
-2021/01/02-15:35:34.402 6fbe Delete type=0 #3
-2021/01/02-15:35:34.402 6fbe Manual compaction at level-0 from (begin) .. (end); will stop at (end)

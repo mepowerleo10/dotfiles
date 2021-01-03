@@ -1,5 +1,0 @@
-2020/12/09-14:14:42.257 35bb Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_googlechrome.github.io_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/09-14:15:31.257 35bb Level-0 table #5: started
-2020/12/09-14:15:31.291 35bb Level-0 table #5: 827 bytes OK
-2020/12/09-14:15:31.315 35bb Delete type=0 #3
-2020/12/09-14:15:31.315 35bb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

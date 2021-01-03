@@ -1,5 +1,0 @@
-2020/12/25-08:48:49.744 4889 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_linuxandubuntu.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/25-08:48:52.291 47cc Level-0 table #5: started
-2020/12/25-08:48:52.330 47cc Level-0 table #5: 5952 bytes OK
-2020/12/25-08:48:52.380 47cc Delete type=0 #3
-2020/12/25-08:48:52.381 47cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

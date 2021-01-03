@@ -1,8 +1,0 @@
-2020/12/28-10:57:52.922 7cbb Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.accuradio.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/28-10:57:52.922 7cbb Recovering log #10
-2020/12/28-10:57:52.922 7cbb Reusing old log /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.accuradio.com_0.indexeddb.leveldb/000010.log 
-2020/12/28-11:00:18.541 7cbb Level-0 table #14: started
-2020/12/28-11:00:18.541 7cbb Level-0 table #14: 0 bytes OK
-2020/12/28-11:00:18.669 7cbb Delete type=0 #10
-2020/12/28-11:00:18.669 7cbb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/12/28-11:00:18.669 7cbb Manual compaction at level-1 from (begin) .. (end); will stop at (end)

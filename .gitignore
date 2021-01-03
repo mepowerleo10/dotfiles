@@ -16,7 +16,6 @@
 !.zshrc
 !.oh-my-zsh
 
-!/.config/
 **/logs
 **/unity3d
 **/pulse
@@ -34,7 +33,5 @@ hlint
 supertuxkart
 
 !/.bin
-
-lyrics/
-
-!/.irssi
+!/.config/awesome
+!/.config/zathura

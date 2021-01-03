@@ -1,5 +1,0 @@
-2021/01/02-19:11:40.215 bc84 Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/http_botfront_8888.indexeddb.leveldb/MANIFEST-000001
-2021/01/02-19:46:50.541 ca8f Level-0 table #5: started
-2021/01/02-19:46:50.593 ca8f Level-0 table #5: 145802 bytes OK
-2021/01/02-19:46:50.623 ca8f Delete type=0 #3
-2021/01/02-19:46:50.624 ca8f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

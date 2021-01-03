@@ -1,5 +1,0 @@
-2021/01/02-14:23:41.507 655a Reusing MANIFEST /home/mepowerleo10/.config/google-chrome/Default/IndexedDB/https_www.football-espana.net_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/02-14:25:03.030 655b Level-0 table #5: started
-2021/01/02-14:25:03.096 655b Level-0 table #5: 5846 bytes OK
-2021/01/02-14:25:03.159 655b Delete type=0 #3
-2021/01/02-14:25:03.159 655b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
