@@ -43,6 +43,7 @@
 !.config/beets
 !.config/aria2c
 !.config/albert
+!.config/ranger
 
 !.vimrc
 !.bashrc
