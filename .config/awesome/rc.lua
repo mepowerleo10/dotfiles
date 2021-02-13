@@ -392,8 +392,7 @@ awful.screen.connect_for_each_screen(
                     tooltip.mode = "outside"
                     tooltip.preferred_positions = {"left"}
                 end
-            },
-            
+            }
         }
 
         local weather_widget = require("widgets.weather-widget.weather")
@@ -602,16 +601,6 @@ client.connect_signal(
     end
 )
 
-client.connect_signal(
-    "property::name",
-    function(c)
-        if not string.match(c.name, "nil") then
-            c.name = helpers.get_substring(c.name, 30)
-        else
-            c.name = "  "
-        end
-    end
-)
 -- }}}
 
 -- {{{ Autostart apps
