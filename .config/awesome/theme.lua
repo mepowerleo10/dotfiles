@@ -49,7 +49,7 @@ theme.titlebar_bg_normal = "#3F3F3F"
 -- titlebar_[normal|focus]
 -- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
 -- Example:
---theme.taglist_bg_focus = "#CC9393"
+theme.taglist_bg_focus = theme.bg_normal
 -- }}}
 
 -- {{{ Widgets
@@ -78,8 +78,10 @@ theme.menu_width  = dpi(100)
 
 -- {{{ Icons
 -- {{{ Taglist
-theme.taglist_squares_sel   = themes_path .. "zenburn/taglist/squarefz.png"
-theme.taglist_squares_unsel = themes_path .. "zenburn/taglist/squarez.png"
+-- theme.taglist_squares_sel   = themes_path .. "zenburn/taglist/squarefz.png"
+theme.taglist_squares_sel   = nil
+-- theme.taglist_squares_unsel = themes_path .. "zenburn/taglist/squarez.png"
+theme.taglist_squares_unsel = nil
 --theme.taglist_squares_resize = "false"
 -- }}}
 

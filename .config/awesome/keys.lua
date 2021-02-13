@@ -369,7 +369,7 @@ globalkeys =
         {modkey},
         "i",
         function()
-            awful.spawn('rofimoji -p --rofi-args "-theme .config/rofi/themes/rofimoji.rasi"')
+            awful.spawn('rofimoji -p --rofi-args "-theme .config/rofi.old/themes/rofimoji.rasi"')
         end,
         {description = "show rofimoji", group = "Custom Shortcuts"}
     )

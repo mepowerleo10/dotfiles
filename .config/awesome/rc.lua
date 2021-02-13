@@ -282,6 +282,31 @@ awful.screen.connect_for_each_screen(
             )
         )
         -- Create a taglist widget
+
+        local function update_tag(self, t, index, tags)
+            local selected_tag = awful.screen.focused().selected_tag
+            if selected_tag ~= t then
+                self:get_children_by_id("separator")[1].right = 0
+                self:get_children_by_id("separator_text")[1].markup = ""
+                self:get_children_by_id("tag_name")[1].markup = ""
+            else
+                self:get_children_by_id("separator")[1].right = 2
+                self:get_children_by_id("separator_text")[1].markup = "•"
+                self:get_children_by_id("tag_name")[1].markup = t.name
+            end
+            local tooltip =
+                awful.tooltip(
+                {
+                    objects = {self},
+                    timer_function = function()
+                        return t.name
+                    end
+                }
+            )
+            tooltip.align = "left"
+            tooltip.mode = "outside"
+            tooltip.preferred_positions = {"left"}
+        end
         s.mytaglist =
             awful.widget.taglist {
             screen = s,
@@ -291,58 +316,41 @@ awful.screen.connect_for_each_screen(
                 {
                     {
                         {
-                            id = "icon_role",
-                            widget = wibox.widget.imagebox
+                            {
+                                id = "icon_role",
+                                widget = wibox.widget.imagebox
+                            },
+                            margins = 2,
+                            widget = wibox.container.margin
                         },
-                        margins = 2,
-                        widget = wibox.container.margin
-                    },
-                    {
-                        id = "separator",
                         {
-                            id = "separator_text",
+                            id = "separator",
+                            {
+                                id = "separator_text",
+                                widget = wibox.widget.textbox
+                            },
+                            left = 0,
+                            right = 2,
+                            widget = wibox.container.margin
+                        },
+                        {
+                            id = "tag_name",
                             widget = wibox.widget.textbox
                         },
-                        left = 0,
-                        right = 2,
-                        widget = wibox.container.margin
+                        layout = wibox.layout.fixed.horizontal
                     },
-                    {
-                        id = "tag_name",
-                        widget = wibox.widget.textbox
-                    },
-                    layout = wibox.layout.fixed.horizontal
+                    left = 2,
+                    right = 2,
+                    widget = wibox.container.margin
                 },
-                left = 2,
-                right = 2,
-                widget = wibox.container.margin,
-                update_callback = function(self, t, index, tags) --luacheck: no unused args
-                    local selected_tag = awful.screen.focused().selected_tag
-                    if selected_tag ~= t then
-                        self:get_children_by_id("separator")[1].right = 0
-                        self:get_children_by_id("separator_text")[1].markup = ""
-                        self:get_children_by_id("tag_name")[1].markup = ""
-                    else
-                        self:get_children_by_id("separator")[1].right = 2
-                        self:get_children_by_id("separator_text")[1].markup = "•"
-                        self:get_children_by_id("tag_name")[1].markup = t.name
-                    end
-                    self:connect_signal(
-                        "mouse::enter",
+                id = "background_role",
+                widget = wibox.container.background,
+                update_callback = update_tag,
+                create_callback = function(self, t, index, tags)
+                    update_tag(self, t, index, tags)
+                    t:connect_signal(
+                        "property::urgent",
                         function()
-                            if self.bg ~= "#ff0000" then
-                                self.backup = self.bg
-                                self.has_backup = true
-                            end
-                            self.bg = "#ff0000"
-                        end
-                    )
-                    self:connect_signal(
-                        "mouse::leave",
-                        function()
-                            if self.has_backup then
-                                self.bg = self.backup
-                            end
                         end
                     )
                 end
