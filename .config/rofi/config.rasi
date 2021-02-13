@@ -1,0 +1,7 @@
+/** Basic config file **/
+
+configuration {
+  font: "SauceCodePro Nerd Font 14";
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}

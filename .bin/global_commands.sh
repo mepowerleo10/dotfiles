@@ -7,6 +7,7 @@ export FZF_DEFAULT_OPTS='
 export VISUAL="vim"
 export PATH="${PATH}:$HOME/.local/bin"
 export PATH="$HOME/.bin:${PATH}"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:${PATH}"
 
 # my aliases
 alias ls='ls --color=auto'

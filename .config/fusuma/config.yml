@@ -1,20 +1,22 @@
 swipe:
   4:
     down:
-      command: "awesome-client 'awful.tag.viewnext()'"
-      #command: "awesome-client 'require(\"revelation\")()'"
+      window:
+        maximized: remove
     up:
-      #command: "awesome-client 'awful.tag.viewprev()'"
-      command: "awesome-client 'require(\"revelation\")()'"
+      window:
+        maximized: add
     left:
-      command: "xdotool key alt+Right" 
+      command: "xdotool key alt+Left" 
     right:
-      command: "xdotool key alt+Left"
+      command: "xdotool key alt+Right"
   3:
+    left:
+      sendkey: "LEFTALT+LEFT" # history back
+    right:
+      sendkey: "LEFTALT+RIGHT" # history forward
     down:
-      command: "awesome-client 'awful.client.focus.byidx(1)'"
     up:
-      command: "awesome-client 'awful.client.focus.byidx(-1)'"
 
 threshold:
   swipe: 0.4

@@ -71,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-plugins=(auto-notify $plugins)
+plugins=(auto-notify colorize $plugins)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -139,3 +139,5 @@ AUTO_NOTIFY_IGNORE+=("vi" "ncmpcpp" "kunst" "cava" "sudo vi")
 precmd() { precmd() { print "" }}
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+ZSH_COLORIZE_CHROMA_FORMATTER=terminal256
