@@ -7,6 +7,7 @@ local themes_path = require("gears.filesystem").get_themes_dir()
 local dpi = require("beautiful.xresources").apply_dpi
 local naughty = require("naughty")
 local beautiful = require("beautiful")
+local shape = require("gears.shape")
 
 -- {{{ Main
 local theme = {}
@@ -170,6 +171,16 @@ theme.tasklist_plain_task_name = true
 
 -- beautiful.notification_icon_size = 48
 -- }}}
+
+-- Collision color schemes
+theme.collision_resize_bg = theme.bg_normal
+theme.collision_focus_bg = theme.bg_normal
+theme.collision_resize_shape = shape.rectangle
+theme.collision_focus_shape = shape.rectangle
+theme.collision_focus_shape_center = shape.rectangle
+theme.collision_resize_width = dpi(5) * 5
+theme.collision_shape_width = dpi(5) * 7
+theme.collision_shape_height = dpi(5) * 7
 
 return theme
 

@@ -35,7 +35,8 @@ awful.rules.rules = {
                 right = beautiful.useless_gap * 2,
                 left = beautiful.useless_gap * 2
             }
-        }
+        },
+        callback = awful.client.setslave
     },
     -- Floating clients.
     {
@@ -107,6 +108,27 @@ awful.rules.rules = {
             maximized_vertical = true
         }
     },
+    {
+        rule = {
+            type = {"normal"},
+            name = {"libreoffice"}
+        },
+        properties = {
+            maximized_horizontal = true,
+            maximized_vertical = true
+        }
+        
+    },
+    {
+        rule = {
+            type = {"normal"},
+            class = {"google-chrome"}
+        },
+        properties = {
+            maximized_horizontal = true,
+            maximized_vertical = true
+        }   
+    },
     -- }}
 --[[     {
         rule = {role = "GtkFileChooserDialog"},
@@ -127,7 +149,7 @@ awful.rules.rules = {
     {
         rule = {class = "TelegramDesktop"},
         properties = {
-            tag = "chat",
+            -- tag = "chat",
             placement = awful.placement.centered,
             skip_taskbar = true,
             width = 605,
@@ -135,9 +157,21 @@ awful.rules.rules = {
         }
     },
     {
+        rule = {class = "feh"},
+        properties = {
+            placement = awful.placement.store_geometry,
+            width = 573,
+            height = 484
+        }
+    },
+    {
         rule = {class = "mpv"},
         properties = {
-            placement = awful.placement.centered,
+            placement = awful.placement.no_offscreen 
+                + awful.placement.no_overlap,
+                -- + awful.placement.centered,
+            honor_workarea = true,
+            store_geometry = true,
             -- titlebars_enabled = false,
             width = 640,
             height = 360
@@ -166,6 +200,8 @@ awful.rules.rules = {
     {
         rule = {class = "Dragon-drag-and-drop"},
         properties = {
+            titlebars_enabled = false,
+            requests_no_titlebar = true,
             floating = true,
             sticky = true,
             above = true,
@@ -184,14 +220,70 @@ awful.rules.rules = {
         }
     },
     {
+        rule = {class = "Uget-gtk", type = "normal"},
+        properties = {
+            floating = true,
+            width = 714,
+            height = 451,
+            placement = awful.placement.no_offscreen
+        }
+    },
+    {
         rule = {class = "TelegramDesktop", name = "Media viewer"},
         properties = {
             fullscreen = true,
             titlebars_enabled = false,
             requests_no_titlebar = true,
-            above = true,
+            -- above = true,
             ontop = true,
             floating = true
+        }
+    },
+    {
+        rule = {class = "Plank", type = "dock"},
+        properties = {
+            requests_no_titlebar = true,
+            titlebars_enabled = false,
+            above = true,
+            ontop = true,
+            floating = true,
+            dockable = true,
+            skip_taskbar = true,
+        }
+    },
+    {
+        rule = {class = "Tint2", type = "dock"},
+        properties = {
+            requests_no_titlebar = true,
+            titlebars_enabled = false,
+            -- above = true,
+            ontop = true,
+            floating = false,
+            dockable = true,
+            skip_taskbar = true,
+            placement = awful.placement.top
+        }
+    },
+    {
+        rule = {class = "Zotero", name = "Quick Format Citation"},
+        properties = {
+            floating = true, 
+            skip_taskbar = true,
+        }
+    },
+    --[[ {
+        rule = {class = "Org.gnome.Nautilus", type = "dialog"},
+        properties = {
+            maximized_vertical = true,
+            titlebars_enabled = false,
+            requests_no_titlebar = true
+        }
+    }, ]]
+    {
+        rule = {class = "Gedit"},
+        properties = {
+            requests_no_titlebar = true,
+            titlebars_enabled = false
         }
     },
     {
