@@ -354,7 +354,46 @@ awful.screen.connect_for_each_screen(
             awful.widget.tasklist {
             screen = s,
             filter = awful.widget.tasklist.filter.currenttags,
-            buttons = tasklist_buttons
+            buttons = tasklist_buttons,
+            widget_template = {
+                {
+                    {
+                        {
+                            {
+                                id = "icon_role",
+                                widget = wibox.widget.imagebox
+                            },
+                            margins = 2,
+                            widget = wibox.container.margin
+                        },
+                        {
+                            id = "text_role",
+                            widget = wibox.widget.textbox
+                        },
+                        layout = wibox.layout.fixed.horizontal
+                    },
+                    left = 3,
+                    right = 3,
+                    widget = wibox.container.margin
+                },
+                id = "background_role",
+                widget = wibox.container.background,
+                create_callback = function(self, c, index, clients)
+                    local tooltip =
+                        awful.tooltip(
+                        {
+                            objects = {self},
+                            timer_function = function()
+                                return c.name
+                            end
+                        }
+                    )
+                    tooltip.align = "left"
+                    tooltip.mode = "outside"
+                    tooltip.preferred_positions = {"left"}
+                end
+            },
+            
         }
 
         local weather_widget = require("widgets.weather-widget.weather")
