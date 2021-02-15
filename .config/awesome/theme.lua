@@ -24,7 +24,7 @@ theme.fg_focus   = "#F0DFAF"
 theme.fg_urgent  = "#CC9393"
 theme.bg_normal  = "#3F3F3F"
 theme.bg_focus   = "#1E2320"
-theme.bg_urgent  = "#3F3F3F"
+theme.bg_urgent  = "#eb5454"
 theme.bg_systray = theme.bg_normal
 theme.systray_icon_spacing = 2
 -- }}}
@@ -139,7 +139,7 @@ theme.titlebar_maximized_button_normal_inactive = themes_path .. "zenburn/titleb
 -- }}}
 
 -- {{{ Naughty notifications configuration
--- theme.notification_position = "top_right"
+theme.notification_position = "bottom_right"
 -- theme.notification_border_width = dpi(0)
 -- theme.notification_border_radius = theme.border_radius
 -- theme.notification_border_color = "#18E3C8"

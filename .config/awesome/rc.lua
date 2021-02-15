@@ -30,6 +30,44 @@ local naughty = require("naughty")
 
 local dpi = require("beautiful.xresources").apply_dpi
 
+--[[ naughty.disconnect_signal("request::display", naughty.default_notification_handler)
+
+naughty.connect_signal("request::display", function(n)
+    local w = naughty.widget.box {
+        notification    = n,
+        shape           = gears.shape.rounded_bar,
+        border_width    = 2,
+        placement       = awful.placement.top,
+        offset          = 20,
+        widget_template = {
+            {
+                {
+                    naughty.widget.icon {notification = n},
+                    {
+                        naughty.widget.title   {notification = n},
+                        naughty.widget.message {notification = n},
+                        layout = wibox.layout.fixed.vertical
+                    },
+                    fill_space = true,
+                    layout     = wibox.layout.fixed.horizontal
+                },
+                naughty.widget.actionlist {notification = n},
+                spacing_widget = {
+                    forced_height = 10,
+                    span_ratio    = 0.9,
+                    color = "#ff0000",
+                    widget        = wibox.widget.separator
+                },
+                spacing = 10,
+                layout  = wibox.layout.fixed.vertical
+            },
+            left    = 20,
+            right   = 20,
+            top     = 5,
+            widget  = wibox.container.margin
+        },
+    }
+end) ]]
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -281,9 +319,9 @@ awful.screen.connect_for_each_screen(
                 )
             )
         )
-        -- Create a taglist widget
 
-        local function update_tag(self, t, index, tags)
+        -- Create a taglist widget and add callbacks for signals
+        local function update_tag_properties(self, t, index, tags)
             local selected_tag = awful.screen.focused().selected_tag
             if selected_tag ~= t then
                 self:get_children_by_id("separator")[1].right = 0
@@ -293,7 +331,22 @@ awful.screen.connect_for_each_screen(
                 self:get_children_by_id("separator")[1].right = 2
                 self:get_children_by_id("separator_text")[1].markup = "•"
                 self:get_children_by_id("tag_name")[1].markup = t.name
+                self.bg = beautiful.bg_focus
             end
+        end
+        local function create_tag(self, t, index, tags)
+            update_tag_properties(self, t, index, tags)
+            -- Handle the mouse hover signals
+            self:connect_signal('mouse::enter', function()
+                if self.bg ~= beautiful.bg_focus then
+                    self.backup = self.bg
+                    self.has_backup = true
+                end
+                self.bg = beautiful.bg_focus
+            end)
+            self:connect_signal('mouse::leave', function()
+                if self.has_backup then self.bg = self.backup end
+            end)
             local tooltip =
                 awful.tooltip(
                 {
@@ -307,36 +360,36 @@ awful.screen.connect_for_each_screen(
             tooltip.mode = "outside"
             tooltip.preferred_positions = {"left"}
         end
-        s.mytaglist =
-            awful.widget.taglist {
-            screen = s,
-            filter = awful.widget.taglist.filter.all,
-            buttons = taglist_buttons,
-            widget_template = {
+        local function create_widget_template()
+            local icon_box = {
+                {
+                    id = "icon_role",
+                    widget = wibox.widget.imagebox
+                },
+                margins = 2,
+                widget = wibox.container.margin
+            }
+            local separator = {
+                id = "separator",
+                {
+                    id = "separator_text",
+                    widget = wibox.widget.textbox
+                },
+                left = 0,
+                right = 2,
+                widget = wibox.container.margin
+            }
+            local tag_name = {
+                id = "tag_name",
+                widget = wibox.widget.textbox
+            }
+
+            local widget_template = {
                 {
                     {
-                        {
-                            {
-                                id = "icon_role",
-                                widget = wibox.widget.imagebox
-                            },
-                            margins = 2,
-                            widget = wibox.container.margin
-                        },
-                        {
-                            id = "separator",
-                            {
-                                id = "separator_text",
-                                widget = wibox.widget.textbox
-                            },
-                            left = 0,
-                            right = 2,
-                            widget = wibox.container.margin
-                        },
-                        {
-                            id = "tag_name",
-                            widget = wibox.widget.textbox
-                        },
+                        icon_box,
+                        separator,
+                        tag_name,
                         layout = wibox.layout.fixed.horizontal
                     },
                     left = 2,
@@ -345,16 +398,17 @@ awful.screen.connect_for_each_screen(
                 },
                 id = "background_role",
                 widget = wibox.container.background,
-                update_callback = update_tag,
-                create_callback = function(self, t, index, tags)
-                    update_tag(self, t, index, tags)
-                    t:connect_signal(
-                        "property::urgent",
-                        function()
-                        end
-                    )
-                end
+                update_callback = update_tag_properties,
+                create_callback = create_tag
             }
+            return widget_template
+        end
+        s.mytaglist =
+            awful.widget.taglist {
+            screen = s,
+            filter = awful.widget.taglist.filter.all,
+            buttons = taglist_buttons,
+            widget_template = create_widget_template()
         }
 
         -- Create a tasklist widgetpop
@@ -435,6 +489,7 @@ awful.screen.connect_for_each_screen(
             {
                 -- Right widgets
                 layout = wibox.layout.fixed.horizontal,
+                spacing = 5,
                 {
                     spacing = 5,
                     layout = wibox.layout.fixed.horizontal,
@@ -460,20 +515,24 @@ awful.screen.connect_for_each_screen(
                     mytextclock
                 },
                 {
-                    layout = wibox.container.margin(_, 0, 0, 2, 1),
-                    tray
-                },
-                {
+                    spacing = 5,
                     layout = wibox.layout.fixed.horizontal,
-                    battery_widget(
-                        {
-                            path_to_icons = "/usr/share/icons/Newaita-dark/.DP/32/",
-                            -- path_to_icons = os.getenv("HOME") .. "/.local/share/icons/Qogir-dark/symbolic/status/"
-                            font = "Iosevka 8"
-                        }
-                    )
-                },
-                s.mylayoutbox
+                    {
+                        layout = wibox.container.margin(_, 0, 0, 2, 1),
+                        tray
+                    },
+                    {
+                        layout = wibox.layout.fixed.horizontal,
+                        battery_widget(
+                            {
+                                -- path_to_icons = "/usr/share/icons/Newaita-dark/.DP/32/",
+                                path_to_icons = os.getenv("HOME") .. "/.local/share/icons/WhiteSur-dark/status/16/",
+                                font = "Iosevka 8"
+                            }
+                        )
+                    },
+                    s.mylayoutbox
+                }
             }
         }
     end

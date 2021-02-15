@@ -97,9 +97,17 @@ globalkeys =
         {description = "focus the previous screen", group = "screen"}
     ),
     awful.key({modkey}, "u", awful.client.urgent.jumpto, {description = "jump to urgent client", group = "client"}),
-    --[[ awful.key(
+    awful.key(
         {modkey},
-        "Tab",
+        "d",
+        function()
+            awful.spawn("/home/mepowerleo10/.config/rofi/launchers/slate/launcher.sh")
+        end,
+        {description = "spawn rofi dmenu for applications", group = "rofi"}
+    ),
+    awful.key(
+        {"Mod1"},
+        "c",
         function()
             awful.client.focus.history.previous()
             if client.focus then
@@ -107,7 +115,7 @@ globalkeys =
             end
         end,
         {description = "go back", group = "client"}
-    ), ]]
+    ),
     -- mod+Tab: cycle through all the clients
     awful.key(
         {"Mod1"},
@@ -126,14 +134,14 @@ globalkeys =
         end,
         {description = "cycle backwards through all clients", group = "tag"}
     ),
-    -- modkey+Shift+c: cycle through clients in the current workspace
+    --[[ -- modkey+Shift+c: cycle through clients in the current workspace
     cyclefocus.key(
         {"Mod1"},
         "c", {
             cycle_filters = { cyclefocus.filters.same_screen, cyclefocus.filters.common_tag },
         },
         {description = "cycle through all clients in current tag", group = "tag"}
-    ),
+    ), ]]
     -- Standard program
     awful.key(
         {modkey},
