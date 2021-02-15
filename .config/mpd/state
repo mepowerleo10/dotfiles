@@ -1,7 +1,9 @@
-sw_volume: 100
+sw_volume: 95
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 7
+time: 157.179000
 random: 0
 repeat: 0
 single: 0
@@ -10,14 +12,14 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:J. Cole - 4 Your Eyez Only [2016]/1. J. Cole - For Whom The Bell Tolls (128).mp3
-1:J. Cole - 4 Your Eyez Only [2016]/2. J. Cole - Immortal (128).mp3
-2:J. Cole - 4 Your Eyez Only [2016]/3. J. Cole - Deja Vu (128).mp3
-3:J. Cole - 4 Your Eyez Only [2016]/4. J. Cole - Ville Mentality (128).mp3
-4:J. Cole - 4 Your Eyez Only [2016]/5. J. Cole - She s Mine Pt. 1 (128).mp3
-5:J. Cole - 4 Your Eyez Only [2016]/6. J. Cole - Change (128).mp3
-6:J. Cole - 4 Your Eyez Only [2016]/7. J. Cole - Neighbors (128).mp3
-7:J. Cole - 4 Your Eyez Only [2016]/8. J. Cole - Foldin Clothes (128).mp3
-8:J. Cole - 4 Your Eyez Only [2016]/9. J. Cole - She s Mine Pt. 2 (128).mp3
-9:J. Cole - 4 Your Eyez Only [2016]/10. J. Cole - 4 Your Eyez Only (128).mp3
+0:Animal Kingdom - The Looking Away [2014]/1. Animal Kingdom - The Wave (128).mp3
+1:Animal Kingdom - The Looking Away [2014]/2. Animal Kingdom - Get Away With It (128).mp3
+2:Animal Kingdom - The Looking Away [2014]/3. Animal Kingdom - Strange Attractor (128).mp3
+3:Animal Kingdom - The Looking Away [2014]/4. Animal Kingdom - Straw Man (128).mp3
+4:Animal Kingdom - The Looking Away [2014]/5. Animal Kingdom - Skipping Disc (128).mp3
+5:Animal Kingdom - The Looking Away [2014]/6. Animal Kingdom - Glass House (128).mp3
+6:Animal Kingdom - The Looking Away [2014]/7. Animal Kingdom - The Art of Tuning Out (128).mp3
+7:Animal Kingdom - The Looking Away [2014]/8. Animal Kingdom - White Sparks (128).mp3
+8:Animal Kingdom - The Looking Away [2014]/9. Animal Kingdom - Everything at Once (128).mp3
+9:Animal Kingdom - The Looking Away [2014]/10. Animal Kingdom - Alone Together (128).mp3
 playlist_end

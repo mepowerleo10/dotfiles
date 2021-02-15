@@ -6,18 +6,19 @@ shadow-offset-y = 0;
 shadow-radius = 5;
 fade-out-step = 0.8;
 fade-in-step = 0.8;
+active-opacity = 1;
 inactive-dim = 0.2;
+shadow-ignore-shaped = false;
 detect-rounded-corners = true;
 detect-client-opacity = true;
-
 focus-exclude = [
   "name = 'cava'",
   "name = 'ncmpcpp'",
   "class_g = 'plank'",
   "class_g = 'jgmenu'",
-  "class_g = 'argb'",
-  "class_g = 'Rofi'",
-  "class_g = 'Sxiv'",
+	"class_g = 'argb'",
+	"class_g = 'Rofi'",
+	"class_g = 'Sxiv'",
   "class_g = 'dmenu'",
   "class_g = 'xob'",
   "class_g = 'GLava'",
@@ -37,7 +38,7 @@ focus-exclude = [
 ];
 
 shadow-exclude = [
-        "class_g = 'firefox' && argb",
+	"class_g = 'firefox' && argb",
   "class_g = 'plank'",
   "class_g = 'synapse'"
 ];
@@ -46,31 +47,31 @@ wintypes: {
   dock = {
     shadow = true;
   };
-        notify = {
-                fade = false;
-                shadow = true;
-                focus = true;
-        };
-        unknown = {
-                focus = true;
-                fade = false;
-                shadow = true;
-        };
-        popup_menu = {
-                focus = true;
-                fade = false;
-                shadow = false;
-        };
-menu = {
-                focus = true;
-                shadow = true;
-                fade = false;
-        };
-        utility = {
-                focus = true;
-                shadow = true;
-                fade = false;
-        };
+	notify = {
+		fade = false;
+		shadow = true;
+		focus = true;
+	};
+	unknown = {
+		focus = true;
+		fade = false;
+		shadow = true;
+	};
+	popup_menu = {
+		focus = true;
+		fade = false;
+		shadow = false;
+	};
+	menu = {
+		focus = true;
+		shadow = true;
+		fade = false;
+	};
+	utility = {
+		focus = true;
+		shadow = true;
+		fade = false;
+	};
   tooltip = {
     focus = true;
     shadow = true;
@@ -83,9 +84,9 @@ menu = {
     opacity = 0.88;
   }
 };
-corner-radius = 3.5;
-
+vsync = true;
 backend = "glx";
+corner-radius = 3.5;
 unredir-if-possible = false;
 round-borders = 1;
 blur: {
@@ -102,3 +103,4 @@ blur-background-exclude = [
   "window_type = 'desktop'",
   "_GTK_FRAME_EXTENTS@:c"
 ];
+
