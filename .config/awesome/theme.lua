@@ -175,6 +175,7 @@ theme.tasklist_plain_task_name = true
 -- }}}
 
 -- Collision color schemes
+beautiful.collision_focus_bg_center = theme.bg_focus
 theme.collision_resize_bg = theme.bg_normal
 theme.collision_focus_bg = theme.bg_normal
 theme.collision_resize_shape = shape.rectangle
