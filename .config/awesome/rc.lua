@@ -30,44 +30,6 @@ local naughty = require("naughty")
 
 local dpi = require("beautiful.xresources").apply_dpi
 
---[[ naughty.disconnect_signal("request::display", naughty.default_notification_handler)
-
-naughty.connect_signal("request::display", function(n)
-    local w = naughty.widget.box {
-        notification    = n,
-        shape           = gears.shape.rounded_bar,
-        border_width    = 2,
-        placement       = awful.placement.top,
-        offset          = 20,
-        widget_template = {
-            {
-                {
-                    naughty.widget.icon {notification = n},
-                    {
-                        naughty.widget.title   {notification = n},
-                        naughty.widget.message {notification = n},
-                        layout = wibox.layout.fixed.vertical
-                    },
-                    fill_space = true,
-                    layout     = wibox.layout.fixed.horizontal
-                },
-                naughty.widget.actionlist {notification = n},
-                spacing_widget = {
-                    forced_height = 10,
-                    span_ratio    = 0.9,
-                    color = "#ff0000",
-                    widget        = wibox.widget.separator
-                },
-                spacing = 10,
-                layout  = wibox.layout.fixed.vertical
-            },
-            left    = 20,
-            right   = 20,
-            top     = 5,
-            widget  = wibox.container.margin
-        },
-    }
-end) ]]
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -105,6 +67,8 @@ do
     )
 end
 -- }}}
+
+require("notification")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
@@ -170,7 +134,17 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock()
+local clock_format = "%a %H:%M"
+mytextclock = wibox.widget.textclock(clock_format)
+local myclock_t =
+    awful.tooltip {
+    objects = {mytextclock},
+    preferred_positions = "bottom",
+    preferred_alignments = "front",
+    timer_function = function()
+        return os.date("%A, %b %d %Y\n%T")
+    end
+}
 
 -- Create a wibox for each screen and add it
 local taglist_buttons =
@@ -337,16 +311,24 @@ awful.screen.connect_for_each_screen(
         local function create_tag(self, t, index, tags)
             update_tag_properties(self, t, index, tags)
             -- Handle the mouse hover signals
-            self:connect_signal('mouse::enter', function()
-                if self.bg ~= beautiful.bg_focus then
-                    self.backup = self.bg
-                    self.has_backup = true
+            self:connect_signal(
+                "mouse::enter",
+                function()
+                    if self.bg ~= beautiful.bg_focus then
+                        self.backup = self.bg
+                        self.has_backup = true
+                    end
+                    self.bg = beautiful.bg_focus
                 end
-                self.bg = beautiful.bg_focus
-            end)
-            self:connect_signal('mouse::leave', function()
-                if self.has_backup then self.bg = self.backup end
-            end)
+            )
+            self:connect_signal(
+                "mouse::leave",
+                function()
+                    if self.has_backup then
+                        self.bg = self.backup
+                    end
+                end
+            )
             local tooltip =
                 awful.tooltip(
                 {
@@ -406,7 +388,8 @@ awful.screen.connect_for_each_screen(
         s.mytaglist =
             awful.widget.taglist {
             screen = s,
-            filter = awful.widget.taglist.filter.all,
+            -- filter = awful.widget.taglist.filter.all,
+            filter = awful.widget.taglist.filter.noempty,
             buttons = taglist_buttons,
             widget_template = create_widget_template()
         }

@@ -2,6 +2,7 @@ local awful = require("awful")
 local wibox = require("wibox")
 local gears = require("gears")
 local beautiful = require("beautiful")
+local dpi = require("beautiful.xresources").apply_dpi
 local naughty = require("naughty")
 
 local helpers = require("helpers")
@@ -35,9 +36,9 @@ local app_config = {
 }
 
 local urgency_color = {
-    ['low'] = "#5ADECD",
-    ['normal'] = "#8897F4",
-    ['critical'] = "#FF8037",
+    ['low'] = beautiful.bg_normal,
+    ['normal'] = beautiful.bg_normal,
+    ['critical'] = beautiful.bg_urgent,
 }
 
 -- Template
@@ -88,7 +89,7 @@ naughty.connect_signal("request::display", function(n)
                 },
                 widget = wibox.container.place
             },
-            bg = "#414458".."32",
+            bg = beautiful.bg_normal,
             forced_height = dpi(25),
             forced_width = dpi(70),
             widget = wibox.container.background
@@ -113,13 +114,14 @@ naughty.connect_signal("request::display", function(n)
                 {
                     {
                         {
-                            markup = helpers.colorize_text(icon, color),
+                            markup = helpers.colorize_text(icon, beautiful.fg_normal),
                             align = "center",
                             valign = "center",
                             widget = custom_notification_icon,
                         },
                         forced_width = dpi(50),
-                        bg = x.background,
+                        -- bg = x.background,
+                        bg = beautiful.bg_normal,
                         widget  = wibox.container.background,
                     },
                     {
@@ -161,10 +163,10 @@ naughty.connect_signal("request::display", function(n)
             },
             -- Anti-aliasing container
             shape = helpers.rrect(beautiful.notification_border_radius),
-            bg = "#282A36",
+            bg = beautiful.bg_normal,
             widget = wibox.container.background
         }
     }
 end)
 
--- naughty.disconnect_signal("request::display", naughty.default_notification_handler)
+naughty.disconnect_signal("request::display", naughty.default_notification_handler)

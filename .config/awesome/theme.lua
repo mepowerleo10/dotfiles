@@ -24,7 +24,8 @@ theme.fg_focus   = "#F0DFAF"
 theme.fg_urgent  = "#CC9393"
 theme.bg_normal  = "#3F3F3F"
 theme.bg_focus   = "#1E2320"
-theme.bg_urgent  = "#eb5454"
+-- theme.bg_urgent  = "#eb5454"
+theme.bg_urgent  = "#592727"
 theme.bg_systray = theme.bg_normal
 theme.systray_icon_spacing = 2
 -- }}}
@@ -142,7 +143,7 @@ theme.titlebar_maximized_button_normal_inactive = themes_path .. "zenburn/titleb
 theme.notification_position = "bottom_right"
 -- theme.notification_border_width = dpi(0)
 -- theme.notification_border_radius = theme.border_radius
--- theme.notification_border_color = "#18E3C8"
+theme.notification_border_color = "#2b2b2b"
 -- theme.notification_bg = x.background
 -- theme.notification_fg = x.foreground
 theme.notification_crit_bg = "#F06060"
@@ -155,6 +156,7 @@ theme.notification_width = dpi(300)
 -- theme.notification_font = "Iosevka 8"
 theme.notification_padding = dpi(5) * 2
 theme.notification_spacing = dpi(5) * 4
+theme.notification_icon = "/home/mepowerleo10/.local/share/icons/WhiteSur/apps/scalable/preferences-desktop-notification.svg"
 
 -- Tasklist configuration
 theme.tasklist_plain_task_name = true

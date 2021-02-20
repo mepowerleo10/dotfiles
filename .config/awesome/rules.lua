@@ -178,7 +178,7 @@ awful.rules.rules = {
         }
     },
     {
-        rule = {class = "albert"},
+        rule = {class = "albert", name = "albert"},
         properties = {
             placement = awful.placement.center_horizontal,
             titlebars_enabled = false,
