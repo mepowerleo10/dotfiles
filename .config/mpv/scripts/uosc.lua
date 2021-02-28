@@ -73,7 +73,7 @@ menu_font_scale=1
 # top bar with window controls and media title shown only in no-border mode
 top_bar_size=40
 top_bar_size_fullscreen=46
-top_bar_controls=no
+top_bar_controls=yes
 top_bar_title=yes
 
 # pause video on clicks shorter than this number of milliseconds, 0 to disable

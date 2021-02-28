@@ -9,6 +9,8 @@ export PATH="${PATH}:$HOME/.local/bin"
 export PATH="$HOME/.bin:${PATH}"
 export PATH="$HOME/.gem/ruby/2.7.0/bin:${PATH}"
 
+export ANDROID_HOME="$HOME/Android/Sdk"
+
 # my aliases
 alias ls='ls --color=auto'
 alias ll='ls -lh'
@@ -64,6 +66,11 @@ man() {
     [ $width -gt $MANWIDTH ] && width=$MANWIDTH
     env MANWIDTH=$width \
     man "$@"
+}
+
+ed() {
+  local file="$1"
+  gedit $file&
 }
 
 export BAT_THEME="TwoDark"

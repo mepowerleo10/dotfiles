@@ -58,7 +58,7 @@ awful.rules.rules = {
                 "xtightvncviewer",
                 "mpv",
                 "TelegramDesktop",
-                "albert", 
+                "albert",
                 "ranger",
                 "kitty",
                 "qutebrowser",
@@ -101,7 +101,7 @@ awful.rules.rules = {
     -- {{ Maximized clients
     {
         rule_any = {
-            class = {"firefox", "code-oss"}
+            class = {"firefox", "code-oss", "Google-chrome"}
         },
         properties = {
             maximized_horizontal = true,
@@ -117,7 +117,6 @@ awful.rules.rules = {
             maximized_horizontal = true,
             maximized_vertical = true
         }
-        
     },
     {
         rule = {
@@ -127,21 +126,24 @@ awful.rules.rules = {
         properties = {
             maximized_horizontal = true,
             maximized_vertical = true
-        }   
+        }
     },
     -- }}
---[[     {
+    {
         rule = {role = "GtkFileChooserDialog"},
         properties = {
             width = 866,
             height = 647,
             placement = awful.placement.centered
         }
-    }, ]]
+    },
     {
-        rule = {instance = "copyq"},
+        rule_any = {
+            class = {"copyq", "Emote"}
+        },
         properties = {
             requests_no_titlebar = true,
+            titlebars_enabled = false,
             skip_taskbar = true,
             placement = awful.placement.centered
         }
@@ -167,12 +169,11 @@ awful.rules.rules = {
     {
         rule = {class = "mpv"},
         properties = {
-            placement = awful.placement.no_offscreen 
-                + awful.placement.no_overlap,
-                -- + awful.placement.centered,
+            placement = awful.placement.no_offscreen + awful.placement.no_overlap,
+            -- + awful.placement.centered,
             honor_workarea = true,
             store_geometry = true,
-            -- titlebars_enabled = false,
+            titlebars_enabled = false,
             width = 640,
             height = 360
         }
@@ -248,7 +249,7 @@ awful.rules.rules = {
             ontop = true,
             floating = true,
             dockable = true,
-            skip_taskbar = true,
+            skip_taskbar = true
         }
     },
     {
@@ -267,23 +268,8 @@ awful.rules.rules = {
     {
         rule = {class = "Zotero", name = "Quick Format Citation"},
         properties = {
-            floating = true, 
-            skip_taskbar = true,
-        }
-    },
-    --[[ {
-        rule = {class = "Org.gnome.Nautilus", type = "dialog"},
-        properties = {
-            maximized_vertical = true,
-            titlebars_enabled = false,
-            requests_no_titlebar = true
-        }
-    }, ]]
-    {
-        rule = {class = "Gedit"},
-        properties = {
-            requests_no_titlebar = true,
-            titlebars_enabled = false
+            floating = true,
+            skip_taskbar = true
         }
     },
     {
@@ -300,7 +286,7 @@ awful.rules.rules = {
     },
     -- Tag classifications
     {
-        rule_any = {class = {"Google-chrome", "firefox", "qutebrowser" }},
+        rule_any = {class = {"Google-chrome", "firefox", "qutebrowser"}},
         properties = {
             tag = "web"
         }
@@ -365,13 +351,38 @@ awful.rules.rules = {
             end
         }
     }
-    --[[{
-      rule = { name = "^Emulator", type = "utility" },
-      properties = {
-        focusable = false,
-        skip_taskbar = true,
-      }
-    }]]
-    --
 }
 -- }}}
+
+local gtk3_apps = {
+    "Nautilus",
+    "Evince",
+    "Com.github.johnfactotum.Foliate",
+    "Gedit",
+    "Gnome-calendar",
+    "Gnome-control-center",
+    "Eog",
+    -- "Google-chrome",
+    "Gcolor3"
+}
+local gtk3_dialogs_with_titlebars = {
+    "Nautilus"
+}
+for i, client in ipairs(gtk3_apps) do
+    awful.rules.append_rule {
+        rule = {class = client, --[[ type = "normal" ]]},
+        properties = {
+            requests_no_titlebar = true,
+            titlebars_enabled = false
+        }
+    }
+end
+for i, client in ipairs(gtk3_dialogs_with_titlebars) do
+    awful.rules.append_rule {
+        rule = {class = client, type = "dialog"},
+        properties = {
+            requests_no_titlebar = false,
+            titlebars_enabled = true
+        }
+    }
+end

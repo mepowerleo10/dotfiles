@@ -234,6 +234,55 @@ local tasklist_buttons =
     )
 )
 
+-- Create a tasklist widgetpop
+local shapes = require("nice.shapes")
+local button_names = {"minimize", "unmaximize", "close"}
+local tasklist_button_size = 16
+
+local unmaximize_btn = wibox.widget.imagebox()
+unmaximize_btn.image = shapes.icon_image("unmaximize")
+unmaximize_btn.forced_width = tasklist_button_size
+unmaximize_btn.forced_height = tasklist_button_size
+unmaximize_btn.visible = false
+unmaximize_btn:connect_signal(
+    "mouse::enter",
+    function()
+        unmaximize_btn.image = shapes.icon_image("unmaximize_focused_prelight")
+    end
+)
+unmaximize_btn:connect_signal(
+    "mouse::leave",
+    function()
+        unmaximize_btn.image = shapes.icon_image("unmaximize")
+    end
+)
+unmaximize_btn:buttons(
+    awful.button(
+        {},
+        1,
+        function()
+            local c = client.focus
+            if c then
+                c.maximized = not c.maximized
+            end
+        end
+    )
+)
+local window_action_buttons = {
+    unmaximize_btn,
+    top = 2.5,
+    left = 3,
+    layout = wibox.container.margin
+}
+
+local function enable_unmaximize_button(c)
+    if c.maximized then
+        unmaximize_btn.visible = true
+    else
+        unmaximize_btn.visible = false
+    end
+end
+
 local function set_wallpaper(s)
     -- Wallpaper
     if beautiful.wallpaper then
@@ -394,7 +443,6 @@ awful.screen.connect_for_each_screen(
             widget_template = create_widget_template()
         }
 
-        -- Create a tasklist widgetpop
         s.mytasklist =
             awful.widget.tasklist {
             screen = s,
@@ -405,17 +453,20 @@ awful.screen.connect_for_each_screen(
                     {
                         {
                             {
-                                id = "icon_role",
-                                widget = wibox.widget.imagebox
+                                {
+                                    id = "icon_role",
+                                    widget = wibox.widget.imagebox
+                                },
+                                margins = 2,
+                                widget = wibox.container.margin
                             },
-                            margins = 2,
-                            widget = wibox.container.margin
+                            {
+                                id = "text_role",
+                                widget = wibox.widget.textbox
+                            },
+                            layout = wibox.layout.fixed.horizontal
                         },
-                        {
-                            id = "text_role",
-                            widget = wibox.widget.textbox
-                        },
-                        layout = wibox.layout.fixed.horizontal
+                        layout = wibox.layout.stack
                     },
                     left = 3,
                     right = 3,
@@ -436,12 +487,15 @@ awful.screen.connect_for_each_screen(
                     tooltip.align = "left"
                     tooltip.mode = "outside"
                     tooltip.preferred_positions = {"left"}
+                end,
+                update_callback = function(self, c, index, clients)
                 end
             }
         }
 
         local weather_widget = require("widgets.weather-widget.weather")
         local mpdstatus_widget = require("widgets.mpdstatus.mpdstatus")
+        -- local mpris_widget = require("widgets.mpris-widget.mprisstatus")
         local battery_widget = require("widgets.battery-widget.battery")
 
         local tray = wibox.widget.systray()
@@ -468,11 +522,13 @@ awful.screen.connect_for_each_screen(
                 s.mytaglist,
                 s.mypromptbox
             },
-            s.mytasklist, -- Middle widget
+            -- Middle widgets
+            s.mytasklist,
             {
                 -- Right widgets
                 layout = wibox.layout.fixed.horizontal,
                 spacing = 5,
+                window_action_buttons,
                 {
                     spacing = 5,
                     layout = wibox.layout.fixed.horizontal,
@@ -494,6 +550,7 @@ awful.screen.connect_for_each_screen(
                     ),
                     arrow_sep,
                     mpdstatus_widget,
+                    -- mpris_widget,
                     arrow_sep,
                     mytextclock
                 },
@@ -531,9 +588,9 @@ require("rules")
 local nice = require("nice")
 nice {
     titlebar_height = 20,
-    titlebar_font = "Iosevka 8",
+    titlebar_font = "FreeSans 8",
     titlebar_radius = 0,
-    button_size = 12,
+    button_size = 16,
     win_shade_enabled = true,
     no_titlebar_maximized = true,
     titlebar_items = {
@@ -548,7 +605,7 @@ nice {
         border_width = 1,
         fg_focus = beautiful.fg_focus,
         fg_normal = beautiful.fg_normal,
-        font = "Iosevka 8",
+        font = "FreeSans 8",
         height = 20,
         width = 250
     }
@@ -606,7 +663,7 @@ client.connect_signal(
             -- Prevent clients from being unreachable after screen count changes.
             awful.placement.no_offscreen(c)
         end
-
+        enable_unmaximize_button(c)
         set_forced_geometry(c)
     end
 )
@@ -615,6 +672,7 @@ client.connect_signal(
 client.connect_signal(
     "request::geometry",
     function(c)
+        enable_unmaximize_button(c)
         set_forced_geometry(c)
     end
 )
@@ -622,6 +680,7 @@ client.connect_signal(
 client.connect_signal(
     "mouse::enter",
     function(c)
+        enable_unmaximize_button(c)
         c:emit_signal("request::activate", "mouse_enter", {raise = false})
     end
 )
@@ -630,11 +689,13 @@ client.connect_signal(
     "focus",
     function(c)
         c.border_color = beautiful.border_focus
+        enable_unmaximize_button(c)
     end
 )
 client.connect_signal(
     "unfocus",
     function(c)
+        enable_unmaximize_button(c)
         c.border_color = beautiful.border_normal
     end
 )
@@ -644,6 +705,7 @@ client.connect_signal(
 client.connect_signal(
     "property::size",
     function(c)
+        enable_unmaximize_button(c)
         if c.floating and c.role == "normal" then
             c.width = 867
             c.height = 505
